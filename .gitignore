@@ -35,4 +35,7 @@ Thumbs.db
 # NOTE: Do NOT ignore docs/, it's needed for GitHub Pages!
 
 # data before initialization
-data/
+data_raw/
+
+# example code (from class/hw)
+2-files-app/

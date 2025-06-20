@@ -1,0 +1,25 @@
+---
+title: "scratch"
+author:
+  - name: Sora Ely, MD
+    affiliation: George Washington University
+date: "2025-06-15"
+editor: source
+format: 
+  html:
+    toc: true
+    toc-location: right
+    self-contained: true
+theme: flatly
+mainfont: "Arial"
+fontsize: 11pt
+execute:
+  echo: true
+  warning: false
+  message: false
+---
+
+```{r}
+
+```
+
