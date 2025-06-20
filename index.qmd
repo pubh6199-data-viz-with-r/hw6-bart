@@ -1,22 +1,27 @@
 ---
-title: "Final Project: [YOUR TITLE HERE]"
-author: "[YOUR NAMES]"
+title: "Final Project: [YOUR TITLE HERE] | PUBH 6199: Visualizing Data with R"
+author:
+  - name: Sora Ely; Ashlan Jackson
+    affiliation: George Washington University
 date: "2025-06-26"
-params:
-  number: 6
-  purpose: "Final project for PUBH 6199: Visualizing Data with R"
+editor: source
 format: 
   html:
     toc: true
     toc-location: right
     code-fold: true
-    theme: flatly
     self-contained: true
+theme: flatly
+mainfont: "Arial"
+fontsize: 11pt
 execute:
   echo: true
   warning: false
   message: false
 output-dir: docs
+params:
+  number: 6
+  purpose: "Final project for PUBH 6199: Visualizing Data with R"
 ---
 
 
@@ -44,15 +49,20 @@ _Briefly introduce your topic and research question._
 _Describe your data source(s), including where it came from, the key variables, and any pre-processing steps._
 
 ```{r}
+#| label: load packages and data
 #| eval: false
-# Load libraries and data
+
 library(tidyverse)
+library(readr)
+library(ggplot2)
+library(shiny)
+library(dplyr)
 
 data <- read_csv("data/my_data.csv")
 glimpse(data)
 ```   
 
-## Visualizatiob 1: [Title Here]
+## Visualization 1: [Title Here]
 
 _Describe what this plot shows, and why it's important._
 

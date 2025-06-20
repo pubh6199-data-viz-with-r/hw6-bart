@@ -34,8 +34,8 @@ Thumbs.db
 # output
 # NOTE: Do NOT ignore docs/, it's needed for GitHub Pages!
 
-# data before initialization
+# raw data before initialization
 data_raw/
 
-# example code (from class/hw)
+# example code (from class/hw) for reference
 2-files-app/
