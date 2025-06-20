@@ -18,6 +18,7 @@
 
 # Quarto/markdown
 /.quarto/
+.quarto/
 _quarto/
 _cache/
 *.nb.html

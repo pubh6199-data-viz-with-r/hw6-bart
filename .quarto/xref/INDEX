@@ -1,5 +1,11 @@
 {
   "index.qmd": {
     "index.html": "4efb2724"
+  },
+  "data_init.qmd": {
+    "data_init.html": "4f2b2db0"
+  },
+  "scratch/scratch.qmd": {
+    "scratch.html": "451afa6e"
   }
 }
