@@ -1,26 +1,38 @@
-# R and RStudio
+# R/RStudio
+*.Rproj
+.Ruserdata
+.Renviron
+
+# R session files
+.Rproj.user/
 .Rhistory
 .Rapp.history
 .RData
-.Rproj.user/
-*.Rproj
+.RDataTmp
 
-# Quarto
+# personal
+*.env
+
+# OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
+.httr-oauth
+
+# Quarto/markdown
+/.quarto/
 _quarto/
 _cache/
 *.nb.html
+*.utf8.md
+*.knit.md
 
 # Shiny logs
 *.log
 
-# System files
+# system files
 .DS_Store
 Thumbs.db
 
-# Output
+# output
 # NOTE: Do NOT ignore docs/, it's needed for GitHub Pages!
 
-# Personal
-*.env
-
-/.quarto/
+# data before initialization
+data/
