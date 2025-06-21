@@ -1,0 +1,233 @@
+---
+title: "Lab 4"
+author: "Ashlan Jackson, Sora Ely"
+date: "2025-06-12"
+params:
+  number: 4
+  purpose: "The purpose of this lab to for you to develop a team policy and the project plan for the final project."
+format: 
+  html:
+    toc: true
+    toc-location: right
+    code-fold: true
+    theme: flatly
+    self-contained: true
+execute:
+  echo: true
+  warning: false
+  message: false
+---
+
+```{r}
+#| label: setup
+#| include: false
+
+knitr::opts_chunk$set(
+    warning = FALSE,
+    message = FALSE,
+    fig.path = "figs/",
+    fig.width = 7.252,
+    fig.height = 4,
+    comment = "#>",
+    fig.retina = 3
+)
+```
+
+## Before your start the lab notebook
+
+-   Update the header - put your name in the `author` argument and put today's date in the `date` argument.
+-   Click the "Render" button in RStudio and then open the rendered `4-lab4.html` page.
+-   Then go back and try changing the `theme` argument in the header to something else - you can see other available themes [here](https://quarto.org/docs/output-formats/html-themes.html). Notice the difference when you render now!
+
+## Overview of Lab4
+
+There are two parts of this lab notebook. In first part, you will discuss team policies with your teammate and document them. In the second part, you will develop a project plan to guide the development of your final project.
+
+**Skills practiced**:
+
+-   Using GitHub flow for team collaboration
+-   Documenting team policies
+-   Developing a project plan
+
+## Part 1: Team Policies
+
+### 1.1. How and when you will meet? Regular meeting time, location, etc.
+
+::: {.callout-note title="Your Answer"}
+We will set specifics as we go and will check in at the end of each meeting to discuss meeting next.
+:::
+
+------------------------------------------------------------------------
+
+### 1.2. How you will communicate outside of meetings? Slack, email, etc.
+
+::: {.callout-note title="Your Answer"}
+texting for personal/quick questions & slack for code
+:::
+
+------------------------------------------------------------------------
+
+### 1.3. How you will collaborate on implementing the project? GitHub, Google Docs, etc.
+
+::: {.callout-note title="Your Answer"}
+github and email datasets.
+:::
+
+------------------------------------------------------------------------
+
+### 1.4. How you will review each other's work? code reviews, feedback sessions, etc.
+
+::: {.callout-note title="Your Answer"}
+code reviews and live working sessions.
+:::
+
+------------------------------------------------------------------------
+
+### 1.5. How you will deal with non-performing members?
+
+::: {.callout-note title="Your Answer"}
+There's only two of us. We are committed to being open and honest.
+:::
+
+### 1.6 Start a TODO list
+
+::: {.callout-note title="Your Answer"}
+| Item | Do By | Deadline | Person responsible |
+|-------------------|------------------|------------------|------------------|
+| create & share (in GitHub repo) anonymized dataset | 06/15/25 | N/A | Sora |
+| commit completed lab4 | 06/15/25 | 06/16/25 | both |
+| clean the dataset | 06/17/25 | N/A | Ashlan |
+| divide tasks for creating Shiny app | 06/17/25 (after class) | N/A | both |
+| create Shiny app (1 branch) | 06/19/25 23:59 | N/A | both |
+| merge app work | 06/21/25 | N/A | both |
+| joint session/create working Shiny app prototype | 06/21/25 | 06/24/25 | both |
+| create Quarto slides draft for presentation | 06/22/25 | N/A | Sora |
+| revise Quarto slides (background) | 06/23/25 | N/A | Ashlan |
+| finalize Shiny app dashboard | 06/25/25 | 06/25/25 | both |
+| practice/finalize presentation | 06/25/25 | 06/26/25 | both |
+:::
+
+------------------------------------------------------------------------
+
+## Part 2: Project plan
+
+### 2.1. What is the name of your team? Who are the contributing members?
+
+::: {.callout-note title="Your Answer"}
+**Team Name**: Bart **Contributing Members**: Sora Ely, Ashlan Jackson
+:::
+
+### 2.2. Define the topic, goals, and tasks of your project (300 - 400 words)
+
+::: {.callout-note title="Your Answer"}
+[TOPIC]{.underline}\
+Our project will focus on smoking history completeness within the GW clinical system, as part of an ongoing intervention.\
+[GOALS]{.underline}\
+The primary goal is to create an interactive dashboard to allow intervention participants to view their individual or departmental smoking history completeness, and to compare to other staff and/or departments as well as the entire GW clinical system.\
+[TASKS]{.underline}\
+- Clean the data.\
+- Complete Lab 4/create project plan. - Build the dashboard.\
+- Create a Shiny 2-files app.\
+- Create a global.R file to load the data and any necessary libraries.\
+- Create a server.R file.\
+- Create a ui.R file.\
+:::
+
+### 2.3. Describe the data you will use, including:
+
+-   Source of the data
+-   How you will access the data
+-   How you will clean the data
+
+::: {.callout-note title="Your Answer"}
+[SOURCE]{.underline}\
+Sora's QI project data (fully anonymized/deidentified)\
+[ACCESS]{.underline}\
+stored in GitHub repo\
+[CLEANING]{.underline}\
+Data will already be de-duplicated, so we will just need to format the column names, reformat values as needed to analyzable formats, and remove any unnecessary columns.
+:::
+
+### 2.4. Include at least 3 sketches of visualization ideas for your project
+
+1.  **% complete per time interval by pilot v non-pilot depts**\
+    **= bar chart by aggregated pilot & non-pilot depts**\
+    **for the selected time interval & number of intervals**\
+    interactivity: select time interval (w v mo) & number of intervals (up to max available 12w/3mo) -- *will set the parameters for all 3 visualizations*\
+
+*see dashboard sketch below* (top graph)
+
+2.  **% complete by dept in pilot depts compared to non-pilot depts over time**\
+    **= line plot over time by selected dept(s) v non-pilot depts**\
+    **for the selected time interval & number of intervals**\
+    interactivity: select any combination of pilot dept(s) and/or all pilot depts (aggregated)\
+    *will always include comparison to non-pilot depts*\
+
+*see dashboard sketch below* (middle graph)
+
+3.  **% complete by staff in pilot depts compared to non-pilot depts over time**\
+    **= line plot over time by selected staff in pilot depts v staff in non-pilot depts**\
+    **for the selected time interval & number of intervals**\
+    interactivity: select any combination of staff in the pilot depts and/or all staff in the pilot depts (aggregated)\
+    *will always include comparison to non-pilot depts*\
+
+*see dashboard sketch below* (bottom graph)
+
+### 2.5. A sketch of your shiny app layout if you choose this option. If you choose the static visualization option, please describe the storytelling flow of how the three data visualizations connect with each other
+
+::: {.callout-note title="Your Answer"}
+![](images/dashboard-sketch.jpg)
+:::
+
+### 2.6. A timeline of your project, including milestones and deadlines
+
+::: {.callout-note title="Your Answer"}
+| Milestone           | Do By    | Deadline | Person Responsible |
+|---------------------|----------|----------|--------------------|
+| Lab4                | 06/15/25 | 06/16/25 | both               |
+| Prototype/1:1       |          | 06/24/25 | both               |
+| Working dashboard   | 06/25/25 | 06/24/25 | both               |
+| Presentation slides | 06/25/25 | 06/24/25 | both               |
+| Final presentation  | 06/26/25 | 06/26/26 | both               |
+:::
+
+### 2.7. A feature list, including: must-have, good-to-have, optional
+
+::: {.callout-note title="Your Answer"}
+**Must-have features**:
+
+-   Feature 1: interactive
+-   Feature 2: color-coded
+-   Feature 3: filterable
+-   Feature 4: user-friendly
+
+**Good-to-have features**:
+
+-   Feature 1: tailored to audience
+-   Feature 2: scalability
+-   Feature 3: compelling story-telling
+
+**Optional features**:
+
+-   Feature 1: accessibility
+-   Feature 2: correlate with lung cancer screening rate data
+:::
+
+### 2.8. A description of team roles and responsibilities
+
+::: {.callout-note title="Your Answer"}
+Most of the work will be done collaboratively.\
+We will check in at each meeting about next steps and next deadline/timeline.\
+Ashlan will take the lead on data cleaning, while Sora will take the lead on the Quarto slides.\
+We will evenly split other work.
+:::
+
+## Save and Push Your Work
+
+Remember to save your `.qmd` and render the HTML output before committing to GitHub.
+
+```{bash eval = FALSE}
+git add 4-lab4.qmd 4-lab4.html
+git commit -m "Complete Lab 4"
+git push
+```
