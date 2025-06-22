@@ -19,25 +19,27 @@ execute:
   message: false
 ---
 
+# to-do & requirements
+
 ## Prototype V1
 
 [requirements]{.underline}{.smallcaps}
 
-[x] Data scraping and cleaning complete (using real world datasets, do not use R built-in data)
+- [x] Data scraping and cleaning complete (using real world datasets, do not use R built-in data)
 
-[ ] At least one visualization already implemented, and draft for 2-3 more visualizations\
-    -- Sora & Ashlan by Tues 06:00\
-    - Sora = bar graph\
-    - Ashlan = 1st line graph\
+- [ ] At least one visualization already implemented, and draft for 2-3 more visualizations\
+      -- Sora & Ashlan by Tues 06:00\
+      - Sora = bar graph\
+      - Ashlan = 1st line graph\
 
-[ ] If choosing R shiny app, rough webpage design and structure has to be done and implemented (placeholders for visualizations)\
-    -- Sora to do Tues day before 16:00 1:1 meeting
+- [ ] If choosing R shiny app, rough webpage design and structure has to be done and implemented (placeholders for visualizations)\
+      -- Sora to do Tues day before 16:00 1:1 meeting
 
-~~[ ] If choosing the other two options, clear outline and storytelling flow of the visualizations~~
+~~- [ ] If choosing the other two options, clear outline and storytelling flow of the visualizations~~
 
-[ ] A README.md file in your GitHub repo that describes your project, how to view it, and any dependencies\
-    -- Ashlan to make a draft by Tues 16:00 1:1 meeting\
-    -- Sora to finalize Wed\
+- [ ] A README.md file in your GitHub repo that describes your project, how to view it, and any dependencies\
+      -- Ashlan to make a draft by Tues 16:00 1:1 meeting\
+      -- Sora to finalize Wed\
 
 ## Final data visualization product
 
@@ -49,17 +51,17 @@ Choose one from the following three options:
 
 **3. Interactive Dashboard (1 app with 3 components): Build an interactive dashboard (e.g., with shiny, plotly, or similar tools) that includes at least three visual components for exploring your data dynamically.**
 
-[ ] 2nd line graph
-    -- Ashlan by Tues night / Wed 06:00
+- [ ] 2nd line graph
+      -- Ashlan by Tues night / Wed 06:00
 
-[ ] final webpage design & merging the graphs/Shiny apps
-    -- Sora on Wed
+- [ ] final webpage design & merging the graphs/Shiny apps
+      -- Sora on Wed
 
-[ ] publish the Shiny app to Shiny.io
-    -- Sora on Wed
+- [ ] publish the Shiny app to Shiny.io
+      -- Sora on Wed
     
-[ ] final push of the git project
-    -- Sora by Thurs AM
+- [ ] final push of the git project
+      -- Sora by Thurs AM
 
 ## Final project presentation
 
@@ -67,17 +69,17 @@ Choose one from the following three options:
   - no slides :)
 
 [Sora]{.underline}\
-[ ] What questions do you set out to answer with your visualizations? Why are they important?\
-[ ] Your data source and why they are chosen to answer your questions\
-[ ] Your intended audience\
+- [ ] What questions do you set out to answer with your visualizations? Why are they important?\
+- [ ] Your data source and why they are chosen to answer your questions\
+- [ ] Your intended audience\
 [Ashlan]{.underline}\
-[ ] Two to three visualization design choices and how they help tell your story\
-[ ] Two to three takeaways from your visualizations that your audience should remember\
-[ ] Live demo of your visualizations (if applicable)\
+- [ ] Two to three visualization design choices and how they help tell your story\
+- [ ] Two to three takeaways from your visualizations that your audience should remember\
+- [ ] Live demo of your visualizations (if applicable)\
 [both]{.underline}\
 - -- 30min before class Thurs and/or text\
-[ ] One to two challenges you encountered during this project and how you overcame them\
-[ ] One to two achievements you are proud of in this project\
+- [ ] One to two challenges you encountered during this project and how you overcame them\
+- [ ] One to two achievements you are proud of in this project\
 
 - The presentation format is flexible, bring your laptop to present, and submit the presentation and final data visualization product as HW6
 
@@ -85,4 +87,3 @@ Choose one from the following three options:
 ```{r}
 
 ```
-
