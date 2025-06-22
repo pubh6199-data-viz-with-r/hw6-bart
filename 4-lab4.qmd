@@ -176,7 +176,7 @@ Data will already be de-duplicated, so we will just need to format the column na
 ### 2.5. A sketch of your shiny app layout if you choose this option. If you choose the static visualization option, please describe the storytelling flow of how the three data visualizations connect with each other
 
 ::: {.callout-note title="Your Answer"}
-![](images/dashboard-sketch.jpg)
+![](dashboard-sketch.jpg)
 :::
 
 ### 2.6. A timeline of your project, including milestones and deadlines
