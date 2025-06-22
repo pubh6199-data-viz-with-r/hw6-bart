@@ -84,6 +84,58 @@ Choose one from the following three options:
 - The presentation format is flexible, bring your laptop to present, and submit the presentation and final data visualization product as HW6
 
 
+## bar graph (1)
+
+1.  **% complete per time interval by pilot v non-pilot depts**\
+    **= bar chart by aggregated pilot & non-pilot depts**\
+    **for the selected time interval & number of intervals**\
+    interactivity: select time interval (w v mo) & number of intervals (up to max available 12w/3mo) -- *will set the parameters for all 3 visualizations*\
+
 ```{r}
+#| label: 0 - install packages
+#| include: false
+#| eval: false
+
+install.packages(c('tidyverse',
+                   'shiny',
+                   'rsconnect',
+                   'janitor',
+                   # 'plotly', 
+                   'scales'))
+
+```
+
+```{r}
+#| label: setup
+
+library(tidyverse) # includes: ggplot2, dplyr, tidyr, readr, purr, tibble, stringr, forcats, lubridate
+library(shiny)
+library(rsconnect)
+library(janitor)
+# library(bslib)
+library(scales)
+
+```
+
+```{r}
+#| label: import data
+
+tobacco_init <- read_csv("C:/Users/sorae/Documents/RStudio/PUBH6199/hw6-bart/data/tobacco_data_init.csv")
+glimpse(tobacco_init)
+
+tobacco_clean <- read_csv("C:/Users/sorae/Documents/RStudio/PUBH6199/hw6-bart/data/tobacco_clean_AJ_filtered.csv")
+glimpse(tobacco_clean)
+```
+
+```{r}
+
+```
+
+```{r}
+#| label: bar graph 1 - work
+
+tobacco_init |> 
+  ggplot(aes(x = week, y = pcomplete, color = dept)) |> 
+  
 
 ```
