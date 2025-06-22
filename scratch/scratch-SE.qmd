@@ -122,6 +122,35 @@ library(scales)
 
 tobacco_init <- read_csv("C:/Users/sorae/Documents/RStudio/PUBH6199/hw6-bart/data/tobacco_data_init.csv")
 glimpse(tobacco_init)
+tobacco_init |> distinct(location, department)
+tobacco_init %>% distinct(department) %>% arrange(department)
+tobacco_init %>% 
+  filter(location == "West End" | location == "M Street" | location == "Foggy Bottom") %>% 
+  distinct(department) %>% 
+  arrange(department)
+tobacco_init %>% 
+  filter(location == "West End" | location == "M Street" | location == "Foggy Bottom")
+
+tobacco_init2 <- read_csv("C:/Users/sorae/Documents/RStudio/PUBH6199/hw6-bart/data/tobacco_data_init2.csv")
+glimpse(tobacco_init2)
+tobacco_init2 |> distinct(location, dept)
+tobacco_init2 %>% distinct(dept) %>% arrange(dept)
+
+tobacco_init2_locdept <- tobacco_init2 |> 
+  distinct(location, dept)
+glimpse(tobacco_init2_locdept)
+tobacco_init2_locdept <- tobacco_init2_locdept |> 
+  mutate(dept_loc = sub(" .*", "", dept))
+tobacco_init2_locdept <- tobacco_init2_locdept |> 
+  mutate(dept_dept = sub("^[^ ]* ", "", dept))
+tobacco_init2_locdept <- tobacco_init2_locdept %>%
+  mutate(dept_loc = ifelse(dept_loc == "M", "M ST", dept_loc))
+tobacco_init2_locdept <- tobacco_init2_locdept %>%
+  mutate(dept_loc = ifelse(dept_loc == "SPRING", "SPRING VALLEY", dept_loc))
+glimpse(tobacco_init2_locdept)
+tobacco_init2_locdept |> 
+  distinct(location, dept_loc)
+# they match except West End = M ST (which is fine)
 
 tobacco_clean <- read_csv("C:/Users/sorae/Documents/RStudio/PUBH6199/hw6-bart/data/tobacco_clean_AJ_filtered.csv")
 glimpse(tobacco_clean)
