@@ -1,4 +1,9 @@
+
 library(tidyverse)
+
+library(forcats)
+library(dplyr) 
+
 library(lubridate)
 
 tobacco_data_init <- read_csv("data/tobacco_data_init.csv")
@@ -136,4 +141,43 @@ tobacco_data_clean_specialties <- tobacco_data_clean_specialties %>%
 
 #Write clean data set out
 write_csv(tobacco_data_clean_specialties, "data/tobacco_clean_AJ_FINAL.csv")
+
+
+
+#Created weekly dataset
+#NOTE TO ASHLAN FOllow this structure for months
+tobacco_data_weekly1 <-tobacco_data_clean_subspecialities %>%
+  group_by(week_label, subspecialty) %>%
+  summarize(percent_complete = mean(hx_complete == "Complete")) %>%
+  rename(group=subspecialty)
+
+tobacco_data_weekly2<-tobacco_data_clean_subspecialities %>%
+  group_by(week_label, pilot) %>%
+  summarize(percent_complete = mean(hx_complete == "Complete")) %>%
+rename(group=pilot)
+
+tobacco_clean_weeklymodified <-bind_rows(tobacco_data_weekly2,tobacco_data_weekly1) %>%
+  ungroup() %>%
+  mutate(week_label = fct_relevel(
+    week_label,
+    "March Week 9",
+    "March Week 10",
+    "March Week 11",
+    "March Week 12",
+    "March Week 13",
+    "April Week 13",
+    "April Week 14",
+    "April Week 15",
+    "April Week 16",
+    "April Week 17",
+    "April Week 18",
+    "May Week 18",
+    "May Week 19",
+    "May Week 20",
+    "May Week 21",
+    "May Week 22"
+  ))
+
+glimpse(tobacco_clean_weeklymodified)
+
 
