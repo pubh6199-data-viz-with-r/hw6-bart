@@ -10,14 +10,46 @@ tobacco_data_init <- read_csv("data/tobacco_data_init.csv")
 tobacco_data_by_location <- tobacco_data_init %>%
   filter(location %in% c("Foggy Bottom", "West End", "M Street"))
 
-#Create new column that is pilot column
+#create pilot_staff column
 
+pilot_depts <- c("FB PULMONOLOGY", "FB CARDIOLOGY", "FB ID", "FB NEPHROLOGY", "FB GER PALLIATIVE CARE")
+
+# calculate the percentage of visits in pilot departments per staff 
+tobacco_staff <- tobacco_data_by_location %>%
+  select(roomed_by_ID, roomed_by_prov_type, department) %>%
+  distinct()
+tobacco_staff_perc <- tobacco_staff %>%
+  group_by(roomed_by_ID) %>%
+  count(department)
+tobacco_staff_perc <- tobacco_staff_perc %>%
+  group_by(roomed_by_ID) %>%
+  mutate(pilot_staff_perc = (sum(department %in% pilot_depts) / n() * 100))
+
+# create a variable pilot_staff_perc that will be "Pilot" if staff has > 50% visits in pilot depts
+tobacco_staff_perc <- tobacco_staff_perc %>%
+  mutate(pilot_staff = ifelse(pilot_staff_perc > 50, "Pilot", "Non-Pilot"))
+pilot_staff <- tobacco_staff_perc |> 
+  distinct(roomed_by_ID, pilot_staff)
+
+# add pilot_staff to main data (& create new dataset name after the location step)
 tobacco_data_pilot <- tobacco_data_by_location %>%
-  mutate(pilot = ifelse(department %in% c("FB PULMONOLOGY", "FB CARDIOLOGY", "FB ID", "FB NEPHROLOGY", "FB GER PALLIATIVE CARE"), 
+  left_join(pilot_staff, by = "roomed_by_ID") |> 
+  mutate(pilot_staff = ifelse(is.na(pilot_staff), "Non-Pilot", pilot_staff)) 
+
+tobacco_data_pilot <- tobacco_data_pilot |>
+  relocate(pilot_staff, .after = roomed_by_ID)
+
+#Create pilot_dept column
+
+tobacco_data_pilot <- tobacco_data_pilot %>%
+  mutate(pilot_dept = ifelse(department %in% pilot_depts, 
                         "Yes", 
                         "No"))
 
-table(tobacco_data_pilot$pilot)
+tobacco_data_pilot <- tobacco_data_pilot %>%
+  relocate(pilot_dept, .after = department)
+
+table(tobacco_data_pilot$pilot_dept)
 
 #Modifying Dates
 
@@ -34,7 +66,7 @@ glimpse(tobacco_data_clean_date)
 #Create specialties
 
 tobacco_data_clean_specialties <- tobacco_data_clean_date %>%
-  mutate(specialty = case_when(
+  mutate(spec = case_when(
     department %in% c("FB Cardiology") ~ "Cardiology",
     
     department %in% c("FB CARDIOTHORACIC SURGERY", "FB GENERAL SURGERY", "FB NEUROSURGERY",
@@ -86,6 +118,14 @@ tobacco_data_clean_specialties <- tobacco_data_clean_date %>%
     
     TRUE ~ "Other"
   ))
+
+#shorten column names
+tobacco_data_clean_specialties <- tobacco_data_clean_specialties %>%
+  rename(
+    loc = location,
+    dept = department,
+    roomed_by_type = roomed_by_prov_type
+  )
 
 #Write clean data set out
 write_csv(tobacco_data_clean_specialties, "data/tobacco_clean_AJ_FINAL.csv")
