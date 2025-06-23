@@ -1,10 +1,9 @@
-tobacco_data_init <- read.csv("https://raw.githubusercontent.com/pubh6199-data-viz-with-r/hw6-bart/main/data/tobacco_data_init.csv")
-rm(tobacco_clean_AJ)
-rm(tobacco_clean)
-rm(tobacco_clean_AJ_filtered)
-rm(tobacco_clean_AJ_june22)
-rm(tobacco_clean_AJ_FINAL)
+tobacco_clean_AJ_FINAL <- read.csv ("https://raw.githubusercontent.com/pubh6199-data-viz-with-r/hw6-bart/refs/heads/AJEDITS/tobacco_clean_AJ_FINAL.csv")
+
+
 library(dplyr) 
+
+library(lubridate)
 
 tobacco_clean_AJ_FINAL <- tobacco_data_init %>%
   filter(location %in% c("Foggy Bottom", "West End", "M Street"))
@@ -20,8 +19,7 @@ unique(tobacco_clean_AJ_FINAL$department)
 
 tobacco_clean_AJ_FINAL$date <- as.Date(tobacco_clean_AJ_FINAL$date)
 
-install.packages("lubridate")
-library(lubridate)
+
 
 tobacco_clean_AJ_FINAL<- floor_date(tobacco_clean_AJ_FINAL$date, unit = "week", week_start = 1)
 tobacco_clean_AJ_FINAL$week <- floor_date(tobacco_clean_AJ_FINAL$date, unit = "week", week_start = 1)
