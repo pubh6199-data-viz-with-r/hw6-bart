@@ -1,17 +1,16 @@
-
-library(dplyr) 
-
+library(tidyverse)
 library(lubridate)
+
 tobacco_data_init <- read_csv("data/tobacco_data_init.csv")
 
 # The following 4 data wrangling steps are below
 
-#Filtering by locaiton 
+#Filtering by location 
 
 tobacco_data_by_location <- tobacco_data_init %>%
   filter(location %in% c("Foggy Bottom", "West End", "M Street"))
 
-#create new column that is pilot column
+#Create new column that is pilot column
 
 tobacco_data_pilot <- tobacco_data_by_location %>%
   mutate(pilot = ifelse(department %in% c("FB PULMONOLOGY", "FB CARDIOLOGY", "FB ID", "FB NEPHROLOGY", "FB GER PALLIATIVE CARE"), 
@@ -32,10 +31,10 @@ table(tobacco_data_clean_date$week_label)
 glimpse(tobacco_data_clean_date)
 
 
-#created subspecialites
+#Create specialties
 
-tobacco_data_clean_subspecialities <- tobacco_data_clean_date %>%
-  mutate(subspecialty = case_when(
+tobacco_data_clean_specialties <- tobacco_data_clean_date %>%
+  mutate(specialty = case_when(
     department %in% c("FB Cardiology") ~ "Cardiology",
     
     department %in% c("FB CARDIOTHORACIC SURGERY", "FB GENERAL SURGERY", "FB NEUROSURGERY",
@@ -45,7 +44,7 @@ tobacco_data_clean_subspecialities <- tobacco_data_clean_date %>%
     
     department %in% c("FB DERMATOLOGY", "M ST DERMATOLOGY") ~ "Dermatology",
     
-    department %in% c("FB GER PALLIATIVE CARE") ~ "Palliative Care",
+    department %in% c("FB GER PALLIATIVE CARE") ~ "Geri/Palliative Care",
     
     department %in% c("FB GI & LIVER DISEASES") ~ "Gastroenterology",
     
@@ -59,7 +58,9 @@ tobacco_data_clean_subspecialities <- tobacco_data_clean_date %>%
     
     department %in% c("FB MIDWIFERY", "M ST OB/GYN", "FB OB/GYN", "FB UROGYN", "FB MFM") ~ "Obstetrics/Gynecology",
     
-    department %in% c("FB NEPHROLOGY", "M ST NEPHROLOGY") ~ "Nephrology",
+    department %in% c("FB NEPHROLOGY") ~ "Nephrology (FB)",
+    
+    department %in% c("M ST NEPHROLOGY") ~ "Nephrology (M St)",
     
     department %in% c("FB NEUROLOGY") ~ "Neurology",
     
@@ -75,7 +76,7 @@ tobacco_data_clean_subspecialities <- tobacco_data_clean_date %>%
     
     department %in% c("FB UROLOGY") ~ "Urology",
     
-    department %in% c("INGLESIDE GERIATRICS") ~ "Geriatrics",
+    department %in% c("INGLESIDE GERIATRICS") ~ "Geriatrics (Ingleside)",
     
     department %in% c("M ST ENT") ~ "ENT",
     
@@ -86,6 +87,6 @@ tobacco_data_clean_subspecialities <- tobacco_data_clean_date %>%
     TRUE ~ "Other"
   ))
 
-#write clean data set out
-write_csv(tobacco_data_clean_subspecialities, "data/tobacco_clean_AJ_FINAL.csv")
+#Write clean data set out
+write_csv(tobacco_data_clean_specialties, "data/tobacco_clean_AJ_FINAL.csv")
 

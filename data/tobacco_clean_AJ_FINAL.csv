@@ -1,4 +1,4 @@
-location,department,date,roomed_by_ID,roomed_by_prov_type,tobacco_user,hx_complete,lcs_eligible,pilot,month_label,week_number,week_label,subspecialty
+location,department,date,roomed_by_ID,roomed_by_prov_type,tobacco_user,hx_complete,lcs_eligible,pilot,month_label,week_number,week_label,specialty
 Foggy Bottom,FB CARDIOLOGY,2025-03-27,2,Medical Assistant,Never,Complete,Not Eligible,Yes,March,13,March Week 13,Other
 Foggy Bottom,FB NEUROLOGY,2025-03-12,3,Medical Assistant,Yes,Not Complete,Not Eligible,No,March,11,March Week 11,Neurology
 Foggy Bottom,FB PULMONOLOGY,2025-03-24,4,Medical Assistant,Never,Complete,Not Eligible,Yes,March,12,March Week 12,Pulmonology
@@ -17,7 +17,7 @@ Foggy Bottom,FB GENERAL SURGERY,2025-03-06,17,Medical Assistant,Never,Complete,N
 West End,M ST ENT,2025-03-03,20,Medical Assistant,Never,Complete,Not Eligible,No,March,9,March Week 9,ENT
 Foggy Bottom,FB ID,2025-03-13,24,Medical Assistant,Never,Complete,Not Eligible,Yes,March,11,March Week 11,Infectious Disease
 Foggy Bottom,FB PULMONOLOGY,2025-03-26,25,Physician,Never,Complete,Not Eligible,Yes,March,13,March Week 13,Pulmonology
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-03-04,24,Medical Assistant,Never,Complete,Not Eligible,Yes,March,9,March Week 9,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-03-04,24,Medical Assistant,Never,Complete,Not Eligible,Yes,March,9,March Week 9,Geri/Palliative Care
 Foggy Bottom,FB GENERAL SURGERY,2025-03-24,27,Medical Assistant,Quit,Not Complete,Not Eligible,No,March,12,March Week 12,Surgery
 West End,M ST ENT,2025-03-17,28,Medical Assistant,Never,Complete,Not Eligible,No,March,11,March Week 11,ENT
 West End,M ST ENT,2025-03-07,20,Medical Assistant,Never,Complete,Not Eligible,No,March,10,March Week 10,ENT
@@ -31,16 +31,16 @@ Foggy Bottom,FB OPHTHALMOLOGY,2025-03-04,29,Technologist,Not Asked,Not Complete,
 Foggy Bottom,FB PRIMARY CARE,2025-03-20,33,Medical Assistant,Quit,Not Complete,Not Eligible,No,March,12,March Week 12,Primary Care
 Foggy Bottom,FB CARDIOLOGY,2025-03-06,4,Medical Assistant,Never,Complete,Not Eligible,Yes,March,10,March Week 10,Other
 Foggy Bottom,FB PODIATRY,2025-03-28,34,Medical Assistant,Quit,Not Complete,Not Eligible,No,March,13,March Week 13,Other
-Foggy Bottom,FB NEPHROLOGY,2025-03-26,35,Medical Assistant,Never,Complete,Not Eligible,Yes,March,13,March Week 13,Nephrology
+Foggy Bottom,FB NEPHROLOGY,2025-03-26,35,Medical Assistant,Never,Complete,Not Eligible,Yes,March,13,March Week 13,Nephrology (FB)
 West End,M ST ORTHOPAEDIC SURG,2025-03-31,36,Medical Assistant,Never,Complete,Not Eligible,No,March,13,March Week 13,Surgery
 Foggy Bottom,FB UROLOGY,2025-03-26,37,Medical Assistant,Never,Complete,Not Eligible,No,March,13,March Week 13,Urology
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-03-18,38,Medical Assistant,Never,Complete,Not Eligible,Yes,March,11,March Week 11,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-03-18,38,Medical Assistant,Never,Complete,Not Eligible,Yes,March,11,March Week 11,Geri/Palliative Care
 Foggy Bottom,FB GI & LIVER DISEASES,2025-03-26,31,Medical Assistant,Never,Complete,Not Eligible,No,March,13,March Week 13,Gastroenterology
 Foggy Bottom,FB PRIMARY CARE,2025-03-14,39,Medical Assistant,Never,Complete,Not Eligible,No,March,11,March Week 11,Primary Care
 Foggy Bottom,FB NEUROLOGY,2025-03-10,3,Medical Assistant,Yes,Not Complete,Not Eligible,No,March,10,March Week 10,Neurology
 Foggy Bottom,FB PAIN,2025-03-06,3,Medical Assistant,Yes,Not Complete,Not Eligible,No,March,10,March Week 10,Pain Management
 Foggy Bottom,FB GI & LIVER DISEASES,2025-03-25,40,Medical Assistant,Never,Complete,Not Eligible,No,March,12,March Week 12,Gastroenterology
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-03-27,41,Physician,Never,Complete,Not Eligible,Yes,March,13,March Week 13,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-03-27,41,Physician,Never,Complete,Not Eligible,Yes,March,13,March Week 13,Geri/Palliative Care
 West End,M ST ORTHOPAEDIC SURG,2025-03-31,36,Medical Assistant,Never,Complete,Not Eligible,No,March,13,March Week 13,Surgery
 West End,M ST ENT,2025-03-12,20,Medical Assistant,Never,Complete,Not Eligible,No,March,11,March Week 11,ENT
 Foggy Bottom,FB PAIN,2025-03-07,42,Medical Assistant,Never,Complete,Not Eligible,No,March,10,March Week 10,Pain Management
@@ -52,7 +52,7 @@ Foggy Bottom,FB GENERAL SURGERY,2025-03-27,17,Medical Assistant,Never,Complete,N
 Foggy Bottom,FB PULMONOLOGY,2025-03-03,4,Medical Assistant,Never,Complete,Not Eligible,Yes,March,9,March Week 9,Pulmonology
 West End,M ST ORTHOPAEDIC SURG,2025-03-17,46,Medical Assistant,Never,Complete,Not Eligible,No,March,11,March Week 11,Surgery
 Foggy Bottom,FB UROLOGY,2025-03-31,47,Medical Assistant,Yes,Not Complete,Not Eligible,No,March,13,March Week 13,Urology
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-03-13,24,Medical Assistant,Yes,Not Complete,Not Eligible,Yes,March,11,March Week 11,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-03-13,24,Medical Assistant,Yes,Not Complete,Not Eligible,Yes,March,11,March Week 11,Geri/Palliative Care
 Foggy Bottom,FB NEUROSURGERY,2025-03-17,16,Medical Assistant,Never,Complete,Not Eligible,No,March,11,March Week 11,Surgery
 Foggy Bottom,FB OB/GYN,2025-03-25,49,Medical Assistant,Never,Complete,Not Eligible,No,March,12,March Week 12,Obstetrics/Gynecology
 Foggy Bottom,FB PAIN,2025-03-18,50,Medical Assistant,Yes,Not Complete,Not Eligible,No,March,11,March Week 11,Pain Management
@@ -60,7 +60,7 @@ West End,M ST COS/PLAST SUR,2025-03-12,51,Medical Assistant,Never,Complete,Not E
 Foggy Bottom,FB CARDIOLOGY,2025-03-11,52,Medical Assistant,Never,Complete,Not Eligible,Yes,March,10,March Week 10,Other
 West End,M ST PRIMARY CARE,2025-03-07,53,Medical Assistant,Never,Complete,Not Eligible,No,March,10,March Week 10,Primary Care
 Foggy Bottom,FB PAIN,2025-03-14,50,Medical Assistant,Yes,Not Complete,Not Eligible,No,March,11,March Week 11,Pain Management
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-03-04,24,Medical Assistant,Quit,Not Complete,Not Eligible,Yes,March,9,March Week 9,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-03-04,24,Medical Assistant,Quit,Not Complete,Not Eligible,Yes,March,9,March Week 9,Geri/Palliative Care
 Foggy Bottom,FB OPHTHALMOLOGY,2025-03-04,55,Technologist,Never,Complete,Not Eligible,No,March,9,March Week 9,Ophthalmology
 Foggy Bottom,FB NEUROSURGERY,2025-03-07,16,Medical Assistant,Yes,Not Complete,Not Eligible,No,March,10,March Week 10,Surgery
 Foggy Bottom,FB NEUROLOGY,2025-03-18,3,Medical Assistant,Never,Complete,Not Eligible,No,March,11,March Week 11,Neurology
@@ -73,7 +73,7 @@ Foggy Bottom,FB VASCULAR SURGERY,2025-03-05,27,Medical Assistant,Never,Complete,
 Foggy Bottom,FB PRIMARY CARE,2025-03-06,57,Registered Nurse,Never,Complete,Not Eligible,No,March,10,March Week 10,Primary Care
 Foggy Bottom,FB PODIATRY,2025-03-14,34,Medical Assistant,Never,Complete,Not Eligible,No,March,11,March Week 11,Other
 Foggy Bottom,FB OPHTHALMOLOGY,2025-03-14,58,Technologist,Quit,Not Complete,Not Eligible,No,March,11,March Week 11,Ophthalmology
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-03-25,59,Medical Assistant,Never,Complete,Not Eligible,Yes,March,12,March Week 12,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-03-25,59,Medical Assistant,Never,Complete,Not Eligible,Yes,March,12,March Week 12,Geri/Palliative Care
 West End,M ST ORTHOPAEDIC SURG,2025-03-26,60,Medical Assistant,Never,Complete,Not Eligible,No,March,13,March Week 13,Surgery
 West End,M ST BREAST SURGERY,2025-03-31,6,Medical Assistant,Never,Complete,Not Eligible,No,March,13,March Week 13,Surgery
 Foggy Bottom,FB NEUROSURGERY,2025-03-18,61,Physician,Never,Complete,Not Eligible,No,March,11,March Week 11,Surgery
@@ -86,7 +86,7 @@ Foggy Bottom,FB DERMATOLOGY,2025-03-24,65,Medical Assistant,Never,Complete,Not E
 Foggy Bottom,FB PODIATRY,2025-03-03,44,Medical Assistant,Never,Complete,Not Eligible,No,March,9,March Week 9,Other
 Foggy Bottom,FB PRIMARY CARE,2025-03-11,54,Medical Assistant,Never,Complete,Not Eligible,No,March,10,March Week 10,Primary Care
 Foggy Bottom,FB NEUROLOGY,2025-03-04,3,Medical Assistant,Never,Complete,Not Eligible,No,March,9,March Week 9,Neurology
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-03-18,62,Medical Assistant,Quit,Not Complete,Not Eligible,Yes,March,11,March Week 11,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-03-18,62,Medical Assistant,Quit,Not Complete,Not Eligible,Yes,March,11,March Week 11,Geri/Palliative Care
 Foggy Bottom,FB OB/GYN,2025-03-05,66,Medical Assistant,Never,Complete,Not Eligible,No,March,10,March Week 10,Obstetrics/Gynecology
 Foggy Bottom,FB PAIN,2025-03-06,48,Medical Assistant,Never,Complete,Not Eligible,No,March,10,March Week 10,Pain Management
 Foggy Bottom,FB PRIMARY CARE,2025-03-19,56,Medical Assistant,Quit,Not Complete,Not Eligible,No,March,12,March Week 12,Primary Care
@@ -97,7 +97,7 @@ West End,M ST PRIMARY CARE,2025-03-10,69,Medical Assistant,Never,Complete,Not El
 Foggy Bottom,FB PRIMARY CARE,2025-03-07,70,Medical Assistant,Never,Complete,Not Eligible,No,March,10,March Week 10,Primary Care
 West End,M ST ORTHOPAEDIC SURG,2025-03-24,36,Medical Assistant,Never,Complete,Not Eligible,No,March,12,March Week 12,Surgery
 Foggy Bottom,FB NEUROLOGY,2025-03-26,3,Medical Assistant,Never,Complete,Not Eligible,No,March,13,March Week 13,Neurology
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-03-20,71,Physician Assistant,Quit,Not Complete,Not Eligible,Yes,March,12,March Week 12,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-03-20,71,Physician Assistant,Quit,Not Complete,Not Eligible,Yes,March,12,March Week 12,Geri/Palliative Care
 West End,M ST ORTHOPAEDIC SURG,2025-03-05,36,Medical Assistant,Quit,Not Complete,Not Eligible,No,March,10,March Week 10,Surgery
 West End,M ST OB/GYN,2025-03-19,66,Medical Assistant,Never,Complete,Not Eligible,No,March,12,March Week 12,Obstetrics/Gynecology
 Foggy Bottom,FB NEUROLOGY,2025-03-24,50,Medical Assistant,Never,Complete,Not Eligible,No,March,12,March Week 12,Neurology
@@ -121,7 +121,7 @@ Foggy Bottom,FB PRIMARY CARE,2025-03-05,33,Medical Assistant,Never,Complete,Not 
 Foggy Bottom,FB NEUROLOGY,2025-03-26,3,Medical Assistant,Never,Complete,Not Eligible,No,March,13,March Week 13,Neurology
 West End,M ST ORTHOPAEDIC SURG,2025-03-21,46,Medical Assistant,Never,Complete,Not Eligible,No,March,12,March Week 12,Surgery
 West End,M ST ENT,2025-03-19,28,Medical Assistant,Never,Complete,Not Eligible,No,March,12,March Week 12,ENT
-Foggy Bottom,FB NEPHROLOGY,2025-03-12,35,Medical Assistant,Quit,Not Complete,Not Eligible,Yes,March,11,March Week 11,Nephrology
+Foggy Bottom,FB NEPHROLOGY,2025-03-12,35,Medical Assistant,Quit,Not Complete,Not Eligible,Yes,March,11,March Week 11,Nephrology (FB)
 Foggy Bottom,FB ID,2025-03-21,62,Medical Assistant,Quit,Not Complete,Not Eligible,Yes,March,12,March Week 12,Infectious Disease
 Foggy Bottom,FB CARDIOLOGY,2025-03-11,52,Medical Assistant,Never,Complete,Not Eligible,Yes,March,10,March Week 10,Other
 West End,M ST ENT,2025-03-07,20,Medical Assistant,Never,Complete,Not Eligible,No,March,10,March Week 10,ENT
@@ -142,17 +142,17 @@ Foggy Bottom,FB VASCULAR SURGERY,2025-03-13,83,Medical Assistant,Quit,Not Comple
 West End,M ST ORTHOPAEDIC SURG,2025-03-17,36,Medical Assistant,Never,Complete,Not Eligible,No,March,11,March Week 11,Surgery
 Foggy Bottom,FB OPHTHALMOLOGY,2025-03-19,29,Technologist,Never,Complete,Not Eligible,No,March,12,March Week 12,Ophthalmology
 Foggy Bottom,FB PRIMARY CARE,2025-03-05,56,Medical Assistant,Never,Complete,Not Eligible,No,March,10,March Week 10,Primary Care
-Foggy Bottom,FB NEPHROLOGY,2025-03-12,2,Medical Assistant,Never,Complete,Not Eligible,Yes,March,11,March Week 11,Nephrology
+Foggy Bottom,FB NEPHROLOGY,2025-03-12,2,Medical Assistant,Never,Complete,Not Eligible,Yes,March,11,March Week 11,Nephrology (FB)
 Foggy Bottom,FB PRIMARY CARE,2025-03-11,63,Medical Assistant,Never,Complete,Not Eligible,No,March,10,March Week 10,Primary Care
 West End,M ST DERMATOLOGY,2025-03-26,84,Medical Assistant,Never,Complete,Not Eligible,No,March,13,March Week 13,Dermatology
 Foggy Bottom,FB PRIMARY CARE,2025-03-18,12,Medical Assistant,Never,Complete,Not Eligible,No,March,11,March Week 11,Primary Care
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-03-04,40,Medical Assistant,Never,Complete,Not Eligible,Yes,March,9,March Week 9,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-03-04,40,Medical Assistant,Never,Complete,Not Eligible,Yes,March,9,March Week 9,Geri/Palliative Care
 Foggy Bottom,FB ID,2025-03-17,38,Medical Assistant,Quit,Not Complete,Not Eligible,Yes,March,11,March Week 11,Infectious Disease
 West End,M ST DERMATOLOGY,2025-03-11,84,Medical Assistant,Never,Complete,Not Eligible,No,March,10,March Week 10,Dermatology
 Foggy Bottom,FB PRIMARY CARE,2025-03-31,54,Medical Assistant,Never,Complete,Not Eligible,No,March,13,March Week 13,Primary Care
 Foggy Bottom,FB GI & LIVER DISEASES,2025-03-10,59,Medical Assistant,Never,Complete,Not Eligible,No,March,10,March Week 10,Gastroenterology
 Foggy Bottom,FB PRIMARY CARE,2025-03-03,12,Medical Assistant,Quit,Not Complete,Not Eligible,No,March,9,March Week 9,Primary Care
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-03-11,62,Medical Assistant,Never,Complete,Not Eligible,Yes,March,10,March Week 10,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-03-11,62,Medical Assistant,Never,Complete,Not Eligible,Yes,March,10,March Week 10,Geri/Palliative Care
 Foggy Bottom,FB PODIATRY,2025-03-26,34,Medical Assistant,Never,Complete,Not Eligible,No,March,13,March Week 13,Other
 West End,M ST DERMATOLOGY,2025-03-05,76,Medical Assistant,Never,Complete,Not Eligible,No,March,10,March Week 10,Dermatology
 Foggy Bottom,FB PRIMARY CARE,2025-03-03,70,Medical Assistant,Never,Complete,Not Eligible,No,March,9,March Week 9,Primary Care
@@ -205,7 +205,7 @@ Foggy Bottom,FB CARDIOLOGY,2025-03-25,4,Medical Assistant,Never,Complete,Not Eli
 Foggy Bottom,FB PRIMARY CARE,2025-03-26,70,Medical Assistant,Never,Complete,Not Eligible,No,March,13,March Week 13,Primary Care
 West End,M ST ENT,2025-03-05,9,Medical Assistant,Never,Complete,Not Eligible,No,March,10,March Week 10,ENT
 Foggy Bottom,FB PRIMARY CARE,2025-03-25,39,Medical Assistant,Never,Complete,Not Eligible,No,March,12,March Week 12,Primary Care
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-03-18,98,Physician,Yes,Not Complete,Not Eligible,Yes,March,11,March Week 11,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-03-18,98,Physician,Yes,Not Complete,Not Eligible,Yes,March,11,March Week 11,Geri/Palliative Care
 Foggy Bottom,FB PRIMARY CARE,2025-03-13,63,Medical Assistant,Never,Complete,Not Eligible,No,March,11,March Week 11,Primary Care
 Foggy Bottom,FB GI & LIVER DISEASES,2025-03-17,99,Nurse Practitioner,Yes,Not Complete,Not Eligible,No,March,11,March Week 11,Gastroenterology
 Foggy Bottom,FB GENERAL SURGERY,2025-03-24,17,Medical Assistant,Never,Complete,Not Eligible,No,March,12,March Week 12,Surgery
@@ -252,7 +252,7 @@ Foggy Bottom,FB PRIMARY CARE,2025-03-19,75,Medical Assistant,Never,Complete,Not 
 West End,M ST BREAST SURGERY,2025-03-05,6,Medical Assistant,Never,Complete,Not Eligible,No,March,10,March Week 10,Surgery
 Foggy Bottom,FB MIDWIFERY,2025-03-14,79,Medical Assistant,Never,Complete,Not Eligible,No,March,11,March Week 11,Obstetrics/Gynecology
 Foggy Bottom,FB UROLOGY,2025-03-18,103,Medical Assistant,Never,Complete,Not Eligible,No,March,11,March Week 11,Urology
-Foggy Bottom,FB NEPHROLOGY,2025-03-04,35,Medical Assistant,Never,Complete,Not Eligible,Yes,March,9,March Week 9,Nephrology
+Foggy Bottom,FB NEPHROLOGY,2025-03-04,35,Medical Assistant,Never,Complete,Not Eligible,Yes,March,9,March Week 9,Nephrology (FB)
 Foggy Bottom,FB PAIN,2025-03-27,42,Medical Assistant,Never,Complete,Not Eligible,No,March,13,March Week 13,Pain Management
 West End,M ST ENDOCRINOLOGY,2025-03-18,110,Medical Assistant,Never,Complete,Not Eligible,No,March,11,March Week 11,Endocrinology
 Foggy Bottom,FB PRIMARY CARE,2025-03-27,12,Medical Assistant,Never,Complete,Not Eligible,No,March,13,March Week 13,Primary Care
@@ -297,7 +297,7 @@ West End,M ST ENT,2025-03-19,81,Medical Assistant,Never,Complete,Not Eligible,No
 Foggy Bottom,FB PAIN,2025-03-14,42,Medical Assistant,Never,Complete,Not Eligible,No,March,11,March Week 11,Pain Management
 Foggy Bottom,FB PRIMARY CARE,2025-03-13,14,Medical Assistant,Quit,Not Complete,Not Eligible,No,March,11,March Week 11,Primary Care
 Foggy Bottom,FB PRIMARY CARE,2025-03-04,30,Medical Assistant,Never,Complete,Not Eligible,No,March,9,March Week 9,Primary Care
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-03-07,24,Medical Assistant,Never,Complete,Not Eligible,Yes,March,10,March Week 10,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-03-07,24,Medical Assistant,Never,Complete,Not Eligible,Yes,March,10,March Week 10,Geri/Palliative Care
 West End,M ST ORTHOPAEDIC SURG,2025-03-25,11,Medical Assistant,Never,Complete,Not Eligible,No,March,12,March Week 12,Surgery
 Foggy Bottom,FB CARDIOLOGY,2025-03-19,38,Medical Assistant,Never,Complete,Not Eligible,Yes,March,12,March Week 12,Other
 West End,M ST ORTHOPAEDIC SURG,2025-03-10,36,Medical Assistant,Never,Complete,Not Eligible,No,March,10,March Week 10,Surgery
@@ -332,7 +332,7 @@ West End,M ST BREAST SURGERY,2025-03-20,6,Medical Assistant,Never,Complete,Not E
 Foggy Bottom,FB GI & LIVER DISEASES,2025-03-27,62,Medical Assistant,Never,Complete,Not Eligible,No,March,13,March Week 13,Gastroenterology
 Foggy Bottom,FB CARDIOLOGY,2025-03-12,35,Medical Assistant,Never,Complete,Not Eligible,Yes,March,11,March Week 11,Other
 Foggy Bottom,FB PODIATRY,2025-03-26,34,Medical Assistant,Yes,Not Complete,Not Eligible,No,March,13,March Week 13,Other
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-03-11,24,Medical Assistant,Yes,Not Complete,Not Eligible,Yes,March,10,March Week 10,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-03-11,24,Medical Assistant,Yes,Not Complete,Not Eligible,Yes,March,10,March Week 10,Geri/Palliative Care
 West End,M ST ENT,2025-03-06,64,Medical Assistant,Quit,Not Complete,Not Eligible,No,March,10,March Week 10,ENT
 Foggy Bottom,FB ID,2025-03-10,38,Medical Assistant,Never,Complete,Not Eligible,Yes,March,10,March Week 10,Infectious Disease
 Foggy Bottom,FB PODIATRY,2025-03-20,44,Medical Assistant,Never,Complete,Not Eligible,No,March,12,March Week 12,Other
@@ -384,7 +384,7 @@ West End,M ST ORTHOPAEDIC SURG,2025-03-20,105,Medical Assistant,Never,Complete,N
 Foggy Bottom,FB OB/GYN,2025-03-25,79,Medical Assistant,Never,Complete,Not Eligible,No,March,12,March Week 12,Obstetrics/Gynecology
 West End,M ST BREAST SURGERY,2025-03-12,6,Medical Assistant,Never,Complete,Not Eligible,No,March,11,March Week 11,Surgery
 Foggy Bottom,FB CARDIOLOGY,2025-03-11,10,Medical Assistant,Never,Complete,Not Eligible,Yes,March,10,March Week 10,Other
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-03-10,24,Medical Assistant,Never,Complete,Not Eligible,Yes,March,10,March Week 10,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-03-10,24,Medical Assistant,Never,Complete,Not Eligible,Yes,March,10,March Week 10,Geri/Palliative Care
 Foggy Bottom,FB ID,2025-03-18,40,Medical Assistant,Never,Complete,Not Eligible,Yes,March,11,March Week 11,Infectious Disease
 West End,M ST OB/GYN,2025-03-21,66,Medical Assistant,Never,Complete,Not Eligible,No,March,12,March Week 12,Obstetrics/Gynecology
 Foggy Bottom,FB OPHTHALMOLOGY,2025-03-13,124,Technologist,Yes,Not Complete,Not Eligible,No,March,11,March Week 11,Ophthalmology
@@ -397,7 +397,7 @@ Foggy Bottom,FB PAIN,2025-03-17,3,Medical Assistant,Yes,Not Complete,Not Eligibl
 Foggy Bottom,FB NEUROSURGERY,2025-03-03,16,Medical Assistant,Quit,Not Complete,Not Eligible,No,March,9,March Week 9,Surgery
 Foggy Bottom,FB OB/GYN,2025-03-13,114,NULL,Quit,Complete,Not Eligible,No,March,11,March Week 11,Obstetrics/Gynecology
 Foggy Bottom,FB PODIATRY,2025-03-24,44,Medical Assistant,Never,Complete,Not Eligible,No,March,12,March Week 12,Other
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-03-12,126,Physician,Never,Complete,Not Eligible,Yes,March,11,March Week 11,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-03-12,126,Physician,Never,Complete,Not Eligible,Yes,March,11,March Week 11,Geri/Palliative Care
 Foggy Bottom,FB PRIMARY CARE,2025-03-24,14,Medical Assistant,Never,Complete,Not Eligible,No,March,12,March Week 12,Primary Care
 Foggy Bottom,FB ID,2025-03-06,62,Medical Assistant,Yes,Not Complete,Not Eligible,Yes,March,10,March Week 10,Infectious Disease
 Foggy Bottom,FB HEM ONC,2025-03-18,113,Medical Assistant,Never,Complete,Not Eligible,No,March,11,March Week 11,Hematology/Oncology
@@ -598,7 +598,7 @@ Foggy Bottom,FB CARDIOLOGY,2025-03-27,35,Medical Assistant,Never,Complete,Not El
 Foggy Bottom,FB MFM,2025-03-10,94,Medical Assistant,Never,Complete,Not Eligible,No,March,10,March Week 10,Obstetrics/Gynecology
 Foggy Bottom,FB NEUROLOGY,2025-03-24,48,Medical Assistant,Never,Complete,Not Eligible,No,March,12,March Week 12,Neurology
 West End,M ST PRIMARY CARE,2025-03-10,88,Medical Assistant,Never,Complete,Not Eligible,No,March,10,March Week 10,Primary Care
-Foggy Bottom,FB NEPHROLOGY,2025-03-19,35,Medical Assistant,Never,Complete,Not Eligible,Yes,March,12,March Week 12,Nephrology
+Foggy Bottom,FB NEPHROLOGY,2025-03-19,35,Medical Assistant,Never,Complete,Not Eligible,Yes,March,12,March Week 12,Nephrology (FB)
 West End,M ST ORTHOPAEDIC SURG,2025-03-26,11,Medical Assistant,Never,Complete,Not Eligible,No,March,13,March Week 13,Surgery
 Foggy Bottom,FB MIDWIFERY,2025-03-14,79,Medical Assistant,Never,Complete,Not Eligible,No,March,11,March Week 11,Obstetrics/Gynecology
 Foggy Bottom,FB OB/GYN,2025-03-05,123,Physician,Never,Complete,Not Eligible,No,March,10,March Week 10,Obstetrics/Gynecology
@@ -633,8 +633,8 @@ Foggy Bottom,FB OB/GYN,2025-03-25,94,Medical Assistant,Never,Complete,Not Eligib
 West End,M ST ORTHOPAEDIC SURG,2025-03-31,11,Medical Assistant,Yes,Not Complete,Not Eligible,No,March,13,March Week 13,Surgery
 Foggy Bottom,FB UROLOGY,2025-03-06,47,Medical Assistant,Quit,Not Complete,Not Eligible,No,March,10,March Week 10,Urology
 West End,M ST ENT,2025-03-14,64,Medical Assistant,Yes,Complete,Not Eligible,No,March,11,March Week 11,ENT
-Foggy Bottom,FB NEPHROLOGY,2025-03-26,35,Medical Assistant,Quit,Not Complete,Not Eligible,Yes,March,13,March Week 13,Nephrology
-Foggy Bottom,FB NEPHROLOGY,2025-03-12,10,Medical Assistant,Never,Complete,Not Eligible,Yes,March,11,March Week 11,Nephrology
+Foggy Bottom,FB NEPHROLOGY,2025-03-26,35,Medical Assistant,Quit,Not Complete,Not Eligible,Yes,March,13,March Week 13,Nephrology (FB)
+Foggy Bottom,FB NEPHROLOGY,2025-03-12,10,Medical Assistant,Never,Complete,Not Eligible,Yes,March,11,March Week 11,Nephrology (FB)
 Foggy Bottom,FB MIDWIFERY,2025-03-13,66,Medical Assistant,Never,Complete,Not Eligible,No,March,11,March Week 11,Obstetrics/Gynecology
 West End,M ST OB/GYN,2025-03-18,104,Medical Assistant,Never,Complete,Not Eligible,No,March,11,March Week 11,Obstetrics/Gynecology
 West End,M ST ORTHOPAEDIC SURG,2025-03-06,46,Medical Assistant,Never,Complete,Not Eligible,No,March,10,March Week 10,Surgery
@@ -734,7 +734,7 @@ Foggy Bottom,FB OB/GYN,2025-03-03,108,Medical Assistant,Never,Complete,Not Eligi
 West End,M ST OB/GYN,2025-03-31,104,Medical Assistant,Never,Complete,Not Eligible,No,March,13,March Week 13,Obstetrics/Gynecology
 West End,M ST BREAST SURGERY,2025-03-19,43,Physician,Never,Complete,Not Eligible,No,March,12,March Week 12,Surgery
 West End,M ST PRIMARY CARE,2025-03-14,53,Medical Assistant,Never,Complete,Not Eligible,No,March,11,March Week 11,Primary Care
-Foggy Bottom,FB NEPHROLOGY,2025-03-20,10,Medical Assistant,Quit,Not Complete,Not Eligible,Yes,March,12,March Week 12,Nephrology
+Foggy Bottom,FB NEPHROLOGY,2025-03-20,10,Medical Assistant,Quit,Not Complete,Not Eligible,Yes,March,12,March Week 12,Nephrology (FB)
 Foggy Bottom,FB PULMONOLOGY,2025-03-25,155,Physician,Never,Complete,Not Eligible,Yes,March,12,March Week 12,Pulmonology
 West End,M ST BREAST SURGERY,2025-03-20,6,Medical Assistant,Quit,Not Complete,Not Eligible,No,March,12,March Week 12,Surgery
 Foggy Bottom,FB PULMONOLOGY,2025-03-18,156,Nurse Practitioner,Never,Complete,Not Eligible,Yes,March,11,March Week 11,Pulmonology
@@ -792,7 +792,7 @@ Foggy Bottom,FB GENERAL SURGERY,2025-03-19,107,Medical Assistant,Never,Complete,
 Foggy Bottom,FB PRIMARY CARE,2025-03-07,39,Medical Assistant,Never,Complete,Not Eligible,No,March,10,March Week 10,Primary Care
 Foggy Bottom,FB NEUROLOGY,2025-03-25,48,Medical Assistant,Never,Complete,Not Eligible,No,March,12,March Week 12,Neurology
 West End,M ST PRIMARY CARE,2025-03-27,88,Medical Assistant,Never,Complete,Not Eligible,No,March,13,March Week 13,Primary Care
-West End,M ST NEPHROLOGY,2025-03-21,4,Medical Assistant,Quit,Complete,Not Eligible,No,March,12,March Week 12,Nephrology
+West End,M ST NEPHROLOGY,2025-03-21,4,Medical Assistant,Quit,Complete,Not Eligible,No,March,12,March Week 12,Nephrology (M St)
 Foggy Bottom,FB PRIMARY CARE,2025-03-25,30,Medical Assistant,Never,Complete,Not Eligible,No,March,12,March Week 12,Primary Care
 Foggy Bottom,FB PRIMARY CARE,2025-03-27,12,Medical Assistant,Never,Complete,Not Eligible,No,March,13,March Week 13,Primary Care
 West End,M ST ORTHOPAEDIC SURG,2025-03-10,60,Medical Assistant,Never,Complete,Not Eligible,No,March,10,March Week 10,Surgery
@@ -817,7 +817,7 @@ Foggy Bottom,FB ID,2025-03-31,10,Medical Assistant,Never,Complete,Not Eligible,Y
 Foggy Bottom,FB NEUROLOGY,2025-03-12,3,Medical Assistant,Never,Complete,Not Eligible,No,March,11,March Week 11,Neurology
 Foggy Bottom,FB ID,2025-03-14,31,Medical Assistant,Yes,Not Complete,Not Eligible,Yes,March,11,March Week 11,Infectious Disease
 West End,M ST ORTHOPAEDIC SURG,2025-03-05,82,Medical Assistant,Never,Complete,Not Eligible,No,March,10,March Week 10,Surgery
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-03-25,59,Medical Assistant,Never,Complete,Not Eligible,Yes,March,12,March Week 12,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-03-25,59,Medical Assistant,Never,Complete,Not Eligible,Yes,March,12,March Week 12,Geri/Palliative Care
 West End,M ST OB/GYN,2025-03-04,114,NULL,Never,Complete,Not Eligible,No,March,9,March Week 9,Obstetrics/Gynecology
 West End,M ST ORTHOPAEDIC SURG,2025-03-24,105,Medical Assistant,Never,Complete,Not Eligible,No,March,12,March Week 12,Surgery
 West End,M ST ENT,2025-03-11,22,Medical Assistant,Quit,Not Complete,Not Eligible,No,March,10,March Week 10,ENT
@@ -866,7 +866,7 @@ Foggy Bottom,FB DERMATOLOGY,2025-03-19,65,Medical Assistant,Never,Complete,Not E
 West End,M ST DERMATOLOGY,2025-03-12,84,Medical Assistant,Never,Complete,Not Eligible,No,March,11,March Week 11,Dermatology
 West End,M ST PRIMARY CARE,2025-03-21,88,Medical Assistant,Never,Complete,Not Eligible,No,March,12,March Week 12,Primary Care
 Foggy Bottom,FB NEUROSURGERY,2025-03-18,16,Medical Assistant,Never,Complete,Not Eligible,No,March,11,March Week 11,Surgery
-Foggy Bottom,FB NEPHROLOGY,2025-03-17,35,Medical Assistant,Never,Complete,Not Eligible,Yes,March,11,March Week 11,Nephrology
+Foggy Bottom,FB NEPHROLOGY,2025-03-17,35,Medical Assistant,Never,Complete,Not Eligible,Yes,March,11,March Week 11,Nephrology (FB)
 Foggy Bottom,FB UROLOGY,2025-03-31,95,Medical Assistant,Never,Complete,Not Eligible,No,March,13,March Week 13,Urology
 Foggy Bottom,FB NEUROLOGY,2025-03-10,3,Medical Assistant,Never,Complete,Not Eligible,No,March,10,March Week 10,Neurology
 West End,M ST ORTHOPAEDIC SURG,2025-03-25,105,Medical Assistant,Never,Complete,Not Eligible,No,March,12,March Week 12,Surgery
@@ -894,12 +894,12 @@ Foggy Bottom,FB PRIMARY CARE,2025-03-04,12,Medical Assistant,Never,Complete,Not 
 Foggy Bottom,FB OB/GYN,2025-03-13,104,Medical Assistant,Never,Complete,Not Eligible,No,March,11,March Week 11,Obstetrics/Gynecology
 Foggy Bottom,FB PRIMARY CARE,2025-03-11,54,Medical Assistant,Never,Complete,Not Eligible,No,March,10,March Week 10,Primary Care
 Foggy Bottom,FB PRIMARY CARE,2025-03-12,39,Medical Assistant,Never,Complete,Not Eligible,No,March,11,March Week 11,Primary Care
-Foggy Bottom,FB NEPHROLOGY,2025-03-26,4,Medical Assistant,Never,Complete,Not Eligible,Yes,March,13,March Week 13,Nephrology
+Foggy Bottom,FB NEPHROLOGY,2025-03-26,4,Medical Assistant,Never,Complete,Not Eligible,Yes,March,13,March Week 13,Nephrology (FB)
 Foggy Bottom,FB PRIMARY CARE,2025-03-19,14,Medical Assistant,Never,Complete,Not Eligible,No,March,12,March Week 12,Primary Care
 West End,M ST PRIMARY CARE,2025-03-25,93,Medical Assistant,Never,Complete,Not Eligible,No,March,12,March Week 12,Primary Care
 Foggy Bottom,FB OB/GYN,2025-03-17,97,Registered Nurse,Never,Complete,Not Eligible,No,March,11,March Week 11,Obstetrics/Gynecology
 Foggy Bottom,FB PRIMARY CARE,2025-03-17,54,Medical Assistant,Quit,Not Complete,Not Eligible,No,March,11,March Week 11,Primary Care
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-03-11,71,Physician Assistant,Quit,Not Complete,Not Eligible,Yes,March,10,March Week 10,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-03-11,71,Physician Assistant,Quit,Not Complete,Not Eligible,Yes,March,10,March Week 10,Geri/Palliative Care
 Foggy Bottom,FB DERMATOLOGY,2025-03-04,96,Medical Assistant,Not Asked,Not Complete,Not Eligible,No,March,9,March Week 9,Dermatology
 West End,M ST ORTHOPAEDIC SURG,2025-03-24,60,Medical Assistant,Quit,Not Complete,Not Eligible,No,March,12,March Week 12,Surgery
 Foggy Bottom,FB PULMONOLOGY,2025-03-17,2,Medical Assistant,Quit,Not Complete,Not Eligible,Yes,March,11,March Week 11,Pulmonology
@@ -911,7 +911,7 @@ Foggy Bottom,FB GENERAL SURGERY,2025-03-17,107,Medical Assistant,Never,Complete,
 Foggy Bottom,FB NEUROLOGY,2025-03-27,3,Medical Assistant,Never,Complete,Not Eligible,No,March,13,March Week 13,Neurology
 West End,M ST COS/PLAST SUR,2025-03-11,77,Registered Nurse,Yes,Not Complete,Not Eligible,No,March,10,March Week 10,Surgery
 Foggy Bottom,FB PRIMARY CARE,2025-03-07,75,Medical Assistant,Never,Complete,Not Eligible,No,March,10,March Week 10,Primary Care
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-03-20,62,Medical Assistant,Never,Complete,Not Eligible,Yes,March,12,March Week 12,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-03-20,62,Medical Assistant,Never,Complete,Not Eligible,Yes,March,12,March Week 12,Geri/Palliative Care
 Foggy Bottom,FB HEM ONC,2025-03-12,113,Medical Assistant,Never,Complete,Not Eligible,No,March,11,March Week 11,Hematology/Oncology
 West End,M ST ORTHOPAEDIC SURG,2025-03-28,36,Medical Assistant,Never,Complete,Not Eligible,No,March,13,March Week 13,Surgery
 West End,M ST DERMATOLOGY,2025-03-25,73,Medical Assistant,Never,Complete,Not Eligible,No,March,12,March Week 12,Dermatology
@@ -998,7 +998,7 @@ Foggy Bottom,FB NEUROSURGERY,2025-03-10,16,Medical Assistant,Never,Complete,Not 
 West End,M ST ENT,2025-03-11,22,Medical Assistant,Never,Complete,Not Eligible,No,March,10,March Week 10,ENT
 West End,M ST ENT,2025-03-18,20,Medical Assistant,Never,Complete,Not Eligible,No,March,11,March Week 11,ENT
 West End,M ST OB/GYN,2025-03-21,74,Medical Assistant,Never,Complete,Not Eligible,No,March,12,March Week 12,Obstetrics/Gynecology
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-03-24,10,Medical Assistant,Never,Complete,Not Eligible,Yes,March,12,March Week 12,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-03-24,10,Medical Assistant,Never,Complete,Not Eligible,Yes,March,12,March Week 12,Geri/Palliative Care
 Foggy Bottom,FB CARDIOLOGY,2025-03-28,2,Medical Assistant,Never,Complete,Not Eligible,Yes,March,13,March Week 13,Other
 Foggy Bottom,FB TRAUMA SURGERY,2025-03-18,17,Medical Assistant,Never,Complete,Not Eligible,No,March,11,March Week 11,Other
 Foggy Bottom,FB MIDWIFERY,2025-03-06,165,Midwife,Never,Complete,Not Eligible,No,March,10,March Week 10,Obstetrics/Gynecology
@@ -1034,20 +1034,20 @@ Foggy Bottom,FB GENERAL SURGERY,2025-03-26,17,Medical Assistant,Never,Complete,N
 Foggy Bottom,FB PRIMARY CARE,2025-03-18,33,Medical Assistant,Never,Complete,Not Eligible,No,March,11,March Week 11,Primary Care
 Foggy Bottom,FB PAIN,2025-03-10,42,Medical Assistant,Never,Complete,Not Eligible,No,March,10,March Week 10,Pain Management
 West End,M ST BREAST SURGERY,2025-03-27,6,Medical Assistant,Never,Complete,Not Eligible,No,March,13,March Week 13,Surgery
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-03-04,59,Medical Assistant,Never,Complete,Not Eligible,Yes,March,9,March Week 9,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-03-04,59,Medical Assistant,Never,Complete,Not Eligible,Yes,March,9,March Week 9,Geri/Palliative Care
 Foggy Bottom,FB THORACIC SURGERY,2025-03-05,107,Medical Assistant,Quit,Not Complete,Not Eligible,No,March,10,March Week 10,Surgery
 Foggy Bottom,FB COLON RECTAL SURG,2025-03-27,129,Medical Assistant,Never,Complete,Not Eligible,No,March,13,March Week 13,Other
 Foggy Bottom,FB UROLOGY,2025-03-04,170,Nurse Practitioner,Never,Complete,Not Eligible,No,March,9,March Week 9,Urology
 Foggy Bottom,FB PRIMARY CARE,2025-03-10,56,Medical Assistant,Never,Complete,Not Eligible,No,March,10,March Week 10,Primary Care
 West End,M ST ORTHOPAEDIC SURG,2025-03-24,60,Medical Assistant,Never,Complete,Not Eligible,No,March,12,March Week 12,Surgery
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-03-11,62,Medical Assistant,Quit,Not Complete,Not Eligible,Yes,March,10,March Week 10,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-03-11,62,Medical Assistant,Quit,Not Complete,Not Eligible,Yes,March,10,March Week 10,Geri/Palliative Care
 West End,M ST PRIMARY CARE,2025-03-04,45,Medical Assistant,Never,Complete,Not Eligible,No,March,9,March Week 9,Primary Care
 Foggy Bottom,FB PRIMARY CARE,2025-03-19,12,Medical Assistant,Never,Complete,Not Eligible,No,March,12,March Week 12,Primary Care
 Foggy Bottom,FB PRIMARY CARE,2025-03-03,33,Medical Assistant,Never,Complete,Not Eligible,No,March,9,March Week 9,Primary Care
 West End,M ST PRIMARY CARE,2025-03-07,69,Medical Assistant,Never,Complete,Not Eligible,No,March,10,March Week 10,Primary Care
 West End,M ST ORTHOPAEDIC SURG,2025-03-31,11,Medical Assistant,Never,Complete,Not Eligible,No,March,13,March Week 13,Surgery
 West End,M ST PRIMARY CARE,2025-03-18,45,Medical Assistant,Quit,Not Complete,Not Eligible,No,March,11,March Week 11,Primary Care
-Foggy Bottom,FB NEPHROLOGY,2025-03-19,171,Physician,Quit,Not Complete,Not Eligible,Yes,March,12,March Week 12,Nephrology
+Foggy Bottom,FB NEPHROLOGY,2025-03-19,171,Physician,Quit,Not Complete,Not Eligible,Yes,March,12,March Week 12,Nephrology (FB)
 West End,M ST BREAST SURGERY,2025-03-26,43,Physician,Never,Complete,Not Eligible,No,March,13,March Week 13,Surgery
 Foggy Bottom,FB PRIMARY CARE,2025-03-19,57,Registered Nurse,Never,Complete,Not Eligible,No,March,12,March Week 12,Primary Care
 Foggy Bottom,FB PAIN,2025-03-20,172,Physician,Yes,Not Complete,Not Eligible,No,March,12,March Week 12,Pain Management
@@ -1106,7 +1106,7 @@ West End,M ST COS/PLAST SUR,2025-03-13,51,Medical Assistant,Never,Complete,Not E
 Foggy Bottom,FB UROLOGY,2025-03-24,47,Medical Assistant,Never,Complete,Not Eligible,No,March,12,March Week 12,Urology
 Foggy Bottom,FB PODIATRY,2025-03-26,44,Medical Assistant,Never,Complete,Not Eligible,No,March,13,March Week 13,Other
 Foggy Bottom,FB PODIATRY,2025-03-27,34,Medical Assistant,Never,Complete,Not Eligible,No,March,13,March Week 13,Other
-Foggy Bottom,FB NEPHROLOGY,2025-03-25,10,Medical Assistant,Never,Complete,Not Eligible,Yes,March,12,March Week 12,Nephrology
+Foggy Bottom,FB NEPHROLOGY,2025-03-25,10,Medical Assistant,Never,Complete,Not Eligible,Yes,March,12,March Week 12,Nephrology (FB)
 Foggy Bottom,FB PODIATRY,2025-03-31,34,Medical Assistant,Never,Complete,Not Eligible,No,March,13,March Week 13,Other
 West End,M ST BREAST SURGERY,2025-03-05,6,Medical Assistant,Never,Complete,Not Eligible,No,March,10,March Week 10,Surgery
 West End,M ST ENT,2025-03-19,28,Medical Assistant,Never,Complete,Not Eligible,No,March,12,March Week 12,ENT
@@ -1116,7 +1116,7 @@ Foggy Bottom,FB OPHTHALMOLOGY,2025-03-10,29,Technologist,Not Asked,Not Complete,
 West End,M ST ENT,2025-03-28,20,Medical Assistant,Never,Complete,Not Eligible,No,March,13,March Week 13,ENT
 Foggy Bottom,FB OB/GYN,2025-03-27,94,Medical Assistant,NULL,Not Complete,Not Eligible,No,March,13,March Week 13,Obstetrics/Gynecology
 Foggy Bottom,FB DERMATOLOGY,2025-03-17,101,Resident Physician,NULL,Not Complete,Not Eligible,No,March,11,March Week 11,Dermatology
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-03-06,24,Medical Assistant,Yes,Complete,Not Eligible,Yes,March,10,March Week 10,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-03-06,24,Medical Assistant,Yes,Complete,Not Eligible,Yes,March,10,March Week 10,Geri/Palliative Care
 West End,M ST ENT,2025-03-24,20,Medical Assistant,Never,Complete,Not Eligible,No,March,12,March Week 12,ENT
 Foggy Bottom,FB PRIMARY CARE,2025-03-13,54,Medical Assistant,Never,Complete,Not Eligible,No,March,11,March Week 11,Primary Care
 West End,M ST ENDOCRINOLOGY,2025-03-19,110,Medical Assistant,Quit,Not Complete,Not Eligible,No,March,12,March Week 12,Endocrinology
@@ -1153,7 +1153,7 @@ West End,M ST DERMATOLOGY,2025-03-05,73,Medical Assistant,Never,Complete,Not Eli
 West End,M ST ENT,2025-03-04,22,Medical Assistant,Never,Complete,Not Eligible,No,March,9,March Week 9,ENT
 Foggy Bottom,FB UROLOGY,2025-03-20,47,Medical Assistant,NULL,Not Complete,Not Eligible,No,March,12,March Week 12,Urology
 Foggy Bottom,FB PRIMARY CARE,2025-03-03,75,Medical Assistant,Never,Complete,Not Eligible,No,March,9,March Week 9,Primary Care
-Foggy Bottom,FB NEPHROLOGY,2025-03-13,52,Medical Assistant,Never,Complete,Not Eligible,Yes,March,11,March Week 11,Nephrology
+Foggy Bottom,FB NEPHROLOGY,2025-03-13,52,Medical Assistant,Never,Complete,Not Eligible,Yes,March,11,March Week 11,Nephrology (FB)
 West End,M ST DERMATOLOGY,2025-03-04,73,Medical Assistant,Never,Complete,Not Eligible,No,March,9,March Week 9,Dermatology
 West End,M ST ENT,2025-03-24,64,Medical Assistant,Never,Complete,Not Eligible,No,March,12,March Week 12,ENT
 Foggy Bottom,FB GI & LIVER DISEASES,2025-03-21,59,Medical Assistant,Quit,Complete,Not Eligible,No,March,12,March Week 12,Gastroenterology
@@ -1194,7 +1194,7 @@ Foggy Bottom,FB PRIMARY CARE,2025-03-19,75,Medical Assistant,Never,Complete,Not 
 West End,M ST ENT,2025-03-21,64,Medical Assistant,Never,Complete,Not Eligible,No,March,12,March Week 12,ENT
 West End,M ST ENT,2025-03-26,20,Medical Assistant,Never,Complete,Not Eligible,No,March,13,March Week 13,ENT
 Foggy Bottom,FB OB/GYN,2025-03-20,49,Medical Assistant,Never,Complete,Not Eligible,No,March,12,March Week 12,Obstetrics/Gynecology
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-03-31,35,Medical Assistant,Never,Complete,Not Eligible,Yes,March,13,March Week 13,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-03-31,35,Medical Assistant,Never,Complete,Not Eligible,Yes,March,13,March Week 13,Geri/Palliative Care
 Foggy Bottom,FB MIDWIFERY,2025-03-14,79,Medical Assistant,Never,Complete,Not Eligible,No,March,11,March Week 11,Obstetrics/Gynecology
 West End,M ST PRIMARY CARE,2025-03-17,88,Medical Assistant,Never,Complete,Not Eligible,No,March,11,March Week 11,Primary Care
 Foggy Bottom,FB PRIMARY CARE,2025-03-27,54,Medical Assistant,Never,Complete,Not Eligible,No,March,13,March Week 13,Primary Care
@@ -1255,7 +1255,7 @@ West End,M ST ORTHOPAEDIC SURG,2025-03-13,60,Medical Assistant,Never,Complete,No
 Foggy Bottom,FB PRIMARY CARE,2025-03-03,56,Medical Assistant,Never,Complete,Not Eligible,No,March,9,March Week 9,Primary Care
 West End,M ST ENT,2025-03-25,64,Medical Assistant,Never,Complete,Not Eligible,No,March,12,March Week 12,ENT
 West End,M ST COS/PLAST SUR,2025-03-11,77,Registered Nurse,Never,Complete,Not Eligible,No,March,10,March Week 10,Surgery
-Foggy Bottom,FB NEPHROLOGY,2025-03-31,2,Medical Assistant,Never,Complete,Not Eligible,Yes,March,13,March Week 13,Nephrology
+Foggy Bottom,FB NEPHROLOGY,2025-03-31,2,Medical Assistant,Never,Complete,Not Eligible,Yes,March,13,March Week 13,Nephrology (FB)
 Foggy Bottom,FB PRIMARY CARE,2025-03-03,89,Medical Assistant,Never,Complete,Not Eligible,No,March,9,March Week 9,Primary Care
 Foggy Bottom,FB PRIMARY CARE,2025-03-07,14,Medical Assistant,Never,Complete,Not Eligible,No,March,10,March Week 10,Primary Care
 West End,M ST PRIMARY CARE,2025-03-26,53,Medical Assistant,Never,Complete,Not Eligible,No,March,13,March Week 13,Primary Care
@@ -1284,7 +1284,7 @@ West End,M ST BREAST SURGERY,2025-03-19,6,Medical Assistant,Never,Complete,Not E
 West End,M ST ENT,2025-03-28,22,Medical Assistant,Never,Complete,Not Eligible,No,March,13,March Week 13,ENT
 West End,M ST OB/GYN,2025-03-21,66,Medical Assistant,Never,Complete,Not Eligible,No,March,12,March Week 12,Obstetrics/Gynecology
 West End,M ST PRIMARY CARE,2025-03-27,88,Medical Assistant,Never,Complete,Not Eligible,No,March,13,March Week 13,Primary Care
-Foggy Bottom,FB NEPHROLOGY,2025-03-27,72,Medical Assistant,Never,Complete,Not Eligible,Yes,March,13,March Week 13,Nephrology
+Foggy Bottom,FB NEPHROLOGY,2025-03-27,72,Medical Assistant,Never,Complete,Not Eligible,Yes,March,13,March Week 13,Nephrology (FB)
 Foggy Bottom,FB PRIMARY CARE,2025-03-19,39,Medical Assistant,Never,Complete,Not Eligible,No,March,12,March Week 12,Primary Care
 Foggy Bottom,FB CARDIOLOGY,2025-03-03,10,Medical Assistant,Never,Complete,Not Eligible,Yes,March,9,March Week 9,Other
 West End,M ST ORTHOPAEDIC SURG,2025-03-24,60,Medical Assistant,Never,Complete,Not Eligible,No,March,12,March Week 12,Surgery
@@ -1507,7 +1507,7 @@ West End,M ST ORTHOPAEDIC SURG,2025-03-21,36,Medical Assistant,Never,Complete,No
 West End,M ST ORTHOPAEDIC SURG,2025-03-04,105,Medical Assistant,Never,Complete,Not Eligible,No,March,9,March Week 9,Surgery
 Foggy Bottom,FB GI & LIVER DISEASES,2025-03-03,24,Medical Assistant,Never,Complete,Not Eligible,No,March,9,March Week 9,Gastroenterology
 Foggy Bottom,FB PODIATRY,2025-03-27,44,Medical Assistant,Never,Complete,Not Eligible,No,March,13,March Week 13,Other
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-03-18,38,Medical Assistant,Never,Complete,Not Eligible,Yes,March,11,March Week 11,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-03-18,38,Medical Assistant,Never,Complete,Not Eligible,Yes,March,11,March Week 11,Geri/Palliative Care
 Foggy Bottom,FB OB/GYN,2025-03-18,97,Registered Nurse,Never,Complete,Not Eligible,No,March,11,March Week 11,Obstetrics/Gynecology
 Foggy Bottom,FB PAIN,2025-03-03,3,Medical Assistant,Never,Complete,Not Eligible,No,March,9,March Week 9,Pain Management
 Foggy Bottom,FB GENERAL SURGERY,2025-03-03,17,Medical Assistant,Never,Complete,Not Eligible,No,March,9,March Week 9,Surgery
@@ -1531,7 +1531,7 @@ Foggy Bottom,FB OB/GYN,2025-03-25,187,Physician,Quit,Not Complete,Not Eligible,N
 Foggy Bottom,FB GI & LIVER DISEASES,2025-03-18,40,Medical Assistant,Never,Complete,Not Eligible,No,March,11,March Week 11,Gastroenterology
 West End,M ST OB/GYN,2025-03-04,114,NULL,Never,Complete,Not Eligible,No,March,9,March Week 9,Obstetrics/Gynecology
 Foggy Bottom,FB COLON RECTAL SURG,2025-03-06,129,Medical Assistant,Never,Complete,Not Eligible,No,March,10,March Week 10,Other
-Foggy Bottom,FB NEPHROLOGY,2025-03-13,188,Fellow,Never,Complete,Not Eligible,Yes,March,11,March Week 11,Nephrology
+Foggy Bottom,FB NEPHROLOGY,2025-03-13,188,Fellow,Never,Complete,Not Eligible,Yes,March,11,March Week 11,Nephrology (FB)
 West End,M ST ENT,2025-03-24,64,Medical Assistant,Quit,Not Complete,Not Eligible,No,March,12,March Week 12,ENT
 Foggy Bottom,FB GENERAL SURGERY,2025-03-31,120,Registered Dietitian,Never,Complete,Not Eligible,No,March,13,March Week 13,Surgery
 Foggy Bottom,FB PAIN,2025-03-25,50,Medical Assistant,Never,Complete,Not Eligible,No,March,12,March Week 12,Pain Management
@@ -1711,7 +1711,7 @@ West End,M ST COS/PLAST SUR,2025-03-18,51,Medical Assistant,Never,Complete,Not E
 West End,M ST ENT,2025-03-19,20,Medical Assistant,Never,Complete,Not Eligible,No,March,12,March Week 12,ENT
 West End,M ST CARDIAC SURGERY,2025-03-12,197,Physician Assistant,Never,Complete,Not Eligible,No,March,11,March Week 11,Surgery
 West End,M ST PRIMARY CARE,2025-03-28,93,Medical Assistant,Never,Complete,Not Eligible,No,March,13,March Week 13,Primary Care
-Foggy Bottom,FB NEPHROLOGY,2025-03-12,198,Physician,Never,Complete,Not Eligible,Yes,March,11,March Week 11,Nephrology
+Foggy Bottom,FB NEPHROLOGY,2025-03-12,198,Physician,Never,Complete,Not Eligible,Yes,March,11,March Week 11,Nephrology (FB)
 West End,M ST PRIMARY CARE,2025-03-07,69,Medical Assistant,Quit,Not Complete,Not Eligible,No,March,10,March Week 10,Primary Care
 Foggy Bottom,FB NEUROSURGERY,2025-03-13,16,Medical Assistant,Quit,Not Complete,Not Eligible,No,March,11,March Week 11,Surgery
 West End,M ST ORTHOPAEDIC SURG,2025-03-12,36,Medical Assistant,Never,Complete,Not Eligible,No,March,11,March Week 11,Surgery
@@ -1770,7 +1770,7 @@ Foggy Bottom,FB GENERAL SURGERY,2025-03-13,107,Medical Assistant,Never,Complete,
 Foggy Bottom,FB TRAUMA SURGERY,2025-03-25,17,Medical Assistant,Never,Complete,Not Eligible,No,March,12,March Week 12,Other
 Foggy Bottom,FB PREVENTORIUM CLINIC,2025-03-07,141,Medical Assistant,Never,Complete,Not Eligible,No,March,10,March Week 10,Primary Care
 Foggy Bottom,FB PREVENTORIUM CLINIC,2025-03-07,141,Medical Assistant,Never,Complete,Not Eligible,No,March,10,March Week 10,Primary Care
-Foggy Bottom,INGLESIDE GERIATRICS,2025-03-21,199,Nurse Practitioner,NULL,Not Complete,Not Eligible,No,March,12,March Week 12,Geriatrics
+Foggy Bottom,INGLESIDE GERIATRICS,2025-03-21,199,Nurse Practitioner,NULL,Not Complete,Not Eligible,No,March,12,March Week 12,Geriatrics (Ingleside)
 West End,M ST CARDIAC SURGERY,2025-03-12,197,Physician Assistant,Never,Complete,Not Eligible,No,March,11,March Week 11,Surgery
 Foggy Bottom,FB VASCULAR SURGERY,2025-03-18,129,Medical Assistant,Never,Complete,Not Eligible,No,March,11,March Week 11,Surgery
 Foggy Bottom,FB PREVENTORIUM CLINIC,2025-03-07,141,Medical Assistant,Never,Complete,Not Eligible,No,March,10,March Week 10,Primary Care
@@ -1791,7 +1791,7 @@ Foggy Bottom,FB ID,2025-03-14,2,Medical Assistant,Never,Complete,Not Eligible,Ye
 West End,M ST ORTHOPAEDIC SURG,2025-03-17,60,Medical Assistant,Never,Complete,Not Eligible,No,March,11,March Week 11,Surgery
 West End,M ST ENT,2025-03-12,22,Medical Assistant,Never,Complete,Not Eligible,No,March,11,March Week 11,ENT
 Foggy Bottom,FB MFM,2025-03-17,92,Medical Assistant,NULL,Not Complete,Not Eligible,No,March,11,March Week 11,Obstetrics/Gynecology
-Foggy Bottom,FB NEPHROLOGY,2025-03-12,2,Medical Assistant,Never,Complete,Not Eligible,Yes,March,11,March Week 11,Nephrology
+Foggy Bottom,FB NEPHROLOGY,2025-03-12,2,Medical Assistant,Never,Complete,Not Eligible,Yes,March,11,March Week 11,Nephrology (FB)
 Foggy Bottom,FB NEUROSURGERY,2025-03-21,153,Nurse Practitioner,Never,Complete,Not Eligible,No,March,12,March Week 12,Surgery
 West End,M ST PRIMARY CARE,2025-03-20,201,Medical Assistant,Never,Complete,Not Eligible,No,March,12,March Week 12,Primary Care
 West End,M ST ORTHOPAEDIC SURG,2025-03-13,36,Medical Assistant,Never,Complete,Not Eligible,No,March,11,March Week 11,Surgery
@@ -1901,7 +1901,7 @@ Foggy Bottom,FB PODIATRY,2025-04-10,68,Medical Assistant,Never,Complete,Not Elig
 West End,M ST ENT,2025-04-07,20,Medical Assistant,Never,Complete,Not Eligible,No,April,14,April Week 14,ENT
 Foggy Bottom,FB PAIN,2025-04-23,42,Medical Assistant,Never,Complete,Not Eligible,No,April,17,April Week 17,Pain Management
 Foggy Bottom,FB NEUROLOGY,2025-04-28,3,Medical Assistant,Never,Complete,Not Eligible,No,April,17,April Week 17,Neurology
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-22,24,Medical Assistant,Yes,Not Complete,Not Eligible,Yes,April,16,April Week 16,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-22,24,Medical Assistant,Yes,Not Complete,Not Eligible,Yes,April,16,April Week 16,Geri/Palliative Care
 West End,M ST ORTHOPAEDIC SURG,2025-04-18,46,Medical Assistant,Never,Complete,Not Eligible,No,April,16,April Week 16,Surgery
 Foggy Bottom,FB DERMATOLOGY,2025-04-29,65,Medical Assistant,Never,Complete,Not Eligible,No,April,17,April Week 17,Dermatology
 West End,M ST BREAST SURGERY,2025-04-02,43,Physician,Quit,Not Complete,Not Eligible,No,April,14,April Week 14,Surgery
@@ -1913,10 +1913,10 @@ Foggy Bottom,FB PRIMARY CARE,2025-04-24,207,Medical Assistant,Never,Complete,Not
 Foggy Bottom,FB PRIMARY CARE,2025-04-28,12,Medical Assistant,Never,Complete,Not Eligible,No,April,17,April Week 17,Primary Care
 Foggy Bottom,FB PRIMARY CARE,2025-04-03,30,Medical Assistant,Never,Complete,Not Eligible,No,April,14,April Week 14,Primary Care
 Foggy Bottom,FB PODIATRY,2025-04-11,34,Medical Assistant,Quit,Not Complete,Not Eligible,No,April,15,April Week 15,Other
-Foggy Bottom,FB NEPHROLOGY,2025-04-30,10,Medical Assistant,Yes,Complete,Not Eligible,Yes,April,18,April Week 18,Nephrology
+Foggy Bottom,FB NEPHROLOGY,2025-04-30,10,Medical Assistant,Yes,Complete,Not Eligible,Yes,April,18,April Week 18,Nephrology (FB)
 Foggy Bottom,FB UROLOGY,2025-04-08,95,Medical Assistant,Never,Complete,Not Eligible,No,April,14,April Week 14,Urology
 West End,M ST ENT,2025-04-29,9,Medical Assistant,Never,Complete,Not Eligible,No,April,17,April Week 17,ENT
-Foggy Bottom,INGLESIDE GERIATRICS,2025-04-07,208,Medical Assistant,Quit,Not Complete,Not Eligible,No,April,14,April Week 14,Geriatrics
+Foggy Bottom,INGLESIDE GERIATRICS,2025-04-07,208,Medical Assistant,Quit,Not Complete,Not Eligible,No,April,14,April Week 14,Geriatrics (Ingleside)
 Foggy Bottom,FB PULMONOLOGY,2025-04-15,2,Medical Assistant,Never,Complete,Not Eligible,Yes,April,15,April Week 15,Pulmonology
 Foggy Bottom,FB ORTHOPAEDIC SURG,2025-04-01,16,Medical Assistant,Yes,Not Complete,Not Eligible,No,April,13,April Week 13,Surgery
 West End,M ST DERMATOLOGY,2025-04-29,84,Medical Assistant,Never,Complete,Not Eligible,No,April,17,April Week 17,Dermatology
@@ -1975,7 +1975,7 @@ Foggy Bottom,FB PODIATRY,2025-04-25,68,Medical Assistant,Never,Complete,Not Elig
 Foggy Bottom,FB NEUROSURGERY,2025-04-23,16,Medical Assistant,Never,Complete,Not Eligible,No,April,17,April Week 17,Surgery
 West End,M ST ENT,2025-04-09,28,Medical Assistant,Quit,Not Complete,Not Eligible,No,April,15,April Week 15,ENT
 Foggy Bottom,FB PODIATRY,2025-04-30,34,Medical Assistant,Never,Complete,Not Eligible,No,April,18,April Week 18,Other
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-24,71,Physician Assistant,Quit,Complete,Not Eligible,Yes,April,17,April Week 17,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-24,71,Physician Assistant,Quit,Complete,Not Eligible,Yes,April,17,April Week 17,Geri/Palliative Care
 Foggy Bottom,FB PRIMARY CARE,2025-04-23,14,Medical Assistant,Never,Complete,Not Eligible,No,April,17,April Week 17,Primary Care
 West End,M ST DERMATOLOGY,2025-04-24,84,Medical Assistant,Never,Complete,Not Eligible,No,April,17,April Week 17,Dermatology
 West End,M ST ORTHOPAEDIC SURG,2025-04-29,211,Physician,Yes,Not Complete,Not Eligible,No,April,17,April Week 17,Surgery
@@ -2036,7 +2036,7 @@ West End,M ST ORTHOPAEDIC SURG,2025-04-02,60,Medical Assistant,Never,Complete,No
 Foggy Bottom,FB CARDIOLOGY,2025-04-25,216,Medical Assistant,Never,Complete,Not Eligible,Yes,April,17,April Week 17,Other
 Foggy Bottom,FB OB/GYN,2025-04-15,159,Physician,Never,Complete,Not Eligible,No,April,15,April Week 15,Obstetrics/Gynecology
 Foggy Bottom,FB NEUROLOGY,2025-04-16,3,Medical Assistant,Never,Complete,Not Eligible,No,April,16,April Week 16,Neurology
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-16,59,Medical Assistant,Quit,Not Complete,Not Eligible,Yes,April,16,April Week 16,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-16,59,Medical Assistant,Quit,Not Complete,Not Eligible,Yes,April,16,April Week 16,Geri/Palliative Care
 Foggy Bottom,FB ID,2025-04-08,52,Medical Assistant,Never,Complete,Not Eligible,Yes,April,14,April Week 14,Infectious Disease
 Foggy Bottom,FB UROLOGY,2025-04-15,160,Medical Assistant,Not Asked,Not Complete,Not Eligible,No,April,15,April Week 15,Urology
 Foggy Bottom,FB PRIMARY CARE,2025-04-07,15,Medical Assistant,Never,Complete,Not Eligible,No,April,14,April Week 14,Primary Care
@@ -2057,7 +2057,7 @@ Foggy Bottom,FB OB/GYN,2025-04-17,66,Medical Assistant,Quit,Not Complete,Not Eli
 Foggy Bottom,FB GENERAL SURGERY,2025-04-30,17,Medical Assistant,Quit,Not Complete,Not Eligible,No,April,18,April Week 18,Surgery
 West End,M ST ORTHOPAEDIC SURG,2025-04-29,46,Medical Assistant,Never,Complete,Not Eligible,No,April,17,April Week 17,Surgery
 West End,M ST BREAST SURGERY,2025-04-07,6,Medical Assistant,Never,Complete,Not Eligible,No,April,14,April Week 14,Surgery
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-01,59,Medical Assistant,Never,Complete,Not Eligible,Yes,April,13,April Week 13,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-01,59,Medical Assistant,Never,Complete,Not Eligible,Yes,April,13,April Week 13,Geri/Palliative Care
 Foggy Bottom,FB CARDIOLOGY,2025-04-04,52,Medical Assistant,Never,Complete,Not Eligible,Yes,April,14,April Week 14,Other
 West End,M ST ORTHOPAEDIC SURG,2025-04-07,11,Medical Assistant,Never,Complete,Not Eligible,No,April,14,April Week 14,Surgery
 Foggy Bottom,FB PODIATRY,2025-04-18,68,Medical Assistant,Never,Complete,Not Eligible,No,April,16,April Week 16,Other
@@ -2140,7 +2140,7 @@ West End,M ST ENT,2025-04-28,20,Medical Assistant,Never,Complete,Not Eligible,No
 West End,M ST ORTHOPAEDIC SURG,2025-04-17,36,Medical Assistant,Never,Complete,Not Eligible,No,April,16,April Week 16,Surgery
 West End,M ST ORTHOPAEDIC SURG,2025-04-09,105,Medical Assistant,Never,Complete,Not Eligible,No,April,15,April Week 15,Surgery
 West End,M ST ORTHOPAEDIC SURG,2025-04-04,105,Medical Assistant,Never,Complete,Not Eligible,No,April,14,April Week 14,Surgery
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-01,59,Medical Assistant,Never,Complete,Not Eligible,Yes,April,13,April Week 13,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-01,59,Medical Assistant,Never,Complete,Not Eligible,Yes,April,13,April Week 13,Geri/Palliative Care
 Foggy Bottom,FB UROLOGY,2025-04-22,160,Medical Assistant,Never,Complete,Not Eligible,No,April,16,April Week 16,Urology
 Foggy Bottom,FB NEUROLOGY,2025-04-02,3,Medical Assistant,Never,Complete,Not Eligible,No,April,14,April Week 14,Neurology
 West End,M ST ORTHOPAEDIC SURG,2025-04-29,185,Medical Assistant,Never,Complete,Not Eligible,No,April,17,April Week 17,Surgery
@@ -2154,14 +2154,14 @@ West End,M ST COS/PLAST SUR,2025-04-15,51,Medical Assistant,Yes,Not Complete,Not
 Foggy Bottom,FB PODIATRY,2025-04-16,44,Medical Assistant,Never,Complete,Not Eligible,No,April,16,April Week 16,Other
 Foggy Bottom,FB PRIMARY CARE,2025-04-15,15,Medical Assistant,Never,Complete,Not Eligible,No,April,15,April Week 15,Primary Care
 Foggy Bottom,FB PRIMARY CARE,2025-04-15,39,Medical Assistant,Never,Complete,Not Eligible,No,April,15,April Week 15,Primary Care
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-24,24,Medical Assistant,Never,Complete,Not Eligible,Yes,April,17,April Week 17,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-24,24,Medical Assistant,Never,Complete,Not Eligible,Yes,April,17,April Week 17,Geri/Palliative Care
 Foggy Bottom,FB PRIMARY CARE,2025-04-16,39,Medical Assistant,Never,Complete,Not Eligible,No,April,16,April Week 16,Primary Care
 Foggy Bottom,FB PRIMARY CARE,2025-04-14,33,Medical Assistant,Yes,Not Complete,Not Eligible,No,April,15,April Week 15,Primary Care
 West End,M ST BREAST SURGERY,2025-04-14,43,Physician,Never,Complete,Not Eligible,No,April,15,April Week 15,Surgery
 Foggy Bottom,FB OPHTHALMOLOGY,2025-04-29,124,Technologist,Never,Complete,Not Eligible,No,April,17,April Week 17,Ophthalmology
 West End,M ST BREAST SURGERY,2025-04-21,6,Medical Assistant,Never,Complete,Not Eligible,No,April,16,April Week 16,Surgery
 Foggy Bottom,FB PRIMARY CARE,2025-04-23,12,Medical Assistant,Never,Complete,Not Eligible,No,April,17,April Week 17,Primary Care
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-30,10,Medical Assistant,Never,Complete,Not Eligible,Yes,April,18,April Week 18,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-30,10,Medical Assistant,Never,Complete,Not Eligible,Yes,April,18,April Week 18,Geri/Palliative Care
 West End,M ST PRIMARY CARE,2025-04-11,53,Medical Assistant,Never,Complete,Not Eligible,No,April,15,April Week 15,Primary Care
 West End,M ST ENT,2025-04-30,22,Medical Assistant,Never,Complete,Not Eligible,No,April,18,April Week 18,ENT
 West End,M ST OB/GYN,2025-04-08,74,Medical Assistant,Never,Complete,Not Eligible,No,April,14,April Week 14,Obstetrics/Gynecology
@@ -2178,7 +2178,7 @@ Foggy Bottom,FB PODIATRY,2025-04-11,44,Medical Assistant,Yes,Not Complete,Not El
 West End,M ST ORTHOPAEDIC SURG,2025-04-01,105,Medical Assistant,Yes,Not Complete,Not Eligible,No,April,13,April Week 13,Surgery
 West End,M ST BREAST SURGERY,2025-04-07,6,Medical Assistant,Never,Complete,Not Eligible,No,April,14,April Week 14,Surgery
 West End,M ST ORTHOPAEDIC SURG,2025-04-24,36,Medical Assistant,Never,Complete,Not Eligible,No,April,17,April Week 17,Surgery
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-25,24,Medical Assistant,Never,Complete,Not Eligible,Yes,April,17,April Week 17,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-25,24,Medical Assistant,Never,Complete,Not Eligible,Yes,April,17,April Week 17,Geri/Palliative Care
 Foggy Bottom,FB CARDIOLOGY,2025-04-02,2,Medical Assistant,Never,Complete,Not Eligible,Yes,April,14,April Week 14,Other
 West End,M ST PRIMARY CARE,2025-04-04,69,Medical Assistant,Never,Complete,Not Eligible,No,April,14,April Week 14,Primary Care
 Foggy Bottom,FB OB/GYN,2025-04-14,92,Medical Assistant,Never,Complete,Not Eligible,No,April,15,April Week 15,Obstetrics/Gynecology
@@ -2190,12 +2190,12 @@ Foggy Bottom,FB OB/GYN,2025-04-09,66,Medical Assistant,Never,Complete,Not Eligib
 Foggy Bottom,FB PODIATRY,2025-04-02,44,Medical Assistant,Never,Complete,Not Eligible,No,April,14,April Week 14,Other
 Foggy Bottom,FB OPHTHALMOLOGY,2025-04-28,146,Technologist,Never,Complete,Not Eligible,No,April,17,April Week 17,Ophthalmology
 Foggy Bottom,FB PRIMARY CARE,2025-04-23,63,Medical Assistant,Never,Complete,Not Eligible,No,April,17,April Week 17,Primary Care
-Foggy Bottom,FB NEPHROLOGY,2025-04-23,35,Medical Assistant,Quit,Complete,Not Eligible,Yes,April,17,April Week 17,Nephrology
+Foggy Bottom,FB NEPHROLOGY,2025-04-23,35,Medical Assistant,Quit,Complete,Not Eligible,Yes,April,17,April Week 17,Nephrology (FB)
 Foggy Bottom,FB PRIMARY CARE,2025-04-08,30,Medical Assistant,Never,Complete,Not Eligible,No,April,14,April Week 14,Primary Care
 Foggy Bottom,FB PRIMARY CARE,2025-04-07,14,Medical Assistant,Never,Complete,Not Eligible,No,April,14,April Week 14,Primary Care
 Foggy Bottom,FB PRIMARY CARE,2025-04-23,56,Medical Assistant,Never,Complete,Not Eligible,No,April,17,April Week 17,Primary Care
 West End,M ST ENT,2025-04-25,64,Medical Assistant,Never,Complete,Not Eligible,No,April,17,April Week 17,ENT
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-04,71,Physician Assistant,Never,Complete,Not Eligible,Yes,April,14,April Week 14,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-04,71,Physician Assistant,Never,Complete,Not Eligible,Yes,April,14,April Week 14,Geri/Palliative Care
 Foggy Bottom,FB PULMONOLOGY,2025-04-08,156,Nurse Practitioner,Never,Complete,Not Eligible,Yes,April,14,April Week 14,Pulmonology
 Foggy Bottom,FB PULMONOLOGY,2025-04-29,59,Medical Assistant,Never,Complete,Not Eligible,Yes,April,17,April Week 17,Pulmonology
 Foggy Bottom,FB PRIMARY CARE,2025-04-08,30,Medical Assistant,Never,Complete,Not Eligible,No,April,14,April Week 14,Primary Care
@@ -2231,7 +2231,7 @@ Foggy Bottom,FB PULMONOLOGY,2025-04-17,72,Medical Assistant,Never,Complete,Not E
 West End,M ST BREAST SURGERY,2025-04-23,6,Medical Assistant,Never,Complete,Not Eligible,No,April,17,April Week 17,Surgery
 West End,M ST ENT,2025-04-29,22,Medical Assistant,Quit,Not Complete,Not Eligible,No,April,17,April Week 17,ENT
 West End,M ST ENT,2025-04-17,28,Medical Assistant,Never,Complete,Not Eligible,No,April,16,April Week 16,ENT
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-23,40,Medical Assistant,Never,Complete,Not Eligible,Yes,April,17,April Week 17,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-23,40,Medical Assistant,Never,Complete,Not Eligible,Yes,April,17,April Week 17,Geri/Palliative Care
 West End,M ST ENT,2025-04-16,22,Medical Assistant,Never,Complete,Not Eligible,No,April,16,April Week 16,ENT
 Foggy Bottom,FB NEUROLOGY,2025-04-09,48,Medical Assistant,Never,Complete,Not Eligible,No,April,15,April Week 15,Neurology
 Foggy Bottom,FB ID,2025-04-08,59,Medical Assistant,Never,Complete,Not Eligible,Yes,April,14,April Week 14,Infectious Disease
@@ -2262,7 +2262,7 @@ West End,M ST PRIMARY CARE,2025-04-23,69,Medical Assistant,Quit,Not Complete,Not
 Foggy Bottom,FB PRIMARY CARE,2025-04-22,15,Medical Assistant,Never,Complete,Not Eligible,No,April,16,April Week 16,Primary Care
 Foggy Bottom,FB PRIMARY CARE,2025-04-08,63,Medical Assistant,Quit,Not Complete,Not Eligible,No,April,14,April Week 14,Primary Care
 Foggy Bottom,FB PRIMARY CARE,2025-04-29,207,Medical Assistant,Never,Complete,Not Eligible,No,April,17,April Week 17,Primary Care
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-04,71,Physician Assistant,Never,Complete,Not Eligible,Yes,April,14,April Week 14,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-04,71,Physician Assistant,Never,Complete,Not Eligible,Yes,April,14,April Week 14,Geri/Palliative Care
 West End,M ST ENT,2025-04-24,64,Medical Assistant,Never,Complete,Not Eligible,No,April,17,April Week 17,ENT
 West End,M ST ENT,2025-04-25,64,Medical Assistant,Never,Complete,Not Eligible,No,April,17,April Week 17,ENT
 Foggy Bottom,FB GI & LIVER DISEASES,2025-04-09,10,Medical Assistant,Never,Complete,Not Eligible,No,April,15,April Week 15,Gastroenterology
@@ -2270,7 +2270,7 @@ Foggy Bottom,FB OB/GYN,2025-04-24,94,Medical Assistant,Never,Complete,Not Eligib
 Foggy Bottom,FB PODIATRY,2025-04-09,44,Medical Assistant,Never,Complete,Not Eligible,No,April,15,April Week 15,Other
 Foggy Bottom,FB PRIMARY CARE,2025-04-08,63,Medical Assistant,Never,Complete,Not Eligible,No,April,14,April Week 14,Primary Care
 Foggy Bottom,FB PODIATRY,2025-04-23,68,Medical Assistant,Never,Complete,Not Eligible,No,April,17,April Week 17,Other
-Foggy Bottom,INGLESIDE GERIATRICS,2025-04-02,208,Medical Assistant,Not Asked,Not Complete,Not Eligible,No,April,14,April Week 14,Geriatrics
+Foggy Bottom,INGLESIDE GERIATRICS,2025-04-02,208,Medical Assistant,Not Asked,Not Complete,Not Eligible,No,April,14,April Week 14,Geriatrics (Ingleside)
 West End,M ST ENT,2025-04-14,20,Medical Assistant,Not Asked,Not Complete,Not Eligible,No,April,15,April Week 15,ENT
 Foggy Bottom,FB OB/GYN,2025-04-24,67,Medical Assistant,Never,Complete,Not Eligible,No,April,17,April Week 17,Obstetrics/Gynecology
 Foggy Bottom,FB MIDWIFERY,2025-04-01,79,Medical Assistant,Quit,Not Complete,Not Eligible,No,April,13,April Week 13,Obstetrics/Gynecology
@@ -2295,7 +2295,7 @@ West End,M ST ENT,2025-04-30,20,Medical Assistant,Never,Complete,Not Eligible,No
 Foggy Bottom,FB OB/GYN,2025-04-23,74,Medical Assistant,Never,Complete,Not Eligible,No,April,17,April Week 17,Obstetrics/Gynecology
 West End,M ST ENT,2025-04-02,20,Medical Assistant,Never,Complete,Not Eligible,No,April,14,April Week 14,ENT
 West End,M ST ORTHOPAEDIC SURG,2025-04-08,105,Medical Assistant,Never,Complete,Not Eligible,No,April,14,April Week 14,Surgery
-Foggy Bottom,FB NEPHROLOGY,2025-04-23,4,Medical Assistant,Never,Complete,Not Eligible,Yes,April,17,April Week 17,Nephrology
+Foggy Bottom,FB NEPHROLOGY,2025-04-23,4,Medical Assistant,Never,Complete,Not Eligible,Yes,April,17,April Week 17,Nephrology (FB)
 Foggy Bottom,FB PRIMARY CARE,2025-04-17,30,Medical Assistant,Never,Complete,Not Eligible,No,April,16,April Week 16,Primary Care
 West End,M ST PRIMARY CARE,2025-04-04,53,Medical Assistant,Quit,Not Complete,Not Eligible,No,April,14,April Week 14,Primary Care
 Foggy Bottom,FB ID,2025-04-02,40,Medical Assistant,Never,Complete,Not Eligible,Yes,April,14,April Week 14,Infectious Disease
@@ -2360,16 +2360,16 @@ West End,M ST ENT,2025-04-02,20,Medical Assistant,Never,Complete,Not Eligible,No
 Foggy Bottom,FB PODIATRY,2025-04-22,44,Medical Assistant,Never,Complete,Not Eligible,No,April,16,April Week 16,Other
 Foggy Bottom,FB INFUSION CENTER,2025-04-15,141,Medical Assistant,Never,Complete,Not Eligible,No,April,15,April Week 15,Hematology/Oncology
 Foggy Bottom,FB ORTHOPAEDIC SURG,2025-04-08,36,Medical Assistant,Never,Complete,Not Eligible,No,April,14,April Week 14,Surgery
-Foggy Bottom,FB NEPHROLOGY,2025-04-01,35,Medical Assistant,Never,Complete,Not Eligible,Yes,April,13,April Week 13,Nephrology
+Foggy Bottom,FB NEPHROLOGY,2025-04-01,35,Medical Assistant,Never,Complete,Not Eligible,Yes,April,13,April Week 13,Nephrology (FB)
 Foggy Bottom,FB ID,2025-04-22,40,Medical Assistant,Never,Complete,Not Eligible,Yes,April,16,April Week 16,Infectious Disease
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-09,59,Medical Assistant,Never,Complete,Not Eligible,Yes,April,15,April Week 15,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-09,59,Medical Assistant,Never,Complete,Not Eligible,Yes,April,15,April Week 15,Geri/Palliative Care
 Foggy Bottom,FB NEUROLOGY,2025-04-15,3,Medical Assistant,Never,Complete,Not Eligible,No,April,15,April Week 15,Neurology
 West End,M ST ORTHOPAEDIC SURG,2025-04-28,105,Medical Assistant,Never,Complete,Not Eligible,No,April,17,April Week 17,Surgery
 Foggy Bottom,FB OB/GYN,2025-04-04,213,Medical Assistant,Never,Complete,Not Eligible,No,April,14,April Week 14,Obstetrics/Gynecology
 Foggy Bottom,FB DERMATOLOGY,2025-04-17,76,Medical Assistant,Never,Complete,Not Eligible,No,April,16,April Week 16,Dermatology
 Foggy Bottom,FB CARDIOTHORACIC SURGERY,2025-04-07,27,Medical Assistant,Quit,Not Complete,Not Eligible,No,April,14,April Week 14,Surgery
 Foggy Bottom,FB ID,2025-04-22,40,Medical Assistant,Yes,Not Complete,Not Eligible,Yes,April,16,April Week 16,Infectious Disease
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-15,71,Physician Assistant,Never,Complete,Not Eligible,Yes,April,15,April Week 15,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-15,71,Physician Assistant,Never,Complete,Not Eligible,Yes,April,15,April Week 15,Geri/Palliative Care
 West End,M ST COS/PLAST SUR,2025-04-21,51,Medical Assistant,Never,Complete,Not Eligible,No,April,16,April Week 16,Surgery
 West End,M ST ORTHOPAEDIC SURG,2025-04-14,60,Medical Assistant,Never,Complete,Not Eligible,No,April,15,April Week 15,Surgery
 Foggy Bottom,FB PAIN,2025-04-22,223,Physician Assistant,Quit,Not Complete,Not Eligible,No,April,16,April Week 16,Pain Management
@@ -2384,7 +2384,7 @@ Foggy Bottom,FB ID,2025-04-25,40,Medical Assistant,Never,Complete,Not Eligible,Y
 West End,M ST BREAST SURGERY,2025-04-07,6,Medical Assistant,Never,Complete,Not Eligible,No,April,14,April Week 14,Surgery
 Foggy Bottom,FB PODIATRY,2025-04-16,34,Medical Assistant,Never,Complete,Not Eligible,No,April,16,April Week 16,Other
 West End,M ST ORTHOPAEDIC SURG,2025-04-21,36,Medical Assistant,Never,Complete,Not Eligible,No,April,16,April Week 16,Surgery
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-14,225,Nurse Practitioner,Never,Complete,Not Eligible,Yes,April,15,April Week 15,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-14,225,Nurse Practitioner,Never,Complete,Not Eligible,Yes,April,15,April Week 15,Geri/Palliative Care
 West End,M ST ENT,2025-04-23,20,Medical Assistant,Never,Complete,Not Eligible,No,April,17,April Week 17,ENT
 West End,M ST ORTHOPAEDIC SURG,2025-04-17,46,Medical Assistant,Never,Complete,Not Eligible,No,April,16,April Week 16,Surgery
 Foggy Bottom,FB NEUROLOGY,2025-04-09,3,Medical Assistant,Never,Complete,Not Eligible,No,April,15,April Week 15,Neurology
@@ -2404,7 +2404,7 @@ Foggy Bottom,FB COLON RECTAL SURG,2025-04-29,129,Medical Assistant,Never,Complet
 Foggy Bottom,FB CARDIOLOGY,2025-04-22,52,Medical Assistant,Never,Complete,Not Eligible,Yes,April,16,April Week 16,Other
 West End,M ST PRIMARY CARE,2025-04-21,53,Medical Assistant,Never,Complete,Not Eligible,No,April,16,April Week 16,Primary Care
 Foggy Bottom,FB GI & LIVER DISEASES,2025-04-09,62,Medical Assistant,Never,Complete,Not Eligible,No,April,15,April Week 15,Gastroenterology
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-01,225,Nurse Practitioner,Never,Complete,Not Eligible,Yes,April,13,April Week 13,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-01,225,Nurse Practitioner,Never,Complete,Not Eligible,Yes,April,13,April Week 13,Geri/Palliative Care
 West End,M ST PRIMARY CARE,2025-04-23,53,Medical Assistant,Never,Complete,Not Eligible,No,April,17,April Week 17,Primary Care
 Foggy Bottom,FB DERMATOLOGY,2025-04-01,226,Resident Physician,Never,Complete,Not Eligible,No,April,13,April Week 13,Dermatology
 West End,M ST PRIMARY CARE,2025-04-30,93,Medical Assistant,Never,Complete,Not Eligible,No,April,18,April Week 18,Primary Care
@@ -2434,7 +2434,7 @@ Foggy Bottom,FB OB/GYN,2025-04-30,66,Medical Assistant,Not Asked,Not Complete,No
 West End,M ST ORTHOPAEDIC SURG,2025-04-02,46,Medical Assistant,Never,Complete,Not Eligible,No,April,14,April Week 14,Surgery
 Foggy Bottom,FB PRIMARY CARE,2025-04-29,56,Medical Assistant,Never,Complete,Not Eligible,No,April,17,April Week 17,Primary Care
 Foggy Bottom,FB PRIMARY CARE,2025-04-09,75,Medical Assistant,Quit,Complete,Not Eligible,No,April,15,April Week 15,Primary Care
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-03,59,Medical Assistant,Never,Complete,Not Eligible,Yes,April,14,April Week 14,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-03,59,Medical Assistant,Never,Complete,Not Eligible,Yes,April,14,April Week 14,Geri/Palliative Care
 Foggy Bottom,FB GENERAL SURGERY,2025-04-02,17,Medical Assistant,Never,Complete,Not Eligible,No,April,14,April Week 14,Surgery
 West End,M ST ENT,2025-04-07,9,Medical Assistant,Never,Complete,Not Eligible,No,April,14,April Week 14,ENT
 Foggy Bottom,FB OB/GYN,2025-04-01,94,Medical Assistant,Never,Complete,Not Eligible,No,April,13,April Week 13,Obstetrics/Gynecology
@@ -2533,7 +2533,7 @@ West End,M ST OB/GYN,2025-04-04,104,Medical Assistant,Never,Complete,Not Eligibl
 Foggy Bottom,FB OPHTHALMOLOGY,2025-04-11,132,Technologist,Quit,Not Complete,Not Eligible,No,April,15,April Week 15,Ophthalmology
 West End,M ST PRIMARY CARE,2025-04-01,109,Medical Assistant,Never,Complete,Not Eligible,No,April,13,April Week 13,Primary Care
 Foggy Bottom,FB PRIMARY CARE,2025-04-24,207,Medical Assistant,Never,Complete,Not Eligible,No,April,17,April Week 17,Primary Care
-Foggy Bottom,FB NEPHROLOGY,2025-04-08,216,Medical Assistant,Never,Complete,Not Eligible,Yes,April,14,April Week 14,Nephrology
+Foggy Bottom,FB NEPHROLOGY,2025-04-08,216,Medical Assistant,Never,Complete,Not Eligible,Yes,April,14,April Week 14,Nephrology (FB)
 West End,M ST ENT,2025-04-07,20,Medical Assistant,Never,Complete,Not Eligible,No,April,14,April Week 14,ENT
 Foggy Bottom,FB MFM,2025-04-22,94,Medical Assistant,Never,Complete,Not Eligible,No,April,16,April Week 16,Obstetrics/Gynecology
 Foggy Bottom,FB CARDIOLOGY,2025-04-30,52,Medical Assistant,Never,Complete,Not Eligible,Yes,April,18,April Week 18,Other
@@ -2598,7 +2598,7 @@ West End,M ST ENT,2025-04-16,28,Medical Assistant,Never,Complete,Not Eligible,No
 West End,M ST ENT,2025-04-25,81,Medical Assistant,Never,Complete,Not Eligible,No,April,17,April Week 17,ENT
 West End,M ST ORTHOPAEDIC SURG,2025-04-18,105,Medical Assistant,Never,Complete,Not Eligible,No,April,16,April Week 16,Surgery
 Foggy Bottom,FB CARDIOLOGY,2025-04-23,10,Medical Assistant,Never,Complete,Not Eligible,Yes,April,17,April Week 17,Other
-Foggy Bottom,INGLESIDE GERIATRICS,2025-04-28,208,Medical Assistant,Quit,Not Complete,Not Eligible,No,April,17,April Week 17,Geriatrics
+Foggy Bottom,INGLESIDE GERIATRICS,2025-04-28,208,Medical Assistant,Quit,Not Complete,Not Eligible,No,April,17,April Week 17,Geriatrics (Ingleside)
 West End,M ST OB/GYN,2025-04-15,215,Medical Assistant,NULL,Not Complete,Not Eligible,No,April,15,April Week 15,Obstetrics/Gynecology
 Foggy Bottom,FB CARDIOLOGY,2025-04-08,35,Medical Assistant,Never,Complete,Not Eligible,Yes,April,14,April Week 14,Other
 West End,M ST ENT,2025-04-16,64,Medical Assistant,Quit,Complete,Not Eligible,No,April,16,April Week 16,ENT
@@ -2721,7 +2721,7 @@ West End,M ST ENT,2025-04-04,28,Medical Assistant,Never,Complete,Not Eligible,No
 Foggy Bottom,FB PRIMARY CARE,2025-04-24,8,Medical Assistant,Never,Complete,Not Eligible,No,April,17,April Week 17,Primary Care
 Foggy Bottom,FB PODIATRY,2025-04-21,34,Medical Assistant,Never,Complete,Not Eligible,No,April,16,April Week 16,Other
 Foggy Bottom,FB OB/GYN,2025-04-30,79,Medical Assistant,Never,Complete,Not Eligible,No,April,18,April Week 18,Obstetrics/Gynecology
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-29,59,Medical Assistant,Never,Complete,Not Eligible,Yes,April,17,April Week 17,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-29,59,Medical Assistant,Never,Complete,Not Eligible,Yes,April,17,April Week 17,Geri/Palliative Care
 West End,M ST ORTHOPAEDIC SURG,2025-04-10,36,Medical Assistant,Never,Complete,Not Eligible,No,April,15,April Week 15,Surgery
 Foggy Bottom,FB CARDIOLOGY,2025-04-15,35,Medical Assistant,Never,Complete,Not Eligible,Yes,April,15,April Week 15,Other
 West End,M ST PRIMARY CARE,2025-04-25,109,Medical Assistant,Never,Complete,Not Eligible,No,April,17,April Week 17,Primary Care
@@ -2737,7 +2737,7 @@ Foggy Bottom,FB NEUROLOGY,2025-04-02,48,Medical Assistant,Never,Complete,Not Eli
 West End,M ST PRIMARY CARE,2025-04-04,232,Nurse Practitioner,Never,Complete,Not Eligible,No,April,14,April Week 14,Primary Care
 West End,M ST ENT,2025-04-18,9,Medical Assistant,Never,Complete,Not Eligible,No,April,16,April Week 16,ENT
 Foggy Bottom,FB ID,2025-04-29,31,Medical Assistant,Never,Complete,Not Eligible,Yes,April,17,April Week 17,Infectious Disease
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-15,98,Physician,Quit,Complete,Not Eligible,Yes,April,15,April Week 15,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-15,98,Physician,Quit,Complete,Not Eligible,Yes,April,15,April Week 15,Geri/Palliative Care
 Foggy Bottom,FB OB/GYN,2025-04-21,94,Medical Assistant,Never,Complete,Not Eligible,No,April,16,April Week 16,Obstetrics/Gynecology
 Foggy Bottom,FB UROLOGY,2025-04-09,103,Medical Assistant,Never,Complete,Not Eligible,No,April,15,April Week 15,Urology
 Foggy Bottom,FB OB/GYN,2025-04-03,123,Physician,Never,Complete,Not Eligible,No,April,14,April Week 14,Obstetrics/Gynecology
@@ -2792,7 +2792,7 @@ Foggy Bottom,FB PRIMARY CARE,2025-04-11,70,Medical Assistant,Never,Complete,Not 
 Foggy Bottom,FB ID,2025-04-07,31,Medical Assistant,Never,Complete,Not Eligible,Yes,April,14,April Week 14,Infectious Disease
 Foggy Bottom,FB OB/GYN,2025-04-14,122,Nurse Practitioner,Never,Complete,Not Eligible,No,April,15,April Week 15,Obstetrics/Gynecology
 Foggy Bottom,FB GENERAL SURGERY,2025-04-10,17,Medical Assistant,Yes,Not Complete,Not Eligible,No,April,15,April Week 15,Surgery
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-23,72,Medical Assistant,Never,Complete,Not Eligible,Yes,April,17,April Week 17,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-23,72,Medical Assistant,Never,Complete,Not Eligible,Yes,April,17,April Week 17,Geri/Palliative Care
 West End,M ST ENT,2025-04-09,22,Medical Assistant,Never,Complete,Not Eligible,No,April,15,April Week 15,ENT
 Foggy Bottom,FB PODIATRY,2025-04-16,44,Medical Assistant,Yes,Not Complete,Not Eligible,No,April,16,April Week 16,Other
 West End,M ST PRIMARY CARE,2025-04-10,45,Medical Assistant,Never,Complete,Not Eligible,No,April,15,April Week 15,Primary Care
@@ -2869,7 +2869,7 @@ West End,M ST ENT,2025-04-01,9,Medical Assistant,Passive,Complete,Not Eligible,N
 Foggy Bottom,FB CARDIOLOGY,2025-04-29,35,Medical Assistant,Never,Complete,Not Eligible,Yes,April,17,April Week 17,Other
 West End,M ST ORTHOPAEDIC SURG,2025-04-16,36,Medical Assistant,Yes,Not Complete,Not Eligible,No,April,16,April Week 16,Surgery
 Foggy Bottom,FB PRIMARY CARE,2025-04-30,39,Medical Assistant,Never,Complete,Not Eligible,No,April,18,April Week 18,Primary Care
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-08,59,Medical Assistant,Never,Complete,Not Eligible,Yes,April,14,April Week 14,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-08,59,Medical Assistant,Never,Complete,Not Eligible,Yes,April,14,April Week 14,Geri/Palliative Care
 Foggy Bottom,FB PRIMARY CARE,2025-04-22,63,Medical Assistant,Never,Complete,Not Eligible,No,April,16,April Week 16,Primary Care
 West End,M ST PRIMARY CARE,2025-04-04,53,Medical Assistant,Never,Complete,Not Eligible,No,April,14,April Week 14,Primary Care
 Foggy Bottom,FB HEM ONC,2025-04-23,113,Medical Assistant,Never,Complete,Not Eligible,No,April,17,April Week 17,Hematology/Oncology
@@ -2939,7 +2939,7 @@ West End,M ST ENT,2025-04-03,64,Medical Assistant,Never,Complete,Not Eligible,No
 Foggy Bottom,FB PRIMARY CARE,2025-04-30,30,Medical Assistant,Never,Complete,Not Eligible,No,April,18,April Week 18,Primary Care
 West End,M ST OB/GYN,2025-04-23,213,Medical Assistant,Never,Complete,Not Eligible,No,April,17,April Week 17,Obstetrics/Gynecology
 West End,M ST ENT,2025-04-16,28,Medical Assistant,Never,Complete,Not Eligible,No,April,16,April Week 16,ENT
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-30,10,Medical Assistant,Quit,Complete,Not Eligible,Yes,April,18,April Week 18,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-30,10,Medical Assistant,Quit,Complete,Not Eligible,Yes,April,18,April Week 18,Geri/Palliative Care
 Foggy Bottom,FB OB/GYN,2025-04-15,161,Medical Assistant,Never,Complete,Not Eligible,No,April,15,April Week 15,Obstetrics/Gynecology
 West End,M ST ORTHOPAEDIC SURG,2025-04-09,36,Medical Assistant,Never,Complete,Not Eligible,No,April,15,April Week 15,Surgery
 Foggy Bottom,FB PULMONOLOGY,2025-04-23,52,Medical Assistant,Never,Complete,Not Eligible,Yes,April,17,April Week 17,Pulmonology
@@ -2993,7 +2993,7 @@ West End,M ST ORTHOPAEDIC SURG,2025-04-09,46,Medical Assistant,Never,Complete,No
 Foggy Bottom,FB PODIATRY,2025-04-22,44,Medical Assistant,Never,Complete,Not Eligible,No,April,16,April Week 16,Other
 West End,M ST PRIMARY CARE,2025-04-18,93,Medical Assistant,Never,Complete,Not Eligible,No,April,16,April Week 16,Primary Care
 West End,M ST ORTHOPAEDIC SURG,2025-04-24,46,Medical Assistant,Yes,Not Complete,Not Eligible,No,April,17,April Week 17,Surgery
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-29,62,Medical Assistant,Never,Complete,Not Eligible,Yes,April,17,April Week 17,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-29,62,Medical Assistant,Never,Complete,Not Eligible,Yes,April,17,April Week 17,Geri/Palliative Care
 West End,M ST ORTHOPAEDIC SURG,2025-04-16,60,Medical Assistant,Never,Complete,Not Eligible,No,April,16,April Week 16,Surgery
 Foggy Bottom,FB OB/GYN,2025-04-07,66,Medical Assistant,Never,Complete,Not Eligible,No,April,14,April Week 14,Obstetrics/Gynecology
 West End,M ST PRIMARY CARE,2025-04-16,69,Medical Assistant,Never,Complete,Not Eligible,No,April,16,April Week 16,Primary Care
@@ -3032,7 +3032,7 @@ West End,M ST ENT,2025-04-29,22,Medical Assistant,Never,Complete,Not Eligible,No
 Foggy Bottom,FB PREVENTORIUM CLINIC,2025-04-11,113,Medical Assistant,Never,Complete,Not Eligible,No,April,15,April Week 15,Primary Care
 West End,M ST ENT,2025-04-09,28,Medical Assistant,Quit,Not Complete,Not Eligible,No,April,15,April Week 15,ENT
 Foggy Bottom,FB NEUROLOGY,2025-04-21,48,Medical Assistant,Never,Complete,Not Eligible,No,April,16,April Week 16,Neurology
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-28,38,Medical Assistant,Never,Complete,Not Eligible,Yes,April,17,April Week 17,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-28,38,Medical Assistant,Never,Complete,Not Eligible,Yes,April,17,April Week 17,Geri/Palliative Care
 West End,M ST ORTHOPAEDIC SURG,2025-04-09,36,Medical Assistant,Never,Complete,Not Eligible,No,April,15,April Week 15,Surgery
 West End,M ST DERMATOLOGY,2025-04-14,84,Medical Assistant,Never,Complete,Not Eligible,No,April,15,April Week 15,Dermatology
 Foggy Bottom,FB NEUROLOGY,2025-04-28,3,Medical Assistant,Quit,Not Complete,Not Eligible,No,April,17,April Week 17,Neurology
@@ -3093,7 +3093,7 @@ West End,M ST ENT,2025-04-23,28,Medical Assistant,Never,Complete,Not Eligible,No
 Foggy Bottom,FB THORACIC SURGERY,2025-04-28,27,Medical Assistant,Never,Complete,Not Eligible,No,April,17,April Week 17,Surgery
 West End,M ST ENT,2025-04-11,28,Medical Assistant,Never,Complete,Not Eligible,No,April,15,April Week 15,ENT
 Foggy Bottom,FB UROLOGY,2025-04-22,100,Physician,Never,Complete,Not Eligible,No,April,16,April Week 16,Urology
-Foggy Bottom,FB NEPHROLOGY,2025-04-16,10,Medical Assistant,Never,Complete,Not Eligible,Yes,April,16,April Week 16,Nephrology
+Foggy Bottom,FB NEPHROLOGY,2025-04-16,10,Medical Assistant,Never,Complete,Not Eligible,Yes,April,16,April Week 16,Nephrology (FB)
 West End,M ST ORTHOPAEDIC SURG,2025-04-17,36,Medical Assistant,Never,Complete,Not Eligible,No,April,16,April Week 16,Surgery
 West End,M ST OB/GYN,2025-04-23,104,Medical Assistant,Never,Complete,Not Eligible,No,April,17,April Week 17,Obstetrics/Gynecology
 Foggy Bottom,FB GI & LIVER DISEASES,2025-04-23,62,Medical Assistant,Never,Complete,Not Eligible,No,April,17,April Week 17,Gastroenterology
@@ -3110,10 +3110,10 @@ Foggy Bottom,FB PAIN,2025-04-29,48,Medical Assistant,Never,Complete,Not Eligible
 Foggy Bottom,FB NEUROSURGERY,2025-04-28,210,Medical Assistant,Never,Complete,Not Eligible,No,April,17,April Week 17,Surgery
 Foggy Bottom,FB PRIMARY CARE,2025-04-28,63,Medical Assistant,Yes,Not Complete,Not Eligible,No,April,17,April Week 17,Primary Care
 Foggy Bottom,FB NEUROLOGY,2025-04-14,50,Medical Assistant,Never,Complete,Not Eligible,No,April,15,April Week 15,Neurology
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-22,24,Medical Assistant,Quit,Not Complete,Not Eligible,Yes,April,16,April Week 16,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-22,24,Medical Assistant,Quit,Not Complete,Not Eligible,Yes,April,16,April Week 16,Geri/Palliative Care
 West End,M ST ENT,2025-04-08,20,Medical Assistant,Never,Complete,Not Eligible,No,April,14,April Week 14,ENT
 Foggy Bottom,FB ID,2025-04-01,243,Physician Assistant,Never,Complete,Not Eligible,Yes,April,13,April Week 13,Infectious Disease
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-04,71,Physician Assistant,Never,Complete,Not Eligible,Yes,April,14,April Week 14,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-04,71,Physician Assistant,Never,Complete,Not Eligible,Yes,April,14,April Week 14,Geri/Palliative Care
 West End,M ST ENT,2025-04-01,64,Medical Assistant,Never,Complete,Not Eligible,No,April,13,April Week 13,ENT
 Foggy Bottom,FB NEUROLOGY,2025-04-09,42,Medical Assistant,Never,Complete,Not Eligible,No,April,15,April Week 15,Neurology
 Foggy Bottom,FB MIDWIFERY,2025-04-10,79,Medical Assistant,Never,Complete,Not Eligible,No,April,15,April Week 15,Obstetrics/Gynecology
@@ -3181,7 +3181,7 @@ Foggy Bottom,FB OB/GYN,2025-04-01,94,Medical Assistant,Never,Complete,Not Eligib
 Foggy Bottom,FB MFM,2025-04-17,140,Physician Assistant,Never,Complete,Not Eligible,No,April,16,April Week 16,Obstetrics/Gynecology
 Foggy Bottom,FB OB/GYN,2025-04-29,67,Medical Assistant,Never,Complete,Not Eligible,No,April,17,April Week 17,Obstetrics/Gynecology
 Foggy Bottom,FB DERMATOLOGY,2025-04-03,96,Medical Assistant,Not Asked,Not Complete,Not Eligible,No,April,14,April Week 14,Dermatology
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-23,72,Medical Assistant,Never,Complete,Not Eligible,Yes,April,17,April Week 17,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-23,72,Medical Assistant,Never,Complete,Not Eligible,Yes,April,17,April Week 17,Geri/Palliative Care
 West End,M ST ORTHOPAEDIC SURG,2025-04-03,46,Medical Assistant,Quit,Complete,Not Eligible,No,April,14,April Week 14,Surgery
 Foggy Bottom,FB HEM ONC,2025-04-09,113,Medical Assistant,Never,Complete,Not Eligible,No,April,15,April Week 15,Hematology/Oncology
 Foggy Bottom,FB PRIMARY CARE,2025-04-23,75,Medical Assistant,Never,Complete,Not Eligible,No,April,17,April Week 17,Primary Care
@@ -3190,7 +3190,7 @@ Foggy Bottom,FB OB/GYN,2025-04-21,79,Medical Assistant,Never,Complete,Not Eligib
 West End,M ST ENT,2025-04-01,22,Medical Assistant,Never,Complete,Not Eligible,No,April,13,April Week 13,ENT
 West End,M ST ORTHOPAEDIC SURG,2025-04-18,11,Medical Assistant,Never,Complete,Not Eligible,No,April,16,April Week 16,Surgery
 West End,M ST ORTHOPAEDIC SURG,2025-04-18,36,Medical Assistant,Never,Complete,Not Eligible,No,April,16,April Week 16,Surgery
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-29,59,Medical Assistant,Never,Complete,Not Eligible,Yes,April,17,April Week 17,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-29,59,Medical Assistant,Never,Complete,Not Eligible,Yes,April,17,April Week 17,Geri/Palliative Care
 Foggy Bottom,FB GENERAL SURGERY,2025-04-30,107,Medical Assistant,Never,Complete,Not Eligible,No,April,18,April Week 18,Surgery
 Foggy Bottom,FB DERMATOLOGY,2025-04-28,147,Medical Assistant,NULL,Not Complete,Not Eligible,No,April,17,April Week 17,Dermatology
 Foggy Bottom,FB CARDIOLOGY,2025-04-08,4,Medical Assistant,Never,Complete,Not Eligible,Yes,April,14,April Week 14,Other
@@ -3201,7 +3201,7 @@ Foggy Bottom,FB UROLOGY,2025-04-17,103,Medical Assistant,Quit,Not Complete,Not E
 West End,M ST DERMATOLOGY,2025-04-01,73,Medical Assistant,Never,Complete,Not Eligible,No,April,13,April Week 13,Dermatology
 West End,M ST ENT,2025-04-02,20,Medical Assistant,Never,Complete,Not Eligible,No,April,14,April Week 14,ENT
 West End,M ST ENT,2025-04-25,81,Medical Assistant,Yes,Not Complete,Not Eligible,No,April,17,April Week 17,ENT
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-23,72,Medical Assistant,Never,Complete,Not Eligible,Yes,April,17,April Week 17,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-23,72,Medical Assistant,Never,Complete,Not Eligible,Yes,April,17,April Week 17,Geri/Palliative Care
 Foggy Bottom,FB ID,2025-04-29,31,Medical Assistant,Never,Complete,Not Eligible,Yes,April,17,April Week 17,Infectious Disease
 Foggy Bottom,FB NEUROLOGY,2025-04-08,3,Medical Assistant,Never,Complete,Not Eligible,No,April,14,April Week 14,Neurology
 Foggy Bottom,FB MIDWIFERY,2025-04-03,79,Medical Assistant,Never,Complete,Not Eligible,No,April,14,April Week 14,Obstetrics/Gynecology
@@ -3222,7 +3222,7 @@ Foggy Bottom,FB GI & LIVER DISEASES,2025-04-23,216,Medical Assistant,Never,Compl
 West End,M ST ENT,2025-04-11,28,Medical Assistant,Yes,Not Complete,Not Eligible,No,April,15,April Week 15,ENT
 Foggy Bottom,FB ID,2025-04-29,38,Medical Assistant,Never,Complete,Not Eligible,Yes,April,17,April Week 17,Infectious Disease
 Foggy Bottom,FB TRAUMA SURGERY,2025-04-22,17,Medical Assistant,Never,Complete,Not Eligible,No,April,16,April Week 16,Other
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-04,248,Nurse Practitioner,Quit,Not Complete,Not Eligible,Yes,April,14,April Week 14,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-04,248,Nurse Practitioner,Quit,Not Complete,Not Eligible,Yes,April,14,April Week 14,Geri/Palliative Care
 West End,M ST ORTHOPAEDIC SURG,2025-04-16,105,Medical Assistant,Never,Complete,Not Eligible,No,April,16,April Week 16,Surgery
 West End,M ST PRIMARY CARE,2025-04-18,201,Medical Assistant,Never,Complete,Not Eligible,No,April,16,April Week 16,Primary Care
 Foggy Bottom,FB CARDIOLOGY,2025-04-24,4,Medical Assistant,Never,Complete,Not Eligible,Yes,April,17,April Week 17,Other
@@ -3259,7 +3259,7 @@ West End,M ST ORTHOPAEDIC SURG,2025-04-25,46,Medical Assistant,Never,Complete,No
 Foggy Bottom,FB COLON RECTAL SURG,2025-04-29,80,Medical Assistant,Never,Complete,Not Eligible,No,April,17,April Week 17,Other
 West End,M ST ORTHOPAEDIC SURG,2025-04-07,87,Physician,Quit,Not Complete,Not Eligible,No,April,14,April Week 14,Surgery
 Foggy Bottom,FB PODIATRY,2025-04-17,34,Medical Assistant,Never,Complete,Not Eligible,No,April,16,April Week 16,Other
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-01,59,Medical Assistant,Quit,Not Complete,Not Eligible,Yes,April,13,April Week 13,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-01,59,Medical Assistant,Quit,Not Complete,Not Eligible,Yes,April,13,April Week 13,Geri/Palliative Care
 Foggy Bottom,FB PODIATRY,2025-04-28,68,Medical Assistant,Quit,Not Complete,Not Eligible,No,April,17,April Week 17,Other
 Foggy Bottom,FB DERMATOLOGY,2025-04-18,84,Medical Assistant,Never,Complete,Not Eligible,No,April,16,April Week 16,Dermatology
 West End,M ST ORTHOPAEDIC SURG,2025-04-17,11,Medical Assistant,Never,Complete,Not Eligible,No,April,16,April Week 16,Surgery
@@ -3295,7 +3295,7 @@ Foggy Bottom,FB GENERAL SURGERY,2025-04-28,17,Medical Assistant,Never,Complete,N
 Foggy Bottom,FB DERMATOLOGY,2025-04-02,73,Medical Assistant,Never,Complete,Not Eligible,No,April,14,April Week 14,Dermatology
 West End,M ST PRIMARY CARE,2025-04-11,53,Medical Assistant,Never,Complete,Not Eligible,No,April,15,April Week 15,Primary Care
 West End,M ST PRIMARY CARE,2025-04-23,53,Medical Assistant,Never,Complete,Not Eligible,No,April,17,April Week 17,Primary Care
-Foggy Bottom,INGLESIDE GERIATRICS,2025-04-30,225,Nurse Practitioner,Not Asked,Not Complete,Not Eligible,No,April,18,April Week 18,Geriatrics
+Foggy Bottom,INGLESIDE GERIATRICS,2025-04-30,225,Nurse Practitioner,Not Asked,Not Complete,Not Eligible,No,April,18,April Week 18,Geriatrics (Ingleside)
 Foggy Bottom,FB GENERAL SURGERY,2025-04-23,17,Medical Assistant,Never,Complete,Not Eligible,No,April,17,April Week 17,Surgery
 West End,M ST PRIMARY CARE,2025-04-01,93,Medical Assistant,Never,Complete,Not Eligible,No,April,13,April Week 13,Primary Care
 West End,M ST ORTHOPAEDIC SURG,2025-04-17,11,Medical Assistant,Not Asked,Not Complete,Not Eligible,No,April,16,April Week 16,Surgery
@@ -3346,7 +3346,7 @@ West End,M ST ENT,2025-04-23,9,Medical Assistant,Never,Complete,Not Eligible,No,
 Foggy Bottom,FB OB/GYN,2025-04-07,66,Medical Assistant,Never,Complete,Not Eligible,No,April,14,April Week 14,Obstetrics/Gynecology
 Foggy Bottom,FB UROLOGY,2025-04-14,47,Medical Assistant,Quit,Not Complete,Not Eligible,No,April,15,April Week 15,Urology
 Foggy Bottom,FB NEUROSURGERY,2025-04-17,16,Medical Assistant,Never,Complete,Not Eligible,No,April,16,April Week 16,Surgery
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-30,24,Medical Assistant,Yes,Not Complete,Not Eligible,Yes,April,18,April Week 18,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-30,24,Medical Assistant,Yes,Not Complete,Not Eligible,Yes,April,18,April Week 18,Geri/Palliative Care
 Foggy Bottom,FB GENERAL SURGERY,2025-04-17,27,Medical Assistant,Never,Complete,Not Eligible,No,April,16,April Week 16,Surgery
 West End,M ST PRIMARY CARE,2025-04-29,53,Medical Assistant,Never,Complete,Not Eligible,No,April,17,April Week 17,Primary Care
 Foggy Bottom,FB PREVENTORIUM CLINIC,2025-04-11,113,Medical Assistant,Never,Complete,Not Eligible,No,April,15,April Week 15,Primary Care
@@ -3472,7 +3472,7 @@ Foggy Bottom,FB OB/GYN,2025-04-17,123,Physician,Never,Complete,Not Eligible,No,A
 West End,M ST ENT,2025-04-29,9,Medical Assistant,Never,Complete,Not Eligible,No,April,17,April Week 17,ENT
 Foggy Bottom,FB NEUROLOGY,2025-04-23,42,Medical Assistant,Never,Complete,Not Eligible,No,April,17,April Week 17,Neurology
 Foggy Bottom,FB PRIMARY CARE,2025-04-11,15,Medical Assistant,Never,Complete,Not Eligible,No,April,15,April Week 15,Primary Care
-Foggy Bottom,FB NEPHROLOGY,2025-04-16,52,Medical Assistant,Passive,Complete,Not Eligible,Yes,April,16,April Week 16,Nephrology
+Foggy Bottom,FB NEPHROLOGY,2025-04-16,52,Medical Assistant,Passive,Complete,Not Eligible,Yes,April,16,April Week 16,Nephrology (FB)
 West End,M ST PRIMARY CARE,2025-04-18,53,Medical Assistant,Never,Complete,Not Eligible,No,April,16,April Week 16,Primary Care
 West End,M ST DERMATOLOGY,2025-04-14,76,Medical Assistant,Never,Complete,Not Eligible,No,April,15,April Week 15,Dermatology
 Foggy Bottom,FB NEUROSURGERY,2025-04-09,16,Medical Assistant,Never,Complete,Not Eligible,No,April,15,April Week 15,Surgery
@@ -3515,7 +3515,7 @@ Foggy Bottom,FB OB/GYN,2025-04-22,67,Medical Assistant,Never,Complete,Not Eligib
 Foggy Bottom,FB GENERAL SURGERY,2025-04-28,107,Medical Assistant,Never,Complete,Not Eligible,No,April,17,April Week 17,Surgery
 Foggy Bottom,FB DERMATOLOGY,2025-04-14,96,Medical Assistant,Never,Complete,Not Eligible,No,April,15,April Week 15,Dermatology
 West End,M ST ORTHOPAEDIC SURG,2025-04-14,46,Medical Assistant,Quit,Not Complete,Not Eligible,No,April,15,April Week 15,Surgery
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-07,59,Medical Assistant,Quit,Not Complete,Not Eligible,Yes,April,14,April Week 14,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-07,59,Medical Assistant,Quit,Not Complete,Not Eligible,Yes,April,14,April Week 14,Geri/Palliative Care
 West End,M ST DERMATOLOGY,2025-04-23,84,Medical Assistant,Never,Complete,Not Eligible,No,April,17,April Week 17,Dermatology
 Foggy Bottom,FB CARDIOLOGY,2025-04-22,216,Medical Assistant,Never,Complete,Not Eligible,Yes,April,16,April Week 16,Other
 West End,M ST RHEUMATOLOGY,2025-04-24,173,Medical Assistant,Never,Complete,Not Eligible,No,April,17,April Week 17,Rheumatology
@@ -3527,7 +3527,7 @@ West End,M ST ORTHOPAEDIC SURG,2025-04-30,105,Medical Assistant,Never,Complete,N
 West End,M ST ORTHOPAEDIC SURG,2025-04-09,105,Medical Assistant,Never,Complete,Not Eligible,No,April,15,April Week 15,Surgery
 West End,M ST PRIMARY CARE,2025-04-09,93,Medical Assistant,Never,Complete,Not Eligible,No,April,15,April Week 15,Primary Care
 Foggy Bottom,FB OB/GYN,2025-04-02,104,Medical Assistant,Quit,Not Complete,Not Eligible,No,April,14,April Week 14,Obstetrics/Gynecology
-Foggy Bottom,FB NEPHROLOGY,2025-04-14,52,Medical Assistant,Never,Complete,Not Eligible,Yes,April,15,April Week 15,Nephrology
+Foggy Bottom,FB NEPHROLOGY,2025-04-14,52,Medical Assistant,Never,Complete,Not Eligible,Yes,April,15,April Week 15,Nephrology (FB)
 Foggy Bottom,FB NEUROLOGY,2025-04-08,3,Medical Assistant,Never,Complete,Not Eligible,No,April,14,April Week 14,Neurology
 Foggy Bottom,FB PULMONOLOGY,2025-04-11,2,Medical Assistant,Never,Complete,Not Eligible,Yes,April,15,April Week 15,Pulmonology
 West End,M ST ENT,2025-04-01,9,Medical Assistant,Never,Complete,Not Eligible,No,April,13,April Week 13,ENT
@@ -3583,7 +3583,7 @@ Foggy Bottom,FB COLON RECTAL SURG,2025-04-01,129,Medical Assistant,Never,Complet
 West End,M ST DERMATOLOGY,2025-04-02,76,Medical Assistant,Never,Complete,Not Eligible,No,April,14,April Week 14,Dermatology
 West End,M ST ENT,2025-04-22,9,Medical Assistant,Never,Complete,Not Eligible,No,April,16,April Week 16,ENT
 Foggy Bottom,FB DERMATOLOGY,2025-04-28,96,Medical Assistant,Never,Complete,Not Eligible,No,April,17,April Week 17,Dermatology
-Foggy Bottom,FB NEPHROLOGY,2025-04-02,10,Medical Assistant,Quit,Complete,Not Eligible,Yes,April,14,April Week 14,Nephrology
+Foggy Bottom,FB NEPHROLOGY,2025-04-02,10,Medical Assistant,Quit,Complete,Not Eligible,Yes,April,14,April Week 14,Nephrology (FB)
 West End,M ST PRIMARY CARE,2025-04-03,69,Medical Assistant,Never,Complete,Not Eligible,No,April,14,April Week 14,Primary Care
 West End,M ST ORTHOPAEDIC SURG,2025-04-02,36,Medical Assistant,NULL,Not Complete,Not Eligible,No,April,14,April Week 14,Surgery
 West End,M ST ORTHOPAEDIC SURG,2025-04-10,60,Medical Assistant,Yes,Not Complete,Not Eligible,No,April,15,April Week 15,Surgery
@@ -3652,7 +3652,7 @@ Foggy Bottom,FB UROLOGY,2025-04-30,103,Medical Assistant,Never,Complete,Not Elig
 West End,M ST ORTHOPAEDIC SURG,2025-04-10,60,Medical Assistant,Yes,Not Complete,Not Eligible,No,April,15,April Week 15,Surgery
 Foggy Bottom,FB GENERAL SURGERY,2025-04-07,107,Medical Assistant,Never,Complete,Not Eligible,No,April,14,April Week 14,Surgery
 Foggy Bottom,FB OB/GYN,2025-04-11,74,Medical Assistant,Never,Complete,Not Eligible,No,April,15,April Week 15,Obstetrics/Gynecology
-Foggy Bottom,FB NEPHROLOGY,2025-04-10,35,Medical Assistant,Never,Complete,Not Eligible,Yes,April,15,April Week 15,Nephrology
+Foggy Bottom,FB NEPHROLOGY,2025-04-10,35,Medical Assistant,Never,Complete,Not Eligible,Yes,April,15,April Week 15,Nephrology (FB)
 Foggy Bottom,FB OB/GYN,2025-04-10,66,Medical Assistant,NULL,Not Complete,Not Eligible,No,April,15,April Week 15,Obstetrics/Gynecology
 Foggy Bottom,FB GENERAL SURGERY,2025-04-07,83,Medical Assistant,Never,Complete,Not Eligible,No,April,14,April Week 14,Surgery
 Foggy Bottom,FB GI & LIVER DISEASES,2025-04-21,62,Medical Assistant,Never,Complete,Not Eligible,No,April,16,April Week 16,Gastroenterology
@@ -3702,7 +3702,7 @@ West End,M ST PRIMARY CARE,2025-04-14,69,Medical Assistant,Never,Complete,Not El
 Foggy Bottom,FB OB/GYN,2025-04-23,92,Medical Assistant,Never,Complete,Not Eligible,No,April,17,April Week 17,Obstetrics/Gynecology
 West End,M ST ENT,2025-04-29,9,Medical Assistant,Never,Complete,Not Eligible,No,April,17,April Week 17,ENT
 Foggy Bottom,FB NEUROLOGY,2025-04-18,50,Medical Assistant,Never,Complete,Not Eligible,No,April,16,April Week 16,Neurology
-Foggy Bottom,FB NEPHROLOGY,2025-04-09,216,Medical Assistant,Never,Complete,Not Eligible,Yes,April,15,April Week 15,Nephrology
+Foggy Bottom,FB NEPHROLOGY,2025-04-09,216,Medical Assistant,Never,Complete,Not Eligible,Yes,April,15,April Week 15,Nephrology (FB)
 Foggy Bottom,FB UROLOGY,2025-04-02,103,Medical Assistant,Never,Complete,Not Eligible,No,April,14,April Week 14,Urology
 West End,M ST OB/GYN,2025-04-01,74,Medical Assistant,NULL,Not Complete,Not Eligible,No,April,13,April Week 13,Obstetrics/Gynecology
 Foggy Bottom,FB PODIATRY,2025-04-03,260,Physician,Never,Complete,Not Eligible,No,April,14,April Week 14,Other
@@ -3712,7 +3712,7 @@ Foggy Bottom,FB DERMATOLOGY,2025-04-03,96,Medical Assistant,NULL,Not Complete,No
 West End,M ST PRIMARY CARE,2025-04-25,69,Medical Assistant,Never,Complete,Not Eligible,No,April,17,April Week 17,Primary Care
 Foggy Bottom,FB VASCULAR SURGERY,2025-04-24,83,Medical Assistant,Never,Complete,Not Eligible,No,April,17,April Week 17,Surgery
 Foggy Bottom,FB NEUROLOGY,2025-04-24,48,Medical Assistant,Never,Complete,Not Eligible,No,April,17,April Week 17,Neurology
-Foggy Bottom,FB NEPHROLOGY,2025-04-24,35,Medical Assistant,Never,Complete,Not Eligible,Yes,April,17,April Week 17,Nephrology
+Foggy Bottom,FB NEPHROLOGY,2025-04-24,35,Medical Assistant,Never,Complete,Not Eligible,Yes,April,17,April Week 17,Nephrology (FB)
 West End,M ST PRIMARY CARE,2025-04-14,53,Medical Assistant,Never,Complete,Not Eligible,No,April,15,April Week 15,Primary Care
 West End,M ST PRIMARY CARE,2025-04-09,93,Medical Assistant,Never,Complete,Not Eligible,No,April,15,April Week 15,Primary Care
 West End,M ST RHEUMATOLOGY,2025-04-28,173,Medical Assistant,Never,Complete,Not Eligible,No,April,17,April Week 17,Rheumatology
@@ -3808,14 +3808,14 @@ Foggy Bottom,FB PODIATRY,2025-04-09,68,Medical Assistant,Never,Complete,Not Elig
 West End,M ST ORTHOPAEDIC SURG,2025-04-16,105,Medical Assistant,Not Asked,Not Complete,Not Eligible,No,April,16,April Week 16,Surgery
 West End,M ST ENT,2025-04-28,20,Medical Assistant,NULL,Not Complete,Not Eligible,No,April,17,April Week 17,ENT
 Foggy Bottom,FB PODIATRY,2025-04-10,34,Medical Assistant,Never,Complete,Not Eligible,No,April,15,April Week 15,Other
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-28,216,Medical Assistant,Never,Complete,Not Eligible,Yes,April,17,April Week 17,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-28,216,Medical Assistant,Never,Complete,Not Eligible,Yes,April,17,April Week 17,Geri/Palliative Care
 Foggy Bottom,FB PODIATRY,2025-04-28,44,Medical Assistant,Never,Complete,Not Eligible,No,April,17,April Week 17,Other
 West End,M ST ORTHOPAEDIC SURG,2025-04-30,11,Medical Assistant,Never,Complete,Not Eligible,No,April,18,April Week 18,Surgery
 West End,M ST PRIMARY CARE,2025-04-04,93,Medical Assistant,Never,Complete,Not Eligible,No,April,14,April Week 14,Primary Care
 Foggy Bottom,FB NEUROLOGY,2025-04-21,50,Medical Assistant,Never,Complete,Not Eligible,No,April,16,April Week 16,Neurology
 Foggy Bottom,FB GENERAL SURGERY,2025-04-17,107,Medical Assistant,Never,Complete,Not Eligible,No,April,16,April Week 16,Surgery
 Foggy Bottom,FB ID,2025-04-01,31,Medical Assistant,Yes,Not Complete,Not Eligible,Yes,April,13,April Week 13,Infectious Disease
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-22,38,Medical Assistant,Quit,Not Complete,Not Eligible,Yes,April,16,April Week 16,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-22,38,Medical Assistant,Quit,Not Complete,Not Eligible,Yes,April,16,April Week 16,Geri/Palliative Care
 Foggy Bottom,FB GENERAL SURGERY,2025-04-14,107,Medical Assistant,Quit,Not Complete,Not Eligible,No,April,15,April Week 15,Surgery
 Foggy Bottom,FB ID,2025-04-03,59,Medical Assistant,Never,Complete,Not Eligible,Yes,April,14,April Week 14,Infectious Disease
 Foggy Bottom,FB PODIATRY,2025-04-04,44,Medical Assistant,Never,Complete,Not Eligible,No,April,14,April Week 14,Other
@@ -3829,7 +3829,7 @@ Foggy Bottom,FB ID,2025-04-17,38,Medical Assistant,Never,Complete,Not Eligible,Y
 West End,M ST ENT,2025-04-30,20,Medical Assistant,Never,Complete,Not Eligible,No,April,18,April Week 18,ENT
 Foggy Bottom,FB PODIATRY,2025-04-14,68,Medical Assistant,Never,Complete,Not Eligible,No,April,15,April Week 15,Other
 Foggy Bottom,FB PODIATRY,2025-04-03,196,Physician,Yes,Not Complete,Not Eligible,No,April,14,April Week 14,Other
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-29,59,Medical Assistant,Never,Complete,Not Eligible,Yes,April,17,April Week 17,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-29,59,Medical Assistant,Never,Complete,Not Eligible,Yes,April,17,April Week 17,Geri/Palliative Care
 West End,M ST BREAST SURGERY,2025-04-14,6,Medical Assistant,Never,Complete,Not Eligible,No,April,15,April Week 15,Surgery
 Foggy Bottom,FB MIDWIFERY,2025-04-24,79,Medical Assistant,Never,Complete,Not Eligible,No,April,17,April Week 17,Obstetrics/Gynecology
 West End,M ST BREAST SURGERY,2025-04-21,6,Medical Assistant,Never,Complete,Not Eligible,No,April,16,April Week 16,Surgery
@@ -4001,13 +4001,13 @@ Foggy Bottom,FB CARDIOLOGY,2025-04-23,10,Medical Assistant,Quit,Not Complete,Not
 Foggy Bottom,FB CARDIOLOGY,2025-04-18,52,Medical Assistant,Never,Complete,Not Eligible,Yes,April,16,April Week 16,Other
 Foggy Bottom,FB DERMATOLOGY,2025-04-16,147,Medical Assistant,Never,Complete,Not Eligible,No,April,16,April Week 16,Dermatology
 Foggy Bottom,FB NEUROSURGERY,2025-04-14,16,Medical Assistant,Never,Complete,Not Eligible,No,April,15,April Week 15,Surgery
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-24,24,Medical Assistant,Never,Complete,Not Eligible,Yes,April,17,April Week 17,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-24,24,Medical Assistant,Never,Complete,Not Eligible,Yes,April,17,April Week 17,Geri/Palliative Care
 West End,M ST BREAST SURGERY,2025-04-17,6,Medical Assistant,Never,Complete,Not Eligible,No,April,16,April Week 16,Surgery
 West End,M ST ENT,2025-04-04,20,Medical Assistant,Never,Complete,Not Eligible,No,April,14,April Week 14,ENT
 Foggy Bottom,FB OB/GYN,2025-04-29,79,Medical Assistant,Never,Complete,Not Eligible,No,April,17,April Week 17,Obstetrics/Gynecology
 Foggy Bottom,FB PRIMARY CARE,2025-05-08,33,Medical Assistant,Quit,Not Complete,Not Eligible,No,May,19,May Week 19,Primary Care
 Foggy Bottom,FB PRIMARY CARE,2025-05-30,54,Medical Assistant,Never,Complete,Not Eligible,No,May,22,May Week 22,Primary Care
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-30,71,Physician Assistant,Quit,Not Complete,Not Eligible,Yes,May,22,May Week 22,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-30,71,Physician Assistant,Quit,Not Complete,Not Eligible,Yes,May,22,May Week 22,Geri/Palliative Care
 Foggy Bottom,FB NEUROLOGY,2025-05-22,42,Medical Assistant,Never,Complete,Not Eligible,No,May,21,May Week 21,Neurology
 Foggy Bottom,FB PAIN,2025-05-29,42,Medical Assistant,Never,Complete,Not Eligible,No,May,22,May Week 22,Pain Management
 West End,M ST ORTHOPAEDIC SURG,2025-05-09,36,Medical Assistant,Never,Complete,Not Eligible,No,May,19,May Week 19,Surgery
@@ -4018,12 +4018,12 @@ Foggy Bottom,FB PULMONOLOGY,2025-05-30,35,Medical Assistant,Quit,Not Complete,No
 Foggy Bottom,FB OB/GYN,2025-05-07,122,Nurse Practitioner,Quit,Not Complete,Not Eligible,No,May,19,May Week 19,Obstetrics/Gynecology
 West End,M ST ORTHOPAEDIC SURG,2025-05-30,46,Medical Assistant,Never,Complete,Not Eligible,No,May,22,May Week 22,Surgery
 Foggy Bottom,FB GENERAL SURGERY,2025-05-29,17,Medical Assistant,Never,Complete,Not Eligible,No,May,22,May Week 22,Surgery
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-21,59,Medical Assistant,Quit,Not Complete,Not Eligible,Yes,May,21,May Week 21,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-21,59,Medical Assistant,Quit,Not Complete,Not Eligible,Yes,May,21,May Week 21,Geri/Palliative Care
 Foggy Bottom,FB GENERAL SURGERY,2025-05-12,17,Medical Assistant,Never,Complete,Not Eligible,No,May,19,May Week 19,Surgery
 Foggy Bottom,FB CARDIOLOGY,2025-05-06,72,Medical Assistant,Never,Complete,Not Eligible,Yes,May,18,May Week 18,Other
 Foggy Bottom,FB NEUROSURGERY,2025-05-22,16,Medical Assistant,Never,Complete,Not Eligible,No,May,21,May Week 21,Surgery
 Foggy Bottom,FB PULMONOLOGY,2025-05-13,216,Medical Assistant,Never,Complete,Not Eligible,Yes,May,19,May Week 19,Pulmonology
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-16,225,Nurse Practitioner,Quit,Not Complete,Not Eligible,Yes,May,20,May Week 20,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-16,225,Nurse Practitioner,Quit,Not Complete,Not Eligible,Yes,May,20,May Week 20,Geri/Palliative Care
 West End,M ST ORTHOPAEDIC SURG,2025-05-06,11,Medical Assistant,Never,Complete,Not Eligible,No,May,18,May Week 18,Surgery
 Foggy Bottom,FB ID,2025-05-01,31,Medical Assistant,Never,Complete,Not Eligible,Yes,May,18,May Week 18,Infectious Disease
 Foggy Bottom,FB OB/GYN,2025-05-15,67,Medical Assistant,Never,Complete,Not Eligible,No,May,20,May Week 20,Obstetrics/Gynecology
@@ -4078,7 +4078,7 @@ Foggy Bottom,FB PRIMARY CARE,2025-05-09,12,Medical Assistant,Never,Complete,Not 
 West End,M ST ENT,2025-05-14,20,Medical Assistant,Never,Complete,Not Eligible,No,May,20,May Week 20,ENT
 Foggy Bottom,FB PRIMARY CARE,2025-05-05,8,Medical Assistant,Never,Complete,Not Eligible,No,May,18,May Week 18,Primary Care
 West End,M ST ENT,2025-05-06,81,Medical Assistant,Never,Complete,Not Eligible,No,May,18,May Week 18,ENT
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-20,225,Nurse Practitioner,Never,Complete,Not Eligible,Yes,May,20,May Week 20,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-20,225,Nurse Practitioner,Never,Complete,Not Eligible,Yes,May,20,May Week 20,Geri/Palliative Care
 Foggy Bottom,FB PRIMARY CARE,2025-05-20,15,Medical Assistant,Never,Complete,Not Eligible,No,May,20,May Week 20,Primary Care
 West End,M ST ENT,2025-05-06,9,Medical Assistant,Not Asked,Not Complete,Not Eligible,No,May,18,May Week 18,ENT
 Foggy Bottom,FB PAIN,2025-05-13,50,Medical Assistant,Never,Complete,Not Eligible,No,May,19,May Week 19,Pain Management
@@ -4092,13 +4092,13 @@ Foggy Bottom,FB PRIMARY CARE,2025-05-27,118,Medical Assistant,Never,Complete,Not
 Foggy Bottom,FB PRIMARY CARE,2025-05-14,14,Medical Assistant,Yes,Complete,Not Eligible,No,May,20,May Week 20,Primary Care
 Foggy Bottom,FB PRIMARY CARE,2025-05-05,118,Medical Assistant,Quit,Complete,Not Eligible,No,May,18,May Week 18,Primary Care
 Foggy Bottom,FB DERMATOLOGY,2025-05-06,221,Medical Assistant,Never,Complete,Not Eligible,No,May,18,May Week 18,Dermatology
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-28,41,Physician,Never,Complete,Not Eligible,Yes,May,22,May Week 22,Palliative Care
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-15,24,Medical Assistant,Never,Complete,Not Eligible,Yes,May,20,May Week 20,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-28,41,Physician,Never,Complete,Not Eligible,Yes,May,22,May Week 22,Geri/Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-15,24,Medical Assistant,Never,Complete,Not Eligible,Yes,May,20,May Week 20,Geri/Palliative Care
 Foggy Bottom,FB NEUROLOGY,2025-05-20,48,Medical Assistant,Never,Complete,Not Eligible,No,May,20,May Week 20,Neurology
 West End,M ST ORTHOPAEDIC SURG,2025-05-28,105,Medical Assistant,Yes,Not Complete,Not Eligible,No,May,22,May Week 22,Surgery
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-30,71,Physician Assistant,Never,Complete,Not Eligible,Yes,May,22,May Week 22,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-30,71,Physician Assistant,Never,Complete,Not Eligible,Yes,May,22,May Week 22,Geri/Palliative Care
 West End,M ST ORTHOPAEDIC SURG,2025-05-23,60,Medical Assistant,Never,Complete,Not Eligible,No,May,21,May Week 21,Surgery
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-13,225,Nurse Practitioner,Never,Complete,Not Eligible,Yes,May,19,May Week 19,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-13,225,Nurse Practitioner,Never,Complete,Not Eligible,Yes,May,19,May Week 19,Geri/Palliative Care
 Foggy Bottom,FB GENERAL SURGERY,2025-05-29,17,Medical Assistant,Never,Complete,Not Eligible,No,May,22,May Week 22,Surgery
 Foggy Bottom,FB PAIN,2025-05-20,3,Medical Assistant,Never,Complete,Not Eligible,No,May,20,May Week 20,Pain Management
 Foggy Bottom,FB CARDIOLOGY,2025-05-07,2,Medical Assistant,Quit,Complete,Not Eligible,Yes,May,19,May Week 19,Other
@@ -4115,7 +4115,7 @@ Foggy Bottom,FB PRIMARY CARE,2025-05-22,33,Medical Assistant,Never,Complete,Not 
 Foggy Bottom,FB PODIATRY,2025-05-22,68,Medical Assistant,Quit,Not Complete,Not Eligible,No,May,21,May Week 21,Other
 Foggy Bottom,FB GI & LIVER DISEASES,2025-05-23,24,Medical Assistant,Never,Complete,Not Eligible,No,May,21,May Week 21,Gastroenterology
 West End,M ST COS/PLAST SUR,2025-05-13,77,Registered Nurse,Never,Complete,Not Eligible,No,May,19,May Week 19,Surgery
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-23,38,Medical Assistant,Never,Complete,Not Eligible,Yes,May,21,May Week 21,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-23,38,Medical Assistant,Never,Complete,Not Eligible,Yes,May,21,May Week 21,Geri/Palliative Care
 Foggy Bottom,FB PODIATRY,2025-05-02,34,Medical Assistant,Never,Complete,Not Eligible,No,May,18,May Week 18,Other
 West End,M ST ORTHOPAEDIC SURG,2025-05-09,105,Medical Assistant,Never,Complete,Not Eligible,No,May,19,May Week 19,Surgery
 Foggy Bottom,FB NEUROLOGY,2025-05-05,3,Medical Assistant,Never,Complete,Not Eligible,No,May,18,May Week 18,Neurology
@@ -4125,7 +4125,7 @@ West End,M ST ENT,2025-05-07,64,Medical Assistant,Quit,Not Complete,Not Eligible
 Foggy Bottom,FB VASCULAR SURGERY,2025-05-06,83,Medical Assistant,Never,Complete,Not Eligible,No,May,18,May Week 18,Surgery
 Foggy Bottom,FB NEUROLOGY,2025-05-23,50,Medical Assistant,Never,Complete,Not Eligible,No,May,21,May Week 21,Neurology
 West End,M ST ORTHOPAEDIC SURG,2025-05-09,105,Medical Assistant,Never,Complete,Not Eligible,No,May,19,May Week 19,Surgery
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-20,225,Nurse Practitioner,Never,Complete,Not Eligible,Yes,May,20,May Week 20,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-20,225,Nurse Practitioner,Never,Complete,Not Eligible,Yes,May,20,May Week 20,Geri/Palliative Care
 Foggy Bottom,FB PRIMARY CARE,2025-05-12,8,Medical Assistant,Never,Complete,Not Eligible,No,May,19,May Week 19,Primary Care
 Foggy Bottom,FB PULMONOLOGY,2025-05-28,216,Medical Assistant,Never,Complete,Not Eligible,Yes,May,22,May Week 22,Pulmonology
 West End,M ST ORTHOPAEDIC SURG,2025-05-30,105,Medical Assistant,Yes,Not Complete,Not Eligible,No,May,22,May Week 22,Surgery
@@ -4165,18 +4165,18 @@ Foggy Bottom,FB NEUROLOGY,2025-05-15,3,Medical Assistant,Never,Complete,Not Elig
 Foggy Bottom,FB PRIMARY CARE,2025-05-27,33,Medical Assistant,Never,Complete,Not Eligible,No,May,21,May Week 21,Primary Care
 Foggy Bottom,FB PODIATRY,2025-05-23,44,Medical Assistant,Never,Complete,Not Eligible,No,May,21,May Week 21,Other
 Foggy Bottom,FB PRIMARY CARE,2025-05-06,8,Medical Assistant,Never,Complete,Not Eligible,No,May,18,May Week 18,Primary Care
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-06,225,Nurse Practitioner,Never,Complete,Not Eligible,Yes,May,18,May Week 18,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-06,225,Nurse Practitioner,Never,Complete,Not Eligible,Yes,May,18,May Week 18,Geri/Palliative Care
 Foggy Bottom,FB OPHTHALMOLOGY,2025-05-01,124,Technologist,Not Asked,Not Complete,Not Eligible,No,May,18,May Week 18,Ophthalmology
 Foggy Bottom,FB DERMATOLOGY,2025-05-14,65,Medical Assistant,Never,Complete,Not Eligible,No,May,20,May Week 20,Dermatology
 Foggy Bottom,FB GI & LIVER DISEASES,2025-05-23,24,Medical Assistant,Yes,Not Complete,Not Eligible,No,May,21,May Week 21,Gastroenterology
 Foggy Bottom,FB PULMONOLOGY,2025-05-09,72,Medical Assistant,Never,Complete,Not Eligible,Yes,May,19,May Week 19,Pulmonology
 West End,M ST ENT,2025-05-07,266,Registered Nurse,Never,Complete,Not Eligible,No,May,19,May Week 19,ENT
 Foggy Bottom,FB PRIMARY CARE,2025-05-30,33,Medical Assistant,Never,Complete,Not Eligible,No,May,22,May Week 22,Primary Care
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-05,41,Physician,Never,Complete,Not Eligible,Yes,May,18,May Week 18,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-05,41,Physician,Never,Complete,Not Eligible,Yes,May,18,May Week 18,Geri/Palliative Care
 West End,M ST BREAST SURGERY,2025-05-05,6,Medical Assistant,Quit,Not Complete,Not Eligible,No,May,18,May Week 18,Surgery
 Foggy Bottom,FB PODIATRY,2025-05-14,34,Medical Assistant,Quit,Not Complete,Not Eligible,No,May,20,May Week 20,Other
 Foggy Bottom,FB PRIMARY CARE,2025-05-07,39,Medical Assistant,Never,Complete,Not Eligible,No,May,19,May Week 19,Primary Care
-Foggy Bottom,FB NEPHROLOGY,2025-05-14,35,Medical Assistant,Never,Complete,Not Eligible,Yes,May,20,May Week 20,Nephrology
+Foggy Bottom,FB NEPHROLOGY,2025-05-14,35,Medical Assistant,Never,Complete,Not Eligible,Yes,May,20,May Week 20,Nephrology (FB)
 West End,M ST ORTHOPAEDIC SURG,2025-05-06,82,Medical Assistant,Yes,Not Complete,Not Eligible,No,May,18,May Week 18,Surgery
 Foggy Bottom,FB PRIMARY CARE,2025-05-30,39,Medical Assistant,Never,Complete,Not Eligible,No,May,22,May Week 22,Primary Care
 Foggy Bottom,FB PRIMARY CARE,2025-05-30,54,Medical Assistant,Never,Complete,Not Eligible,No,May,22,May Week 22,Primary Care
@@ -4215,13 +4215,13 @@ Foggy Bottom,FB PRIMARY CARE,2025-05-20,75,Medical Assistant,Never,Complete,Not 
 Foggy Bottom,FB PRIMARY CARE,2025-05-08,75,Medical Assistant,Yes,Not Complete,Not Eligible,No,May,19,May Week 19,Primary Care
 Foggy Bottom,FB DERMATOLOGY,2025-05-30,221,Medical Assistant,Never,Complete,Not Eligible,No,May,22,May Week 22,Dermatology
 Foggy Bottom,FB PODIATRY,2025-05-23,44,Medical Assistant,Never,Complete,Not Eligible,No,May,21,May Week 21,Other
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-08,71,Physician Assistant,Never,Complete,Not Eligible,Yes,May,19,May Week 19,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-08,71,Physician Assistant,Never,Complete,Not Eligible,Yes,May,19,May Week 19,Geri/Palliative Care
 Foggy Bottom,FB PODIATRY,2025-05-05,68,Medical Assistant,Never,Complete,Not Eligible,No,May,18,May Week 18,Other
 Foggy Bottom,FB OPHTHALMOLOGY,2025-05-07,124,Technologist,Never,Complete,Not Eligible,No,May,19,May Week 19,Ophthalmology
 Foggy Bottom,FB PODIATRY,2025-05-21,34,Medical Assistant,Never,Complete,Not Eligible,No,May,21,May Week 21,Other
 Foggy Bottom,FB OPHTHALMOLOGY,2025-05-13,144,Physician,Never,Complete,Not Eligible,No,May,19,May Week 19,Ophthalmology
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-27,59,Medical Assistant,Never,Complete,Not Eligible,Yes,May,21,May Week 21,Palliative Care
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-27,41,Physician,Never,Complete,Not Eligible,Yes,May,21,May Week 21,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-27,59,Medical Assistant,Never,Complete,Not Eligible,Yes,May,21,May Week 21,Geri/Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-27,41,Physician,Never,Complete,Not Eligible,Yes,May,21,May Week 21,Geri/Palliative Care
 Foggy Bottom,FB ID,2025-05-09,40,Medical Assistant,Never,Complete,Not Eligible,Yes,May,19,May Week 19,Infectious Disease
 Foggy Bottom,FB RADIATION ONCOLOGY,2025-05-21,217,Registered Nurse,Not Asked,Not Complete,Not Eligible,No,May,21,May Week 21,Radiation Oncology
 Foggy Bottom,FB DERMATOLOGY,2025-05-23,96,Medical Assistant,NULL,Not Complete,Not Eligible,No,May,21,May Week 21,Dermatology
@@ -4245,11 +4245,11 @@ Foggy Bottom,FB DERMATOLOGY,2025-05-15,117,Medical Assistant,Not Asked,Not Compl
 Foggy Bottom,FB PRIMARY CARE,2025-05-29,54,Medical Assistant,Never,Complete,Not Eligible,No,May,22,May Week 22,Primary Care
 Foggy Bottom,FB CARDIOLOGY,2025-05-12,271,Physician,Quit,Not Complete,Not Eligible,Yes,May,19,May Week 19,Other
 West End,M ST PRIMARY CARE,2025-05-28,53,Medical Assistant,Never,Complete,Not Eligible,No,May,22,May Week 22,Primary Care
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-19,272,Physician,Quit,Complete,Not Eligible,Yes,May,20,May Week 20,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-19,272,Physician,Quit,Complete,Not Eligible,Yes,May,20,May Week 20,Geri/Palliative Care
 West End,M ST BREAST SURGERY,2025-05-12,6,Medical Assistant,Quit,Not Complete,Not Eligible,No,May,19,May Week 19,Surgery
 Foggy Bottom,FB UROLOGY,2025-05-22,47,Medical Assistant,Quit,Not Complete,Not Eligible,No,May,21,May Week 21,Urology
 Foggy Bottom,FB PRIMARY CARE,2025-05-28,118,Medical Assistant,Quit,Not Complete,Not Eligible,No,May,22,May Week 22,Primary Care
-Foggy Bottom,FB NEPHROLOGY,2025-05-14,171,Physician,Never,Complete,Not Eligible,Yes,May,20,May Week 20,Nephrology
+Foggy Bottom,FB NEPHROLOGY,2025-05-14,171,Physician,Never,Complete,Not Eligible,Yes,May,20,May Week 20,Nephrology (FB)
 West End,M ST BREAST SURGERY,2025-05-14,6,Medical Assistant,Never,Complete,Not Eligible,No,May,20,May Week 20,Surgery
 West End,M ST BREAST SURGERY,2025-05-14,6,Medical Assistant,Never,Complete,Not Eligible,No,May,20,May Week 20,Surgery
 West End,M ST ORTHOPAEDIC SURG,2025-05-21,105,Medical Assistant,Never,Complete,Not Eligible,No,May,21,May Week 21,Surgery
@@ -4334,7 +4334,7 @@ West End,M ST ENT,2025-05-27,81,Medical Assistant,Never,Complete,Not Eligible,No
 Foggy Bottom,FB COLON RECTAL SURG,2025-05-01,129,Medical Assistant,Never,Complete,Not Eligible,No,May,18,May Week 18,Other
 Foggy Bottom,FB PODIATRY,2025-05-30,34,Medical Assistant,Never,Complete,Not Eligible,No,May,22,May Week 22,Other
 Foggy Bottom,FB PAIN,2025-05-30,172,Physician,Never,Complete,Not Eligible,No,May,22,May Week 22,Pain Management
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-05,38,Medical Assistant,Never,Complete,Not Eligible,Yes,May,18,May Week 18,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-05,38,Medical Assistant,Never,Complete,Not Eligible,Yes,May,18,May Week 18,Geri/Palliative Care
 Foggy Bottom,FB OB/GYN,2025-05-05,213,Medical Assistant,Yes,Not Complete,Not Eligible,No,May,18,May Week 18,Obstetrics/Gynecology
 West End,M ST ORTHOPAEDIC SURG,2025-05-22,46,Medical Assistant,Never,Complete,Not Eligible,No,May,21,May Week 21,Surgery
 Foggy Bottom,FB ID,2025-05-13,24,Medical Assistant,Never,Complete,Not Eligible,Yes,May,19,May Week 19,Infectious Disease
@@ -4342,7 +4342,7 @@ Foggy Bottom,FB PRIMARY CARE,2025-05-29,264,Medical Assistant,Never,Complete,Not
 West End,M ST ENT,2025-05-16,20,Medical Assistant,Never,Complete,Not Eligible,No,May,20,May Week 20,ENT
 Foggy Bottom,FB OB/GYN,2025-05-19,66,Medical Assistant,Never,Complete,Not Eligible,No,May,20,May Week 20,Obstetrics/Gynecology
 Foggy Bottom,FB VASCULAR SURGERY,2025-05-22,83,Medical Assistant,Never,Complete,Not Eligible,No,May,21,May Week 21,Surgery
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-05,31,Medical Assistant,Never,Complete,Not Eligible,Yes,May,18,May Week 18,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-05,31,Medical Assistant,Never,Complete,Not Eligible,Yes,May,18,May Week 18,Geri/Palliative Care
 Foggy Bottom,FB OB/GYN,2025-05-08,213,Medical Assistant,Never,Complete,Not Eligible,No,May,19,May Week 19,Obstetrics/Gynecology
 West End,M ST ORTHOPAEDIC SURG,2025-05-21,60,Medical Assistant,Quit,Not Complete,Not Eligible,No,May,21,May Week 21,Surgery
 West End,M ST OB/GYN,2025-05-23,74,Medical Assistant,Never,Complete,Not Eligible,No,May,21,May Week 21,Obstetrics/Gynecology
@@ -4369,7 +4369,7 @@ Foggy Bottom,FB ID,2025-05-13,38,Medical Assistant,Not Asked,Not Complete,Not El
 Foggy Bottom,FB PAIN,2025-05-02,42,Medical Assistant,Quit,Not Complete,Not Eligible,No,May,18,May Week 18,Pain Management
 Foggy Bottom,FB ID,2025-05-20,38,Medical Assistant,Never,Complete,Not Eligible,Yes,May,20,May Week 20,Infectious Disease
 Foggy Bottom,FB PODIATRY,2025-05-22,274,Physician,Quit,Complete,Not Eligible,No,May,21,May Week 21,Other
-Foggy Bottom,FB NEPHROLOGY,2025-05-14,35,Medical Assistant,Never,Complete,Not Eligible,Yes,May,20,May Week 20,Nephrology
+Foggy Bottom,FB NEPHROLOGY,2025-05-14,35,Medical Assistant,Never,Complete,Not Eligible,Yes,May,20,May Week 20,Nephrology (FB)
 Foggy Bottom,FB GI & LIVER DISEASES,2025-05-15,31,Medical Assistant,Never,Complete,Not Eligible,No,May,20,May Week 20,Gastroenterology
 Foggy Bottom,FB UROLOGY,2025-05-12,47,Medical Assistant,Quit,Not Complete,Not Eligible,No,May,19,May Week 19,Urology
 Foggy Bottom,FB PRIMARY CARE,2025-05-29,15,Medical Assistant,Never,Complete,Not Eligible,No,May,22,May Week 22,Primary Care
@@ -4404,7 +4404,7 @@ Foggy Bottom,FB RADIATION ONCOLOGY,2025-05-28,217,Registered Nurse,NULL,Not Comp
 Foggy Bottom,FB PODIATRY,2025-05-15,44,Medical Assistant,Quit,Not Complete,Not Eligible,No,May,20,May Week 20,Other
 West End,M ST OB/GYN,2025-05-06,74,Medical Assistant,Quit,Not Complete,Not Eligible,No,May,18,May Week 18,Obstetrics/Gynecology
 West End,M ST ORTHOPAEDIC SURG,2025-05-20,46,Medical Assistant,Never,Complete,Not Eligible,No,May,20,May Week 20,Surgery
-Foggy Bottom,INGLESIDE GERIATRICS,2025-05-21,225,Nurse Practitioner,Quit,Not Complete,Not Eligible,No,May,21,May Week 21,Geriatrics
+Foggy Bottom,INGLESIDE GERIATRICS,2025-05-21,225,Nurse Practitioner,Quit,Not Complete,Not Eligible,No,May,21,May Week 21,Geriatrics (Ingleside)
 Foggy Bottom,FB OPHTHALMOLOGY,2025-05-14,55,Technologist,Never,Complete,Not Eligible,No,May,20,May Week 20,Ophthalmology
 Foggy Bottom,FB UROLOGY,2025-05-05,47,Medical Assistant,Quit,Not Complete,Not Eligible,No,May,18,May Week 18,Urology
 Foggy Bottom,FB PRIMARY CARE,2025-05-15,264,Medical Assistant,Never,Complete,Not Eligible,No,May,20,May Week 20,Primary Care
@@ -4419,7 +4419,7 @@ Foggy Bottom,FB PRIMARY CARE,2025-05-08,33,Medical Assistant,Never,Complete,Not 
 West End,M ST PRIMARY CARE,2025-05-23,53,Medical Assistant,Never,Complete,Not Eligible,No,May,21,May Week 21,Primary Care
 West End,M ST ENT,2025-05-12,64,Medical Assistant,Never,Complete,Not Eligible,No,May,19,May Week 19,ENT
 Foggy Bottom,FB GENERAL SURGERY,2025-05-21,120,Registered Dietitian,Never,Complete,Not Eligible,No,May,21,May Week 21,Surgery
-Foggy Bottom,FB NEPHROLOGY,2025-05-06,35,Medical Assistant,Never,Complete,Not Eligible,Yes,May,18,May Week 18,Nephrology
+Foggy Bottom,FB NEPHROLOGY,2025-05-06,35,Medical Assistant,Never,Complete,Not Eligible,Yes,May,18,May Week 18,Nephrology (FB)
 West End,M ST ORTHOPAEDIC SURG,2025-05-06,60,Medical Assistant,Never,Complete,Not Eligible,No,May,18,May Week 18,Surgery
 Foggy Bottom,FB ID,2025-05-13,31,Medical Assistant,Never,Complete,Not Eligible,Yes,May,19,May Week 19,Infectious Disease
 Foggy Bottom,FB HEM ONC,2025-05-20,276,Physician,Never,Complete,Not Eligible,No,May,20,May Week 20,Hematology/Oncology
@@ -4438,7 +4438,7 @@ West End,M ST BREAST SURGERY,2025-05-01,6,Medical Assistant,Never,Complete,Not E
 Foggy Bottom,FB NEUROLOGY,2025-05-14,50,Medical Assistant,Never,Complete,Not Eligible,No,May,20,May Week 20,Neurology
 Foggy Bottom,FB OPHTHALMOLOGY,2025-05-09,146,Technologist,Never,Complete,Not Eligible,No,May,19,May Week 19,Ophthalmology
 Foggy Bottom,FB PRIMARY CARE,2025-05-05,207,Medical Assistant,Never,Complete,Not Eligible,No,May,18,May Week 18,Primary Care
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-29,59,Medical Assistant,Quit,Not Complete,Not Eligible,Yes,May,22,May Week 22,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-29,59,Medical Assistant,Quit,Not Complete,Not Eligible,Yes,May,22,May Week 22,Geri/Palliative Care
 West End,M ST ORTHOPAEDIC SURG,2025-05-29,60,Medical Assistant,Never,Complete,Not Eligible,No,May,22,May Week 22,Surgery
 Foggy Bottom,FB PULMONOLOGY,2025-05-12,72,Medical Assistant,Never,Complete,Not Eligible,Yes,May,19,May Week 19,Pulmonology
 West End,M ST ORTHOPAEDIC SURG,2025-05-30,11,Medical Assistant,Quit,Not Complete,Not Eligible,No,May,22,May Week 22,Surgery
@@ -4480,7 +4480,7 @@ Foggy Bottom,FB DERMATOLOGY,2025-05-21,221,Medical Assistant,Not Asked,Not Compl
 Foggy Bottom,FB PRIMARY CARE,2025-05-29,54,Medical Assistant,Never,Complete,Not Eligible,No,May,22,May Week 22,Primary Care
 Foggy Bottom,FB PRIMARY CARE,2025-05-20,14,Medical Assistant,Yes,Not Complete,Not Eligible,No,May,20,May Week 20,Primary Care
 Foggy Bottom,FB PAIN,2025-05-23,50,Medical Assistant,Quit,Complete,Not Eligible,No,May,21,May Week 21,Pain Management
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-15,24,Medical Assistant,Never,Complete,Not Eligible,Yes,May,20,May Week 20,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-15,24,Medical Assistant,Never,Complete,Not Eligible,Yes,May,20,May Week 20,Geri/Palliative Care
 Foggy Bottom,FB PRIMARY CARE,2025-05-20,54,Medical Assistant,Never,Complete,Not Eligible,No,May,20,May Week 20,Primary Care
 Foggy Bottom,FB PRIMARY CARE,2025-05-30,264,Medical Assistant,Quit,Complete,Not Eligible,No,May,22,May Week 22,Primary Care
 Foggy Bottom,FB PODIATRY,2025-05-07,34,Medical Assistant,Never,Complete,Not Eligible,No,May,19,May Week 19,Other
@@ -4488,7 +4488,7 @@ Foggy Bottom,FB PRIMARY CARE,2025-05-13,70,Medical Assistant,Never,Complete,Not 
 Foggy Bottom,FB ID,2025-05-23,40,Medical Assistant,Never,Complete,Not Eligible,Yes,May,21,May Week 21,Infectious Disease
 Foggy Bottom,FB PRIMARY CARE,2025-05-27,14,Medical Assistant,Yes,Not Complete,Not Eligible,No,May,21,May Week 21,Primary Care
 Foggy Bottom,FB PAIN,2025-05-30,48,Medical Assistant,Yes,Not Complete,Not Eligible,No,May,22,May Week 22,Pain Management
-Foggy Bottom,FB NEPHROLOGY,2025-05-28,4,Medical Assistant,Never,Complete,Not Eligible,Yes,May,22,May Week 22,Nephrology
+Foggy Bottom,FB NEPHROLOGY,2025-05-28,4,Medical Assistant,Never,Complete,Not Eligible,Yes,May,22,May Week 22,Nephrology (FB)
 Foggy Bottom,FB DERMATOLOGY,2025-05-23,117,Medical Assistant,Quit,Not Complete,Not Eligible,No,May,21,May Week 21,Dermatology
 Foggy Bottom,FB PODIATRY,2025-05-30,34,Medical Assistant,Never,Complete,Not Eligible,No,May,22,May Week 22,Other
 Foggy Bottom,FB PRIMARY CARE,2025-05-22,39,Medical Assistant,Never,Complete,Not Eligible,No,May,21,May Week 21,Primary Care
@@ -4564,7 +4564,7 @@ Foggy Bottom,FB UROLOGY,2025-05-06,95,Medical Assistant,Never,Complete,Not Eligi
 Foggy Bottom,FB PULMONOLOGY,2025-05-30,24,Medical Assistant,Never,Complete,Not Eligible,Yes,May,22,May Week 22,Pulmonology
 West End,M ST PRIMARY CARE,2025-05-30,69,Medical Assistant,Never,Complete,Not Eligible,No,May,22,May Week 22,Primary Care
 Foggy Bottom,FB UROLOGY,2025-05-12,47,Medical Assistant,Yes,Not Complete,Not Eligible,No,May,19,May Week 19,Urology
-Foggy Bottom,INGLESIDE GERIATRICS,2025-05-21,225,Nurse Practitioner,Not Asked,Not Complete,Not Eligible,No,May,21,May Week 21,Geriatrics
+Foggy Bottom,INGLESIDE GERIATRICS,2025-05-21,225,Nurse Practitioner,Not Asked,Not Complete,Not Eligible,No,May,21,May Week 21,Geriatrics (Ingleside)
 West End,M ST OB/GYN,2025-05-07,74,Medical Assistant,Yes,Not Complete,Not Eligible,No,May,19,May Week 19,Obstetrics/Gynecology
 Foggy Bottom,FB OB/GYN,2025-05-20,66,Medical Assistant,Never,Complete,Not Eligible,No,May,20,May Week 20,Obstetrics/Gynecology
 Foggy Bottom,FB PRIMARY CARE,2025-05-07,118,Medical Assistant,Quit,Not Complete,Not Eligible,No,May,19,May Week 19,Primary Care
@@ -4575,7 +4575,7 @@ Foggy Bottom,FB GI & LIVER DISEASES,2025-05-06,38,Medical Assistant,Never,Comple
 Foggy Bottom,FB CARDIOLOGY,2025-05-08,35,Medical Assistant,Never,Complete,Not Eligible,Yes,May,19,May Week 19,Other
 Foggy Bottom,FB CARDIOLOGY,2025-05-28,4,Medical Assistant,Yes,Not Complete,Not Eligible,Yes,May,22,May Week 22,Other
 Foggy Bottom,FB GENERAL SURGERY,2025-05-22,120,Registered Dietitian,Never,Complete,Not Eligible,No,May,21,May Week 21,Surgery
-Foggy Bottom,FB NEPHROLOGY,2025-05-14,35,Medical Assistant,Never,Complete,Not Eligible,Yes,May,20,May Week 20,Nephrology
+Foggy Bottom,FB NEPHROLOGY,2025-05-14,35,Medical Assistant,Never,Complete,Not Eligible,Yes,May,20,May Week 20,Nephrology (FB)
 Foggy Bottom,FB PRIMARY CARE,2025-05-22,12,Medical Assistant,Never,Complete,Not Eligible,No,May,21,May Week 21,Primary Care
 West End,M ST COS/PLAST SUR,2025-05-27,77,Registered Nurse,Never,Complete,Not Eligible,No,May,21,May Week 21,Surgery
 Foggy Bottom,FB NEUROLOGY,2025-05-05,3,Medical Assistant,Never,Complete,Not Eligible,No,May,18,May Week 18,Neurology
@@ -4616,7 +4616,7 @@ West End,M ST ORTHOPAEDIC SURG,2025-05-23,60,Medical Assistant,Never,Complete,No
 Foggy Bottom,FB UROLOGY,2025-05-20,95,Medical Assistant,Never,Complete,Not Eligible,No,May,20,May Week 20,Urology
 West End,M ST ENT,2025-05-19,81,Medical Assistant,Never,Complete,Not Eligible,No,May,20,May Week 20,ENT
 West End,M ST ENT,2025-05-21,81,Medical Assistant,Never,Complete,Not Eligible,No,May,21,May Week 21,ENT
-Foggy Bottom,FB NEPHROLOGY,2025-05-14,52,Medical Assistant,Never,Complete,Not Eligible,Yes,May,20,May Week 20,Nephrology
+Foggy Bottom,FB NEPHROLOGY,2025-05-14,52,Medical Assistant,Never,Complete,Not Eligible,Yes,May,20,May Week 20,Nephrology (FB)
 Foggy Bottom,FB PRIMARY CARE,2025-05-13,63,Medical Assistant,Never,Complete,Not Eligible,No,May,19,May Week 19,Primary Care
 West End,M ST ORTHOPAEDIC SURG,2025-05-06,36,Medical Assistant,Never,Complete,Not Eligible,No,May,18,May Week 18,Surgery
 Foggy Bottom,FB PRIMARY CARE,2025-05-29,8,Medical Assistant,Never,Complete,Not Eligible,No,May,22,May Week 22,Primary Care
@@ -4648,7 +4648,7 @@ Foggy Bottom,FB PRIMARY CARE,2025-05-09,39,Medical Assistant,Never,Complete,Not 
 Foggy Bottom,FB PRIMARY CARE,2025-05-05,54,Medical Assistant,Never,Complete,Not Eligible,No,May,18,May Week 18,Primary Care
 Foggy Bottom,FB OPHTHALMOLOGY,2025-05-28,124,Technologist,Never,Complete,Not Eligible,No,May,22,May Week 22,Ophthalmology
 Foggy Bottom,FB GENERAL SURGERY,2025-05-22,27,Medical Assistant,Never,Complete,Not Eligible,No,May,21,May Week 21,Surgery
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-12,31,Medical Assistant,Never,Complete,Not Eligible,Yes,May,19,May Week 19,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-12,31,Medical Assistant,Never,Complete,Not Eligible,Yes,May,19,May Week 19,Geri/Palliative Care
 West End,M ST ORTHOPAEDIC SURG,2025-05-27,60,Medical Assistant,Not Asked,Not Complete,Not Eligible,No,May,21,May Week 21,Surgery
 West End,M ST COS/PLAST SUR,2025-05-14,77,Registered Nurse,Never,Complete,Not Eligible,No,May,20,May Week 20,Surgery
 West End,M ST ORTHOPAEDIC SURG,2025-05-06,11,Medical Assistant,Never,Complete,Not Eligible,No,May,18,May Week 18,Surgery
@@ -4704,7 +4704,7 @@ Foggy Bottom,FB OB/GYN,2025-05-30,94,Medical Assistant,Never,Complete,Not Eligib
 West End,M ST ORTHOPAEDIC SURG,2025-05-07,36,Medical Assistant,Not Asked,Not Complete,Not Eligible,No,May,19,May Week 19,Surgery
 West End,M ST ENT,2025-05-14,121,Physician,Never,Complete,Not Eligible,No,May,20,May Week 20,ENT
 West End,M ST BREAST SURGERY,2025-05-05,43,Physician,Never,Complete,Not Eligible,No,May,18,May Week 18,Surgery
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-20,40,Medical Assistant,Never,Complete,Not Eligible,Yes,May,20,May Week 20,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-20,40,Medical Assistant,Never,Complete,Not Eligible,Yes,May,20,May Week 20,Geri/Palliative Care
 Foggy Bottom,FB PAIN,2025-05-27,50,Medical Assistant,Never,Complete,Not Eligible,No,May,21,May Week 21,Pain Management
 Foggy Bottom,FB PRIMARY CARE,2025-05-06,33,Medical Assistant,Yes,Not Complete,Not Eligible,No,May,18,May Week 18,Primary Care
 West End,M ST ORTHOPAEDIC SURG,2025-05-29,60,Medical Assistant,Yes,Not Complete,Not Eligible,No,May,22,May Week 22,Surgery
@@ -4747,7 +4747,7 @@ Foggy Bottom,FB PRIMARY CARE,2025-05-19,15,Medical Assistant,Never,Complete,Not 
 Foggy Bottom,FB PAIN,2025-05-13,42,Medical Assistant,Never,Complete,Not Eligible,No,May,19,May Week 19,Pain Management
 West End,M ST ORTHOPAEDIC SURG,2025-05-15,105,Medical Assistant,Never,Complete,Not Eligible,No,May,20,May Week 20,Surgery
 West End,M ST ORTHOPAEDIC SURG,2025-05-05,11,Medical Assistant,Never,Complete,Not Eligible,No,May,18,May Week 18,Surgery
-Foggy Bottom,FB NEPHROLOGY,2025-05-06,4,Medical Assistant,Never,Complete,Not Eligible,Yes,May,18,May Week 18,Nephrology
+Foggy Bottom,FB NEPHROLOGY,2025-05-06,4,Medical Assistant,Never,Complete,Not Eligible,Yes,May,18,May Week 18,Nephrology (FB)
 Foggy Bottom,FB GENERAL SURGERY,2025-05-05,219,Physician Assistant,Never,Complete,Not Eligible,No,May,18,May Week 18,Surgery
 West End,M ST PRIMARY CARE,2025-05-16,255,Physician,Never,Complete,Not Eligible,No,May,20,May Week 20,Primary Care
 West End,M ST ENT,2025-05-27,9,Medical Assistant,Yes,Not Complete,Not Eligible,No,May,21,May Week 21,ENT
@@ -4766,12 +4766,12 @@ Foggy Bottom,FB NEUROSURGERY,2025-05-12,210,Medical Assistant,Quit,Not Complete,
 West End,M ST BREAST SURGERY,2025-05-21,6,Medical Assistant,Never,Complete,Not Eligible,No,May,21,May Week 21,Surgery
 Foggy Bottom,FB PAIN,2025-05-28,42,Medical Assistant,Quit,Not Complete,Not Eligible,No,May,22,May Week 22,Pain Management
 Foggy Bottom,FB GI & LIVER DISEASES,2025-05-12,24,Medical Assistant,Yes,Not Complete,Not Eligible,No,May,19,May Week 19,Gastroenterology
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-20,41,Physician,NULL,Not Complete,Not Eligible,Yes,May,20,May Week 20,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-20,41,Physician,NULL,Not Complete,Not Eligible,Yes,May,20,May Week 20,Geri/Palliative Care
 Foggy Bottom,FB PRIMARY CARE,2025-05-07,33,Medical Assistant,Never,Complete,Not Eligible,No,May,19,May Week 19,Primary Care
 Foggy Bottom,FB OB/GYN,2025-05-22,66,Medical Assistant,Never,Complete,Not Eligible,No,May,21,May Week 21,Obstetrics/Gynecology
 Foggy Bottom,FB PAIN,2025-05-19,42,Medical Assistant,Yes,Not Complete,Not Eligible,No,May,20,May Week 20,Pain Management
 Foggy Bottom,FB OB/GYN,2025-05-06,213,Medical Assistant,Never,Complete,Not Eligible,No,May,18,May Week 18,Obstetrics/Gynecology
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-05,59,Medical Assistant,Never,Complete,Not Eligible,Yes,May,18,May Week 18,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-05,59,Medical Assistant,Never,Complete,Not Eligible,Yes,May,18,May Week 18,Geri/Palliative Care
 West End,M ST ORTHOPAEDIC SURG,2025-05-15,11,Medical Assistant,Never,Complete,Not Eligible,No,May,20,May Week 20,Surgery
 Foggy Bottom,FB NEUROLOGY,2025-05-06,42,Medical Assistant,Never,Complete,Not Eligible,No,May,18,May Week 18,Neurology
 Foggy Bottom,FB UROLOGY,2025-05-06,95,Medical Assistant,Never,Complete,Not Eligible,No,May,18,May Week 18,Urology
@@ -4888,7 +4888,7 @@ Foggy Bottom,FB NEUROLOGY,2025-05-06,42,Medical Assistant,Never,Complete,Not Eli
 Foggy Bottom,FB UROLOGY,2025-05-06,95,Medical Assistant,Never,Complete,Not Eligible,No,May,18,May Week 18,Urology
 Foggy Bottom,FB GI & LIVER DISEASES,2025-05-07,59,Medical Assistant,Never,Complete,Not Eligible,No,May,19,May Week 19,Gastroenterology
 West End,M ST ORTHOPAEDIC SURG,2025-05-19,36,Medical Assistant,Never,Complete,Not Eligible,No,May,20,May Week 20,Surgery
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-05,38,Medical Assistant,Quit,Not Complete,Not Eligible,Yes,May,18,May Week 18,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-05,38,Medical Assistant,Quit,Not Complete,Not Eligible,Yes,May,18,May Week 18,Geri/Palliative Care
 Foggy Bottom,FB GENERAL SURGERY,2025-05-08,27,Medical Assistant,Never,Complete,Not Eligible,No,May,19,May Week 19,Surgery
 Foggy Bottom,FB PRIMARY CARE,2025-05-06,118,Medical Assistant,Quit,Not Complete,Not Eligible,No,May,18,May Week 18,Primary Care
 West End,M ST DERMATOLOGY,2025-05-29,84,Medical Assistant,Never,Complete,Not Eligible,No,May,22,May Week 22,Dermatology
@@ -4905,12 +4905,12 @@ Foggy Bottom,FB DERMATOLOGY,2025-05-05,73,Medical Assistant,Never,Complete,Not E
 Foggy Bottom,FB OB/GYN,2025-05-06,213,Medical Assistant,Never,Complete,Not Eligible,No,May,18,May Week 18,Obstetrics/Gynecology
 Foggy Bottom,FB PRIMARY CARE,2025-05-20,33,Medical Assistant,Yes,Complete,Not Eligible,No,May,20,May Week 20,Primary Care
 Foggy Bottom,FB PULMONOLOGY,2025-05-22,72,Medical Assistant,Never,Complete,Not Eligible,Yes,May,21,May Week 21,Pulmonology
-Foggy Bottom,FB NEPHROLOGY,2025-05-15,216,Medical Assistant,Yes,Not Complete,Not Eligible,Yes,May,20,May Week 20,Nephrology
+Foggy Bottom,FB NEPHROLOGY,2025-05-15,216,Medical Assistant,Yes,Not Complete,Not Eligible,Yes,May,20,May Week 20,Nephrology (FB)
 Foggy Bottom,FB DERMATOLOGY,2025-05-16,65,Medical Assistant,Never,Complete,Not Eligible,No,May,20,May Week 20,Dermatology
 Foggy Bottom,FB PRIMARY CARE,2025-05-13,70,Medical Assistant,Never,Complete,Not Eligible,No,May,19,May Week 19,Primary Care
 Foggy Bottom,FB UROLOGY,2025-05-02,280,Physician,Never,Complete,Not Eligible,No,May,18,May Week 18,Urology
 West End,M ST ENT,2025-05-27,20,Medical Assistant,Never,Complete,Not Eligible,No,May,21,May Week 21,ENT
-Foggy Bottom,FB NEPHROLOGY,2025-05-21,52,Medical Assistant,Never,Complete,Not Eligible,Yes,May,21,May Week 21,Nephrology
+Foggy Bottom,FB NEPHROLOGY,2025-05-21,52,Medical Assistant,Never,Complete,Not Eligible,Yes,May,21,May Week 21,Nephrology (FB)
 Foggy Bottom,FB ID,2025-05-23,40,Medical Assistant,Never,Complete,Not Eligible,Yes,May,21,May Week 21,Infectious Disease
 Foggy Bottom,FB PAIN,2025-05-01,48,Medical Assistant,Never,Complete,Not Eligible,No,May,18,May Week 18,Pain Management
 Foggy Bottom,FB PODIATRY,2025-05-06,44,Medical Assistant,Never,Complete,Not Eligible,No,May,18,May Week 18,Other
@@ -4918,7 +4918,7 @@ Foggy Bottom,FB NEUROSURGERY,2025-05-23,16,Medical Assistant,Never,Complete,Not 
 West End,M ST ENT,2025-05-09,64,Medical Assistant,Never,Complete,Not Eligible,No,May,19,May Week 19,ENT
 Foggy Bottom,FB GENERAL SURGERY,2025-05-30,27,Medical Assistant,Never,Complete,Not Eligible,No,May,22,May Week 22,Surgery
 Foggy Bottom,FB ID,2025-05-09,31,Medical Assistant,Quit,Complete,Not Eligible,Yes,May,19,May Week 19,Infectious Disease
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-27,59,Medical Assistant,Never,Complete,Not Eligible,Yes,May,21,May Week 21,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-27,59,Medical Assistant,Never,Complete,Not Eligible,Yes,May,21,May Week 21,Geri/Palliative Care
 Foggy Bottom,FB MIDWIFERY,2025-05-30,79,Medical Assistant,Never,Complete,Not Eligible,No,May,22,May Week 22,Obstetrics/Gynecology
 West End,M ST ORTHOPAEDIC SURG,2025-05-23,46,Medical Assistant,Never,Complete,Not Eligible,No,May,21,May Week 21,Surgery
 Foggy Bottom,FB PODIATRY,2025-05-01,34,Medical Assistant,Never,Complete,Not Eligible,No,May,18,May Week 18,Other
@@ -4943,7 +4943,7 @@ Foggy Bottom,FB NEUROLOGY,2025-05-07,42,Medical Assistant,Never,Complete,Not Eli
 West End,M ST OB/GYN,2025-05-23,187,Physician,Never,Complete,Not Eligible,No,May,21,May Week 21,Obstetrics/Gynecology
 Foggy Bottom,FB DERMATOLOGY,2025-05-29,96,Medical Assistant,Never,Complete,Not Eligible,No,May,22,May Week 22,Dermatology
 Foggy Bottom,FB MIDWIFERY,2025-05-01,79,Medical Assistant,Never,Complete,Not Eligible,No,May,18,May Week 18,Obstetrics/Gynecology
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-13,24,Medical Assistant,Never,Complete,Not Eligible,Yes,May,19,May Week 19,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-13,24,Medical Assistant,Never,Complete,Not Eligible,Yes,May,19,May Week 19,Geri/Palliative Care
 Foggy Bottom,FB UROLOGY,2025-05-06,95,Medical Assistant,Never,Complete,Not Eligible,No,May,18,May Week 18,Urology
 West End,M ST ORTHOPAEDIC SURG,2025-05-20,105,Medical Assistant,Never,Complete,Not Eligible,No,May,20,May Week 20,Surgery
 Foggy Bottom,FB UROLOGY,2025-05-20,103,Medical Assistant,Quit,Not Complete,Not Eligible,No,May,20,May Week 20,Urology
@@ -5081,7 +5081,7 @@ Foggy Bottom,FB DERMATOLOGY,2025-05-13,65,Medical Assistant,Never,Complete,Not E
 Foggy Bottom,FB OB/GYN,2025-05-09,215,Medical Assistant,Quit,Complete,Not Eligible,No,May,19,May Week 19,Obstetrics/Gynecology
 West End,M ST OB/GYN,2025-05-06,104,Medical Assistant,Never,Complete,Not Eligible,No,May,18,May Week 18,Obstetrics/Gynecology
 Foggy Bottom,FB OB/GYN,2025-05-30,74,Medical Assistant,Never,Complete,Not Eligible,No,May,22,May Week 22,Obstetrics/Gynecology
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-09,248,Nurse Practitioner,Quit,Complete,Not Eligible,Yes,May,19,May Week 19,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-09,248,Nurse Practitioner,Quit,Complete,Not Eligible,Yes,May,19,May Week 19,Geri/Palliative Care
 Foggy Bottom,FB PAIN,2025-05-15,48,Medical Assistant,Never,Complete,Not Eligible,No,May,20,May Week 20,Pain Management
 Foggy Bottom,FB DERMATOLOGY,2025-05-19,117,Medical Assistant,Never,Complete,Not Eligible,No,May,20,May Week 20,Dermatology
 Foggy Bottom,FB PRIMARY CARE,2025-05-01,14,Medical Assistant,Never,Complete,Not Eligible,No,May,18,May Week 18,Primary Care
@@ -5096,7 +5096,7 @@ Foggy Bottom,FB UROLOGY,2025-05-30,103,Medical Assistant,Never,Complete,Not Elig
 Foggy Bottom,FB PRIMARY CARE,2025-05-27,70,Medical Assistant,Never,Complete,Not Eligible,No,May,21,May Week 21,Primary Care
 West End,M ST ORTHOPAEDIC SURG,2025-05-09,60,Medical Assistant,Never,Complete,Not Eligible,No,May,19,May Week 19,Surgery
 West End,M ST ENT,2025-05-21,20,Medical Assistant,Never,Complete,Not Eligible,No,May,21,May Week 21,ENT
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-22,24,Medical Assistant,Never,Complete,Not Eligible,Yes,May,21,May Week 21,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-22,24,Medical Assistant,Never,Complete,Not Eligible,Yes,May,21,May Week 21,Geri/Palliative Care
 West End,M ST DERMATOLOGY,2025-05-05,84,Medical Assistant,Quit,Not Complete,Not Eligible,No,May,18,May Week 18,Dermatology
 Foggy Bottom,FB OB/GYN,2025-05-29,279,Resident Physician,Never,Complete,Not Eligible,No,May,22,May Week 22,Obstetrics/Gynecology
 Foggy Bottom,FB PRIMARY CARE,2025-05-28,207,Medical Assistant,Never,Complete,Not Eligible,No,May,22,May Week 22,Primary Care
@@ -5189,7 +5189,7 @@ Foggy Bottom,FB GI & LIVER DISEASES,2025-05-07,287,Physician,Never,Complete,Not 
 Foggy Bottom,FB PODIATRY,2025-05-09,44,Medical Assistant,Yes,Not Complete,Not Eligible,No,May,19,May Week 19,Other
 West End,M ST BREAST SURGERY,2025-05-19,6,Medical Assistant,Never,Complete,Not Eligible,No,May,20,May Week 20,Surgery
 Foggy Bottom,FB PODIATRY,2025-05-30,34,Medical Assistant,Never,Complete,Not Eligible,No,May,22,May Week 22,Other
-Foggy Bottom,FB NEPHROLOGY,2025-05-22,35,Medical Assistant,Never,Complete,Not Eligible,Yes,May,21,May Week 21,Nephrology
+Foggy Bottom,FB NEPHROLOGY,2025-05-22,35,Medical Assistant,Never,Complete,Not Eligible,Yes,May,21,May Week 21,Nephrology (FB)
 Foggy Bottom,FB DERMATOLOGY,2025-05-05,221,Medical Assistant,Never,Complete,Not Eligible,No,May,18,May Week 18,Dermatology
 Foggy Bottom,FB OB/GYN,2025-05-19,67,Medical Assistant,Never,Complete,Not Eligible,No,May,20,May Week 20,Obstetrics/Gynecology
 Foggy Bottom,FB OB/GYN,2025-05-15,94,Medical Assistant,Never,Complete,Not Eligible,No,May,20,May Week 20,Obstetrics/Gynecology
@@ -5359,7 +5359,7 @@ Foggy Bottom,FB OB/GYN,2025-05-22,95,Medical Assistant,Never,Complete,Not Eligib
 Foggy Bottom,FB GENERAL SURGERY,2025-05-05,17,Medical Assistant,Never,Complete,Not Eligible,No,May,18,May Week 18,Surgery
 Foggy Bottom,FB DERMATOLOGY,2025-05-09,221,Medical Assistant,Never,Complete,Not Eligible,No,May,19,May Week 19,Dermatology
 Foggy Bottom,FB UROLOGY,2025-05-21,37,Medical Assistant,Never,Complete,Not Eligible,No,May,21,May Week 21,Urology
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-14,24,Medical Assistant,Never,Complete,Not Eligible,Yes,May,20,May Week 20,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-14,24,Medical Assistant,Never,Complete,Not Eligible,Yes,May,20,May Week 20,Geri/Palliative Care
 Foggy Bottom,FB PAIN,2025-05-01,3,Medical Assistant,Never,Complete,Not Eligible,No,May,18,May Week 18,Pain Management
 Foggy Bottom,FB DERMATOLOGY,2025-05-19,117,Medical Assistant,Never,Complete,Not Eligible,No,May,20,May Week 20,Dermatology
 Foggy Bottom,FB PRIMARY CARE,2025-05-27,12,Medical Assistant,Never,Complete,Not Eligible,No,May,21,May Week 21,Primary Care
@@ -5388,7 +5388,7 @@ West End,M ST ORTHOPAEDIC SURG,2025-05-08,11,Medical Assistant,Never,Complete,No
 Foggy Bottom,FB NEUROSURGERY,2025-05-20,16,Medical Assistant,Never,Complete,Not Eligible,No,May,20,May Week 20,Surgery
 Foggy Bottom,FB PRIMARY CARE,2025-05-16,291,Resident Physician,Never,Complete,Not Eligible,No,May,20,May Week 20,Primary Care
 Foggy Bottom,FB PRIMARY CARE,2025-05-30,33,Medical Assistant,Never,Complete,Not Eligible,No,May,22,May Week 22,Primary Care
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-15,24,Medical Assistant,Never,Complete,Not Eligible,Yes,May,20,May Week 20,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-15,24,Medical Assistant,Never,Complete,Not Eligible,Yes,May,20,May Week 20,Geri/Palliative Care
 Foggy Bottom,FB NEUROLOGY,2025-05-30,3,Medical Assistant,Never,Complete,Not Eligible,No,May,22,May Week 22,Neurology
 Foggy Bottom,FB PULMONOLOGY,2025-05-28,52,Medical Assistant,Never,Complete,Not Eligible,Yes,May,22,May Week 22,Pulmonology
 Foggy Bottom,FB UROLOGY,2025-05-08,95,Medical Assistant,Never,Complete,Not Eligible,No,May,19,May Week 19,Urology
@@ -5405,7 +5405,7 @@ Foggy Bottom,FB OPHTHALMOLOGY,2025-05-07,124,Technologist,Never,Complete,Not Eli
 Foggy Bottom,FB NEUROSURGERY,2025-05-23,16,Medical Assistant,Quit,Not Complete,Not Eligible,No,May,21,May Week 21,Surgery
 Foggy Bottom,FB OB/GYN,2025-05-14,213,Medical Assistant,Never,Complete,Not Eligible,No,May,20,May Week 20,Obstetrics/Gynecology
 West End,M ST OB/GYN,2025-05-21,104,Medical Assistant,Never,Complete,Not Eligible,No,May,21,May Week 21,Obstetrics/Gynecology
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-02,225,Nurse Practitioner,Not Asked,Not Complete,Not Eligible,Yes,May,18,May Week 18,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-02,225,Nurse Practitioner,Not Asked,Not Complete,Not Eligible,Yes,May,18,May Week 18,Geri/Palliative Care
 Foggy Bottom,FB PODIATRY,2025-05-28,44,Medical Assistant,Never,Complete,Not Eligible,No,May,22,May Week 22,Other
 Foggy Bottom,FB PRIMARY CARE,2025-05-08,8,Medical Assistant,Never,Complete,Not Eligible,No,May,19,May Week 19,Primary Care
 West End,M ST ORTHOPAEDIC SURG,2025-05-01,36,Medical Assistant,Never,Complete,Not Eligible,No,May,18,May Week 18,Surgery
@@ -5413,7 +5413,7 @@ West End,M ST ORTHOPAEDIC SURG,2025-05-28,60,Medical Assistant,Quit,Not Complete
 Foggy Bottom,FB PODIATRY,2025-05-27,68,Medical Assistant,Never,Complete,Not Eligible,No,May,21,May Week 21,Other
 Foggy Bottom,FB GENERAL SURGERY,2025-05-29,17,Medical Assistant,Never,Complete,Not Eligible,No,May,22,May Week 22,Surgery
 Foggy Bottom,FB PULMONOLOGY,2025-05-02,72,Medical Assistant,Never,Complete,Not Eligible,Yes,May,18,May Week 18,Pulmonology
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-01,24,Medical Assistant,Quit,Not Complete,Not Eligible,Yes,May,18,May Week 18,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-01,24,Medical Assistant,Quit,Not Complete,Not Eligible,Yes,May,18,May Week 18,Geri/Palliative Care
 West End,M ST DERMATOLOGY,2025-05-30,84,Medical Assistant,Never,Complete,Not Eligible,No,May,22,May Week 22,Dermatology
 Foggy Bottom,FB OB/GYN,2025-05-30,122,Nurse Practitioner,Never,Complete,Not Eligible,No,May,22,May Week 22,Obstetrics/Gynecology
 West End,M ST ENT,2025-05-06,9,Medical Assistant,Never,Complete,Not Eligible,No,May,18,May Week 18,ENT
@@ -5423,7 +5423,7 @@ West End,M ST COS/PLAST SUR,2025-05-21,77,Registered Nurse,Never,Complete,Not El
 Foggy Bottom,FB OB/GYN,2025-05-23,94,Medical Assistant,Yes,Not Complete,Not Eligible,No,May,21,May Week 21,Obstetrics/Gynecology
 Foggy Bottom,FB OB/GYN,2025-05-28,213,Medical Assistant,Never,Complete,Not Eligible,No,May,22,May Week 22,Obstetrics/Gynecology
 Foggy Bottom,FB OPHTHALMOLOGY,2025-05-23,139,Medical Assistant,Never,Complete,Not Eligible,No,May,21,May Week 21,Ophthalmology
-Foggy Bottom,INGLESIDE GERIATRICS,2025-05-14,225,Nurse Practitioner,Not Asked,Not Complete,Not Eligible,No,May,20,May Week 20,Geriatrics
+Foggy Bottom,INGLESIDE GERIATRICS,2025-05-14,225,Nurse Practitioner,Not Asked,Not Complete,Not Eligible,No,May,20,May Week 20,Geriatrics (Ingleside)
 West End,M ST ORTHOPAEDIC SURG,2025-05-19,11,Medical Assistant,Never,Complete,Not Eligible,No,May,20,May Week 20,Surgery
 West End,M ST DERMATOLOGY,2025-05-29,73,Medical Assistant,Never,Complete,Not Eligible,No,May,22,May Week 22,Dermatology
 West End,M ST ORTHOPAEDIC SURG,2025-05-14,11,Medical Assistant,Quit,Not Complete,Not Eligible,No,May,20,May Week 20,Surgery
@@ -5444,7 +5444,7 @@ Foggy Bottom,FB NEUROSURGERY,2025-05-19,16,Medical Assistant,Never,Complete,Not 
 Foggy Bottom,FB PAIN,2025-05-30,42,Medical Assistant,Never,Complete,Not Eligible,No,May,22,May Week 22,Pain Management
 West End,M ST ENT,2025-05-06,81,Medical Assistant,NULL,Not Complete,Not Eligible,No,May,18,May Week 18,ENT
 Foggy Bottom,FB CARDIOLOGY,2025-05-12,216,Medical Assistant,Never,Complete,Not Eligible,Yes,May,19,May Week 19,Other
-Foggy Bottom,FB NEPHROLOGY,2025-05-15,216,Medical Assistant,Never,Complete,Not Eligible,Yes,May,20,May Week 20,Nephrology
+Foggy Bottom,FB NEPHROLOGY,2025-05-15,216,Medical Assistant,Never,Complete,Not Eligible,Yes,May,20,May Week 20,Nephrology (FB)
 West End,M ST ORTHOPAEDIC SURG,2025-05-29,60,Medical Assistant,Never,Complete,Not Eligible,No,May,22,May Week 22,Surgery
 Foggy Bottom,FB COLON RECTAL SURG,2025-05-08,129,Medical Assistant,Never,Complete,Not Eligible,No,May,19,May Week 19,Other
 West End,M ST ORTHOPAEDIC SURG,2025-05-27,11,Medical Assistant,Yes,Not Complete,Not Eligible,No,May,21,May Week 21,Surgery
@@ -5551,7 +5551,7 @@ West End,M ST ORTHOPAEDIC SURG,2025-05-02,60,Medical Assistant,Never,Complete,No
 West End,M ST ENT,2025-05-28,9,Medical Assistant,Never,Complete,Not Eligible,No,May,22,May Week 22,ENT
 West End,M ST ENT,2025-05-02,64,Medical Assistant,Never,Complete,Not Eligible,No,May,18,May Week 18,ENT
 West End,M ST PRIMARY CARE,2025-05-16,93,Medical Assistant,Never,Complete,Not Eligible,No,May,20,May Week 20,Primary Care
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-20,59,Medical Assistant,Quit,Not Complete,Not Eligible,Yes,May,20,May Week 20,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-20,59,Medical Assistant,Quit,Not Complete,Not Eligible,Yes,May,20,May Week 20,Geri/Palliative Care
 Foggy Bottom,FB PODIATRY,2025-05-16,34,Medical Assistant,Never,Complete,Not Eligible,No,May,20,May Week 20,Other
 Foggy Bottom,FB MIDWIFERY,2025-05-12,104,Medical Assistant,Never,Complete,Not Eligible,No,May,19,May Week 19,Obstetrics/Gynecology
 Foggy Bottom,FB UROLOGY,2025-05-02,103,Medical Assistant,Yes,Complete,Not Eligible,No,May,18,May Week 18,Urology
@@ -5584,7 +5584,7 @@ Foggy Bottom,FB GI & LIVER DISEASES,2025-05-15,31,Medical Assistant,Never,Comple
 Foggy Bottom,FB CARDIOLOGY,2025-05-12,72,Medical Assistant,Never,Complete,Not Eligible,Yes,May,19,May Week 19,Other
 West End,M ST ENT,2025-05-23,9,Medical Assistant,Quit,Not Complete,Not Eligible,No,May,21,May Week 21,ENT
 West End,M ST DERMATOLOGY,2025-05-13,73,Medical Assistant,Never,Complete,Not Eligible,No,May,19,May Week 19,Dermatology
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-19,225,Nurse Practitioner,Quit,Not Complete,Not Eligible,Yes,May,20,May Week 20,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-19,225,Nurse Practitioner,Quit,Not Complete,Not Eligible,Yes,May,20,May Week 20,Geri/Palliative Care
 West End,M ST ORTHOPAEDIC SURG,2025-05-19,11,Medical Assistant,Never,Complete,Not Eligible,No,May,20,May Week 20,Surgery
 Foggy Bottom,FB PRIMARY CARE,2025-05-19,14,Medical Assistant,Never,Complete,Not Eligible,No,May,20,May Week 20,Primary Care
 West End,M ST PRIMARY CARE,2025-05-16,93,Medical Assistant,Never,Complete,Not Eligible,No,May,20,May Week 20,Primary Care
@@ -5644,7 +5644,7 @@ West End,M ST ORTHOPAEDIC SURG,2025-05-20,46,Medical Assistant,Never,Complete,No
 Foggy Bottom,FB PULMONOLOGY,2025-05-05,156,Nurse Practitioner,Never,Complete,Not Eligible,Yes,May,18,May Week 18,Pulmonology
 West End,M ST ORTHOPAEDIC SURG,2025-05-28,11,Medical Assistant,Never,Complete,Not Eligible,No,May,22,May Week 22,Surgery
 Foggy Bottom,FB OB/GYN,2025-05-27,94,Medical Assistant,Never,Complete,Not Eligible,No,May,21,May Week 21,Obstetrics/Gynecology
-Foggy Bottom,FB NEPHROLOGY,2025-05-23,10,Medical Assistant,Never,Complete,Not Eligible,Yes,May,21,May Week 21,Nephrology
+Foggy Bottom,FB NEPHROLOGY,2025-05-23,10,Medical Assistant,Never,Complete,Not Eligible,Yes,May,21,May Week 21,Nephrology (FB)
 Foggy Bottom,FB PODIATRY,2025-05-12,44,Medical Assistant,Never,Complete,Not Eligible,No,May,19,May Week 19,Other
 Foggy Bottom,FB UROLOGY,2025-05-07,103,Medical Assistant,Never,Complete,Not Eligible,No,May,19,May Week 19,Urology
 Foggy Bottom,FB VASCULAR SURGERY,2025-05-27,17,Medical Assistant,Yes,Not Complete,Not Eligible,No,May,21,May Week 21,Surgery
@@ -5756,7 +5756,7 @@ Foggy Bottom,FB CARDIOLOGY,2025-05-23,35,Medical Assistant,Never,Complete,Not El
 Foggy Bottom,FB NEUROLOGY,2025-05-19,50,Medical Assistant,Not Asked,Not Complete,Not Eligible,No,May,20,May Week 20,Neurology
 Foggy Bottom,FB OB/GYN,2025-05-13,79,Medical Assistant,Never,Complete,Not Eligible,No,May,19,May Week 19,Obstetrics/Gynecology
 West End,M ST ORTHOPAEDIC SURG,2025-05-05,36,Medical Assistant,Never,Complete,Not Eligible,No,May,18,May Week 18,Surgery
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-30,24,Medical Assistant,Never,Complete,Not Eligible,Yes,May,22,May Week 22,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-30,24,Medical Assistant,Never,Complete,Not Eligible,Yes,May,22,May Week 22,Geri/Palliative Care
 Foggy Bottom,FB PODIATRY,2025-05-06,34,Medical Assistant,Yes,Not Complete,Not Eligible,No,May,18,May Week 18,Other
 Foggy Bottom,FB NEUROLOGY,2025-05-20,296,Resident Physician,Never,Complete,Not Eligible,No,May,20,May Week 20,Neurology
 West End,M ST ORTHOPAEDIC SURG,2025-05-09,60,Medical Assistant,Never,Complete,Not Eligible,No,May,19,May Week 19,Surgery
@@ -5777,10 +5777,10 @@ West End,M ST DERMATOLOGY,2025-05-05,76,Medical Assistant,Never,Complete,Not Eli
 Foggy Bottom,FB DERMATOLOGY,2025-05-02,117,Medical Assistant,Quit,Not Complete,Not Eligible,No,May,18,May Week 18,Dermatology
 Foggy Bottom,FB OB/GYN,2025-05-15,66,Medical Assistant,Never,Complete,Not Eligible,No,May,20,May Week 20,Obstetrics/Gynecology
 West End,M ST BREAST SURGERY,2025-05-15,6,Medical Assistant,Quit,Not Complete,Not Eligible,No,May,20,May Week 20,Surgery
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-05,225,Nurse Practitioner,Never,Complete,Not Eligible,Yes,May,18,May Week 18,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-05,225,Nurse Practitioner,Never,Complete,Not Eligible,Yes,May,18,May Week 18,Geri/Palliative Care
 Foggy Bottom,FB GI & LIVER DISEASES,2025-05-13,38,Medical Assistant,Never,Complete,Not Eligible,No,May,19,May Week 19,Gastroenterology
 Foggy Bottom,FB DERMATOLOGY,2025-05-16,221,Medical Assistant,Not Asked,Not Complete,Not Eligible,No,May,20,May Week 20,Dermatology
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-30,248,Nurse Practitioner,Never,Complete,Not Eligible,Yes,May,22,May Week 22,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-30,248,Nurse Practitioner,Never,Complete,Not Eligible,Yes,May,22,May Week 22,Geri/Palliative Care
 Foggy Bottom,FB DERMATOLOGY,2025-05-09,96,Medical Assistant,Never,Complete,Not Eligible,No,May,19,May Week 19,Dermatology
 West End,M ST DERMATOLOGY,2025-05-09,76,Medical Assistant,Quit,Not Complete,Not Eligible,No,May,19,May Week 19,Dermatology
 West End,M ST ORTHOPAEDIC SURG,2025-05-07,11,Medical Assistant,NULL,Not Complete,Not Eligible,No,May,19,May Week 19,Surgery
@@ -5823,7 +5823,7 @@ West End,M ST CARDIAC SURGERY,2025-05-07,181,Medical Assistant,Never,Complete,No
 West End,M ST ORTHOPAEDIC SURG,2025-05-20,36,Medical Assistant,Never,Complete,Not Eligible,No,May,20,May Week 20,Surgery
 Foggy Bottom,FB PRIMARY CARE,2025-05-20,15,Medical Assistant,Never,Complete,Not Eligible,No,May,20,May Week 20,Primary Care
 Foggy Bottom,FB UROGYN,2025-05-27,95,Medical Assistant,Never,Complete,Not Eligible,No,May,21,May Week 21,Obstetrics/Gynecology
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-19,31,Medical Assistant,Quit,Complete,Not Eligible,Yes,May,20,May Week 20,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-19,31,Medical Assistant,Quit,Complete,Not Eligible,Yes,May,20,May Week 20,Geri/Palliative Care
 West End,M ST ORTHOPAEDIC SURG,2025-05-14,105,Medical Assistant,Never,Complete,Not Eligible,No,May,20,May Week 20,Surgery
 West End,M ST PRIMARY CARE,2025-05-16,69,Medical Assistant,Never,Complete,Not Eligible,No,May,20,May Week 20,Primary Care
 West End,M ST ORTHOPAEDIC SURG,2025-05-27,11,Medical Assistant,Yes,Not Complete,Not Eligible,No,May,21,May Week 21,Surgery
@@ -6035,13 +6035,13 @@ Foggy Bottom,FB COLON RECTAL SURG,2025-05-08,129,Medical Assistant,Yes,Not Compl
 West End,M ST ENT,2025-05-02,9,Medical Assistant,Never,Complete,Not Eligible,No,May,18,May Week 18,ENT
 Foggy Bottom,FB PODIATRY,2025-05-15,44,Medical Assistant,Not Asked,Not Complete,Not Eligible,No,May,20,May Week 20,Other
 West End,M ST ORTHOPAEDIC SURG,2025-05-19,36,Medical Assistant,Never,Complete,Not Eligible,No,May,20,May Week 20,Surgery
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-20,59,Medical Assistant,Never,Complete,Not Eligible,Yes,May,20,May Week 20,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-20,59,Medical Assistant,Never,Complete,Not Eligible,Yes,May,20,May Week 20,Geri/Palliative Care
 West End,M ST ORTHOPAEDIC SURG,2025-05-21,11,Medical Assistant,Quit,Not Complete,Not Eligible,No,May,21,May Week 21,Surgery
 West End,M ST ORTHOPAEDIC SURG,2025-05-23,60,Medical Assistant,Never,Complete,Not Eligible,No,May,21,May Week 21,Surgery
 Foggy Bottom,FB NEUROLOGY,2025-05-21,42,Medical Assistant,Never,Complete,Not Eligible,No,May,21,May Week 21,Neurology
 West End,M ST COS/PLAST SUR,2025-05-15,77,Registered Nurse,Yes,Not Complete,Not Eligible,No,May,20,May Week 20,Surgery
 West End,M ST COS/PLAST SUR,2025-05-20,77,Registered Nurse,Never,Complete,Not Eligible,No,May,20,May Week 20,Surgery
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-06,24,Medical Assistant,Never,Complete,Not Eligible,Yes,May,18,May Week 18,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-06,24,Medical Assistant,Never,Complete,Not Eligible,Yes,May,18,May Week 18,Geri/Palliative Care
 West End,M ST ORTHOPAEDIC SURG,2025-05-19,36,Medical Assistant,Never,Complete,Not Eligible,No,May,20,May Week 20,Surgery
 West End,M ST PRIMARY CARE,2025-05-27,69,Medical Assistant,Never,Complete,Not Eligible,No,May,21,May Week 21,Primary Care
 West End,M ST ORTHOPAEDIC SURG,2025-05-13,105,Medical Assistant,Never,Complete,Not Eligible,No,May,19,May Week 19,Surgery
@@ -6204,7 +6204,7 @@ Foggy Bottom,FB PREVENTORIUM CLINIC,2025-05-30,141,Medical Assistant,Quit,Not Co
 West End,M ST ENT,2025-05-30,20,Medical Assistant,Never,Complete,Not Eligible,No,May,22,May Week 22,ENT
 West End,M ST BREAST SURGERY,2025-05-05,6,Medical Assistant,Never,Complete,Not Eligible,No,May,18,May Week 18,Surgery
 Foggy Bottom,FB DERMATOLOGY,2025-05-23,221,Medical Assistant,Yes,Not Complete,Not Eligible,No,May,21,May Week 21,Dermatology
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-13,225,Nurse Practitioner,Never,Complete,Not Eligible,Yes,May,19,May Week 19,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-13,225,Nurse Practitioner,Never,Complete,Not Eligible,Yes,May,19,May Week 19,Geri/Palliative Care
 Foggy Bottom,FB PODIATRY,2025-05-30,34,Medical Assistant,Not Asked,Not Complete,Not Eligible,No,May,22,May Week 22,Other
 Foggy Bottom,FB PRIMARY CARE,2025-05-09,75,Medical Assistant,Never,Complete,Not Eligible,No,May,19,May Week 19,Primary Care
 West End,M ST ENT,2025-05-06,254,Physician,Quit,Not Complete,Not Eligible,No,May,18,May Week 18,ENT
@@ -6271,7 +6271,7 @@ Foggy Bottom,FB CARDIOLOGY,2025-05-16,52,Medical Assistant,Quit,Not Complete,Not
 Foggy Bottom,FB CARDIOLOGY,2025-05-02,52,Medical Assistant,Quit,Complete,Not Eligible,Yes,May,18,May Week 18,Other
 Foggy Bottom,FB NEUROLOGY,2025-05-06,42,Medical Assistant,Never,Complete,Not Eligible,No,May,18,May Week 18,Neurology
 Foggy Bottom,FB PODIATRY,2025-05-05,34,Medical Assistant,Never,Complete,Not Eligible,No,May,18,May Week 18,Other
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-30,225,Nurse Practitioner,NULL,Not Complete,Not Eligible,Yes,May,22,May Week 22,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-30,225,Nurse Practitioner,NULL,Not Complete,Not Eligible,Yes,May,22,May Week 22,Geri/Palliative Care
 Foggy Bottom,FB PODIATRY,2025-05-27,68,Medical Assistant,Not Asked,Not Complete,Not Eligible,No,May,21,May Week 21,Other
 West End,M ST ENT,2025-05-14,9,Medical Assistant,Never,Complete,Not Eligible,No,May,20,May Week 20,ENT
 Foggy Bottom,FB PAIN,2025-05-05,50,Medical Assistant,Never,Complete,Not Eligible,No,May,18,May Week 18,Pain Management
@@ -6326,7 +6326,7 @@ Foggy Bottom,FB THORACIC SURGERY,2025-05-02,133,Physician,Quit,Complete,Not Elig
 Foggy Bottom,FB NEUROLOGY,2025-04-28,50,Medical Assistant,Yes,Complete,Not Eligible,No,April,17,April Week 17,Neurology
 West End,M ST ORTHOPAEDIC SURG,2025-05-02,105,Medical Assistant,Quit,Complete,Not Eligible,No,May,18,May Week 18,Surgery
 West End,M ST OB/GYN,2025-05-13,104,Medical Assistant,Yes,Complete,Not Eligible,No,May,19,May Week 19,Obstetrics/Gynecology
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-02,225,Nurse Practitioner,Quit,Complete,Not Eligible,Yes,May,18,May Week 18,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-02,225,Nurse Practitioner,Quit,Complete,Not Eligible,Yes,May,18,May Week 18,Geri/Palliative Care
 Foggy Bottom,FB DERMATOLOGY,2025-05-15,117,Medical Assistant,Quit,Complete,Not Eligible,No,May,20,May Week 20,Dermatology
 West End,M ST OB/GYN,2025-05-14,104,Medical Assistant,Yes,Complete,Not Eligible,No,May,20,May Week 20,Obstetrics/Gynecology
 West End,M ST ENT,2025-05-12,81,Medical Assistant,Quit,Complete,Eligible,No,May,19,May Week 19,ENT
@@ -6349,7 +6349,7 @@ Foggy Bottom,FB CARDIOLOGY,2025-03-31,52,Medical Assistant,Quit,Complete,Not Eli
 Foggy Bottom,FB CARDIOLOGY,2025-03-20,2,Medical Assistant,Quit,Complete,Not Eligible,Yes,March,12,March Week 12,Other
 West End,M ST ORTHOPAEDIC SURG,2025-05-05,36,Medical Assistant,Quit,Complete,Not Eligible,No,May,18,May Week 18,Surgery
 Foggy Bottom,FB PULMONOLOGY,2025-03-03,150,Physician,Quit,Complete,Not Eligible,Yes,March,9,March Week 9,Pulmonology
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-24,59,Medical Assistant,Quit,Complete,Not Eligible,Yes,April,17,April Week 17,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-24,59,Medical Assistant,Quit,Complete,Not Eligible,Yes,April,17,April Week 17,Geri/Palliative Care
 Foggy Bottom,FB CARDIOLOGY,2025-05-21,4,Medical Assistant,Quit,Complete,Eligible,Yes,May,21,May Week 21,Other
 Foggy Bottom,FB DERMATOLOGY,2025-03-17,65,Medical Assistant,Quit,Complete,Not Eligible,No,March,11,March Week 11,Dermatology
 Foggy Bottom,FB CARDIOLOGY,2025-05-20,4,Medical Assistant,Quit,Complete,Not Eligible,Yes,May,20,May Week 20,Other
@@ -6361,7 +6361,7 @@ West End,M ST ENT,2025-03-05,22,Medical Assistant,Quit,Complete,Not Eligible,No,
 Foggy Bottom,FB OB/GYN,2025-03-05,92,Medical Assistant,Quit,Complete,Not Eligible,No,March,10,March Week 10,Obstetrics/Gynecology
 Foggy Bottom,FB UROLOGY,2025-03-04,37,Medical Assistant,Quit,Not Complete,Not Eligible,No,March,9,March Week 9,Urology
 Foggy Bottom,FB PRIMARY CARE,2025-03-18,63,Medical Assistant,Quit,Complete,Not Eligible,No,March,11,March Week 11,Primary Care
-Foggy Bottom,FB NEPHROLOGY,2025-03-25,191,Physician,Quit,Complete,Not Eligible,Yes,March,12,March Week 12,Nephrology
+Foggy Bottom,FB NEPHROLOGY,2025-03-25,191,Physician,Quit,Complete,Not Eligible,Yes,March,12,March Week 12,Nephrology (FB)
 West End,M ST ENT,2025-04-29,22,Medical Assistant,Quit,Complete,Not Eligible,No,April,17,April Week 17,ENT
 Foggy Bottom,FB DERMATOLOGY,2025-04-02,65,Medical Assistant,Quit,Complete,Not Eligible,No,April,14,April Week 14,Dermatology
 Foggy Bottom,FB DERMATOLOGY,2025-04-04,84,Medical Assistant,Yes,Not Complete,Not Eligible,No,April,14,April Week 14,Dermatology
@@ -6390,14 +6390,14 @@ West End,M ST PRIMARY CARE,2025-03-04,93,Medical Assistant,Quit,Complete,Not Eli
 West End,M ST DERMATOLOGY,2025-04-24,76,Medical Assistant,Quit,Not Complete,Not Eligible,No,April,17,April Week 17,Dermatology
 West End,M ST PRIMARY CARE,2025-03-17,93,Medical Assistant,Quit,Complete,Not Eligible,No,March,11,March Week 11,Primary Care
 Foggy Bottom,FB PRIMARY CARE,2025-03-04,30,Medical Assistant,Quit,Complete,Not Eligible,No,March,9,March Week 9,Primary Care
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-29,24,Medical Assistant,Quit,Complete,Not Eligible,Yes,April,17,April Week 17,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-29,24,Medical Assistant,Quit,Complete,Not Eligible,Yes,April,17,April Week 17,Geri/Palliative Care
 Foggy Bottom,FB NEUROLOGY,2025-04-14,50,Medical Assistant,Never,Complete,Not Eligible,No,April,15,April Week 15,Neurology
-Foggy Bottom,FB NEPHROLOGY,2025-04-30,52,Medical Assistant,Quit,Not Complete,Not Eligible,Yes,April,18,April Week 18,Nephrology
+Foggy Bottom,FB NEPHROLOGY,2025-04-30,52,Medical Assistant,Quit,Not Complete,Not Eligible,Yes,April,18,April Week 18,Nephrology (FB)
 West End,M ST DERMATOLOGY,2025-05-27,73,Medical Assistant,Quit,Complete,Not Eligible,No,May,21,May Week 21,Dermatology
 Foggy Bottom,FB OB/GYN,2025-04-01,94,Medical Assistant,Quit,Complete,Not Eligible,No,April,13,April Week 13,Obstetrics/Gynecology
 Foggy Bottom,FB GENERAL SURGERY,2025-03-13,120,Registered Dietitian,Quit,Not Complete,Not Eligible,No,March,11,March Week 11,Surgery
 Foggy Bottom,FB CARDIOLOGY,2025-05-06,10,Medical Assistant,Quit,Not Complete,Not Eligible,Yes,May,18,May Week 18,Other
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-03-10,24,Medical Assistant,Quit,Complete,Not Eligible,Yes,March,10,March Week 10,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-03-10,24,Medical Assistant,Quit,Complete,Not Eligible,Yes,March,10,March Week 10,Geri/Palliative Care
 West End,M ST ENT,2025-03-18,81,Medical Assistant,Quit,Complete,Not Eligible,No,March,11,March Week 11,ENT
 West End,M ST PRIMARY CARE,2025-03-11,93,Medical Assistant,Quit,Complete,Not Eligible,No,March,10,March Week 10,Primary Care
 Foggy Bottom,FB DERMATOLOGY,2025-04-03,65,Medical Assistant,Quit,Complete,Not Eligible,No,April,14,April Week 14,Dermatology
@@ -6407,7 +6407,7 @@ Foggy Bottom,FB PRIMARY CARE,2025-04-29,39,Medical Assistant,Quit,Complete,Eligi
 West End,M ST ORTHOPAEDIC SURG,2025-03-05,105,Medical Assistant,Quit,Complete,Not Eligible,No,March,10,March Week 10,Surgery
 Foggy Bottom,FB PRIMARY CARE,2025-05-19,30,Medical Assistant,Quit,Complete,Not Eligible,No,May,20,May Week 20,Primary Care
 Foggy Bottom,FB PRIMARY CARE,2025-03-12,8,Medical Assistant,Quit,Complete,Not Eligible,No,March,11,March Week 11,Primary Care
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-22,40,Medical Assistant,Quit,Complete,Not Eligible,Yes,April,16,April Week 16,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-22,40,Medical Assistant,Quit,Complete,Not Eligible,Yes,April,16,April Week 16,Geri/Palliative Care
 West End,M ST PRIMARY CARE,2025-03-11,93,Medical Assistant,Quit,Complete,Not Eligible,No,March,10,March Week 10,Primary Care
 Foggy Bottom,FB CARDIOLOGY,2025-03-05,2,Medical Assistant,Quit,Complete,Eligible,Yes,March,10,March Week 10,Other
 Foggy Bottom,FB DERMATOLOGY,2025-04-30,65,Medical Assistant,Quit,Complete,Not Eligible,No,April,18,April Week 18,Dermatology
@@ -6417,14 +6417,14 @@ Foggy Bottom,FB CARDIOLOGY,2025-05-07,10,Medical Assistant,Yes,Not Complete,Not 
 Foggy Bottom,FB PRIMARY CARE,2025-04-28,56,Medical Assistant,Quit,Complete,Not Eligible,No,April,17,April Week 17,Primary Care
 West End,M ST ORTHOPAEDIC SURG,2025-05-12,36,Medical Assistant,Quit,Complete,Not Eligible,No,May,19,May Week 19,Surgery
 West End,M ST ENT,2025-04-22,9,Medical Assistant,Quit,Complete,Not Eligible,No,April,16,April Week 16,ENT
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-03-07,183,Physician,Quit,Complete,Not Eligible,Yes,March,10,March Week 10,Palliative Care
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-03-27,59,Medical Assistant,Quit,Complete,Not Eligible,Yes,March,13,March Week 13,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-03-07,183,Physician,Quit,Complete,Not Eligible,Yes,March,10,March Week 10,Geri/Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-03-27,59,Medical Assistant,Quit,Complete,Not Eligible,Yes,March,13,March Week 13,Geri/Palliative Care
 Foggy Bottom,FB CARDIOLOGY,2025-05-06,10,Medical Assistant,Quit,Complete,Not Eligible,Yes,May,18,May Week 18,Other
 Foggy Bottom,FB PRIMARY CARE,2025-03-18,70,Medical Assistant,Quit,Complete,Not Eligible,No,March,11,March Week 11,Primary Care
 West End,M ST COS/PLAST SUR,2025-03-18,51,Medical Assistant,Quit,Complete,Not Eligible,No,March,11,March Week 11,Surgery
 West End,M ST ENT,2025-03-20,13,Medical Assistant,Quit,Complete,Not Eligible,No,March,12,March Week 12,ENT
 Foggy Bottom,FB PULMONOLOGY,2025-04-29,10,Medical Assistant,Quit,Not Complete,Eligible,Yes,April,17,April Week 17,Pulmonology
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-21,38,Medical Assistant,Quit,Complete,Not Eligible,Yes,April,16,April Week 16,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-21,38,Medical Assistant,Quit,Complete,Not Eligible,Yes,April,16,April Week 16,Geri/Palliative Care
 Foggy Bottom,FB PULMONOLOGY,2025-04-23,4,Medical Assistant,Quit,Complete,Not Eligible,Yes,April,17,April Week 17,Pulmonology
 West End,M ST ENT,2025-03-25,64,Medical Assistant,Quit,Complete,Not Eligible,No,March,12,March Week 12,ENT
 Foggy Bottom,FB PULMONOLOGY,2025-05-21,52,Medical Assistant,Yes,Complete,Eligible,Yes,May,21,May Week 21,Pulmonology
@@ -6450,7 +6450,7 @@ Foggy Bottom,FB PODIATRY,2025-03-10,44,Medical Assistant,Quit,Complete,Eligible,
 West End,M ST OB/GYN,2025-05-20,215,Medical Assistant,Quit,Complete,Not Eligible,No,May,20,May Week 20,Obstetrics/Gynecology
 West End,M ST ENT,2025-03-04,22,Medical Assistant,Quit,Complete,Not Eligible,No,March,9,March Week 9,ENT
 West End,M ST ORTHOPAEDIC SURG,2025-03-05,36,Medical Assistant,Quit,Complete,Not Eligible,No,March,10,March Week 10,Surgery
-Foggy Bottom,FB NEPHROLOGY,2025-05-07,2,Medical Assistant,Quit,Complete,Eligible,Yes,May,19,May Week 19,Nephrology
+Foggy Bottom,FB NEPHROLOGY,2025-05-07,2,Medical Assistant,Quit,Complete,Eligible,Yes,May,19,May Week 19,Nephrology (FB)
 Foggy Bottom,FB PULMONOLOGY,2025-03-27,178,Physician Assistant,Quit,Complete,Not Eligible,Yes,March,13,March Week 13,Pulmonology
 Foggy Bottom,FB PAIN,2025-03-17,3,Medical Assistant,Quit,Complete,Not Eligible,No,March,11,March Week 11,Pain Management
 Foggy Bottom,FB DERMATOLOGY,2025-05-06,119,Medical Assistant,Quit,Complete,Not Eligible,No,May,18,May Week 18,Dermatology
@@ -6535,7 +6535,7 @@ West End,M ST ENT,2025-04-22,22,Medical Assistant,Quit,Complete,Not Eligible,No,
 Foggy Bottom,FB DERMATOLOGY,2025-05-09,221,Medical Assistant,Quit,Complete,Not Eligible,No,May,19,May Week 19,Dermatology
 West End,M ST PRIMARY CARE,2025-04-07,53,Medical Assistant,Quit,Complete,Not Eligible,No,April,14,April Week 14,Primary Care
 Foggy Bottom,FB PULMONOLOGY,2025-04-30,4,Medical Assistant,Quit,Complete,Not Eligible,Yes,April,18,April Week 18,Pulmonology
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-08,31,Medical Assistant,Quit,Complete,Not Eligible,Yes,April,14,April Week 14,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-08,31,Medical Assistant,Quit,Complete,Not Eligible,Yes,April,14,April Week 14,Geri/Palliative Care
 Foggy Bottom,FB UROLOGY,2025-04-21,95,Medical Assistant,Quit,Complete,Not Eligible,No,April,16,April Week 16,Urology
 Foggy Bottom,FB PULMONOLOGY,2025-05-07,38,Medical Assistant,Quit,Complete,Not Eligible,Yes,May,19,May Week 19,Pulmonology
 Foggy Bottom,FB ID,2025-05-30,2,Medical Assistant,Quit,Not Complete,Not Eligible,Yes,May,22,May Week 22,Infectious Disease
@@ -6577,7 +6577,7 @@ West End,M ST ORTHOPAEDIC SURG,2025-04-29,11,Medical Assistant,Yes,Complete,Not 
 West End,M ST ORTHOPAEDIC SURG,2025-05-29,46,Medical Assistant,Quit,Complete,Not Eligible,No,May,22,May Week 22,Surgery
 Foggy Bottom,FB PRIMARY CARE,2025-04-28,15,Medical Assistant,Quit,Complete,Eligible,No,April,17,April Week 17,Primary Care
 Foggy Bottom,FB GENERAL SURGERY,2025-04-21,17,Medical Assistant,Quit,Complete,Not Eligible,No,April,16,April Week 16,Surgery
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-25,24,Medical Assistant,Quit,Complete,Not Eligible,Yes,April,17,April Week 17,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-04-25,24,Medical Assistant,Quit,Complete,Not Eligible,Yes,April,17,April Week 17,Geri/Palliative Care
 Foggy Bottom,FB CARDIOLOGY,2025-04-25,10,Medical Assistant,Quit,Complete,Not Eligible,Yes,April,17,April Week 17,Other
 Foggy Bottom,FB GI & LIVER DISEASES,2025-04-23,62,Medical Assistant,Quit,Complete,Not Eligible,No,April,17,April Week 17,Gastroenterology
 Foggy Bottom,FB PODIATRY,2025-05-07,44,Medical Assistant,Quit,Complete,Not Eligible,No,May,19,May Week 19,Other
@@ -6586,7 +6586,7 @@ West End,M ST COS/PLAST SUR,2025-05-20,77,Registered Nurse,Quit,Complete,Not Eli
 Foggy Bottom,FB DERMATOLOGY,2025-04-29,221,Medical Assistant,Yes,Not Complete,Not Eligible,No,April,17,April Week 17,Dermatology
 West End,M ST ENT,2025-05-01,64,Medical Assistant,Quit,Complete,Not Eligible,No,May,18,May Week 18,ENT
 West End,M ST ENT,2025-05-12,9,Medical Assistant,Quit,Complete,Not Eligible,No,May,19,May Week 19,ENT
-Foggy Bottom,FB NEPHROLOGY,2025-04-30,2,Medical Assistant,Quit,Complete,Not Eligible,Yes,April,18,April Week 18,Nephrology
+Foggy Bottom,FB NEPHROLOGY,2025-04-30,2,Medical Assistant,Quit,Complete,Not Eligible,Yes,April,18,April Week 18,Nephrology (FB)
 Foggy Bottom,FB OPHTHALMOLOGY,2025-04-25,29,Technologist,Quit,Complete,Not Eligible,No,April,17,April Week 17,Ophthalmology
 West End,M ST ENT,2025-05-28,266,Registered Nurse,Quit,Complete,Not Eligible,No,May,22,May Week 22,ENT
 Foggy Bottom,FB PRIMARY CARE,2025-05-07,30,Medical Assistant,Quit,Complete,Not Eligible,No,May,19,May Week 19,Primary Care
@@ -6633,6 +6633,6 @@ Foggy Bottom,FB PRIMARY CARE,2025-05-22,39,Medical Assistant,Quit,Complete,Not E
 Foggy Bottom,FB DERMATOLOGY,2025-05-30,221,Medical Assistant,Quit,Complete,Not Eligible,No,May,22,May Week 22,Dermatology
 West End,M ST ENT,2025-05-28,9,Medical Assistant,Quit,Complete,Eligible,No,May,22,May Week 22,ENT
 Foggy Bottom,FB PODIATRY,2025-05-20,34,Medical Assistant,Quit,Complete,Not Eligible,No,May,20,May Week 20,Other
-Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-30,272,Physician,Quit,Complete,Eligible,Yes,May,22,May Week 22,Palliative Care
+Foggy Bottom,FB GER PALLIATIVE CARE,2025-05-30,272,Physician,Quit,Complete,Eligible,Yes,May,22,May Week 22,Geri/Palliative Care
 Foggy Bottom,FB OB/GYN,2025-05-27,66,Medical Assistant,Quit,Not Complete,Not Eligible,No,May,21,May Week 21,Obstetrics/Gynecology
 Foggy Bottom,FB DERMATOLOGY,2025-05-30,96,Medical Assistant,Quit,Complete,Not Eligible,No,May,22,May Week 22,Dermatology
