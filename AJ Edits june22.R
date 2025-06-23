@@ -110,5 +110,5 @@ tobacco_clean_AJ_FINAL <- tobacco_clean_AJ_FINAL %>%
   select(-month)
 
 
-write.csv(tobacco_clean_AJ_FINAL, "tobacco_clean_AJ_FINAL.csv", row.names = FALSE)
+write.csv(tobacco_clean_AJ_FINAL, "data/tobacco_clean_AJ_FINAL.csv", row.names = FALSE)
 
