@@ -48,39 +48,57 @@ tobacco_clean_AJ_FINAL$month <- format(as.Date(tobacco_clean_AJ_FINAL$date), "%m
 format(as.Date(tobacco_clean_AJ_FINAL$date), "%B")
 tobacco_clean_AJ_FINAL$month <- format(as.Date(tobacco_clean_AJ_FINAL$date), "%B")
 
-
 tobacco_clean_AJ_FINAL <- tobacco_clean_AJ_FINAL %>%
   mutate(subspecialty = case_when(
-    department %in% c("FB Cardiology") ~ "Cardiology"
-    department %in% c("FB CARDIOTHORACIC SURGERY", "FB CARDIOTHORACIC SURGERY", "FB GENERAL SURGERY", "FB NEUROSURGERY","FB THORACIC SURGERY","FB VASCULAR SURGERY" ,"M ST BREAST SURGERY", "M ST CARDIAC SURGERY","M ST COS/PLAST SUR",
-                      "M ST ORTHOPAEDIC SURG", "FB ORTHOPAEDIC SURG") ~ "Surgery"
-    department %in% c("FB DERMATOLOGY", "M ST DERMATOLOGY") ~ "Dermatology"
-    department %in% c("FB GER PALLIATIVE CARE") ~ "Palative Care"
-    department %in% c("FB GI & LIVER DISEASES") ~ "Gastroenterology"
-    department %in% c("FB HEM ONC", "FB INFUSION CENTER") ~ "Hematology/Oncology"
-    department %>% c("FB RADIATION ONCOLOGY") ~ "Radiation Oncology"
-    department %in% c("FB ID") ~ "Infectious Disease"
-    department %in% c("FB IR") ~ "Intervenal Radiology"
-    department %in% c("FB MIDWIFERY" , "M ST OB/GYN" , "FB OB/GYN", "FB UROGYN",
-                      "FB MFM") ~ "Obestetrics/Gynecology"
-    department %in% c("FB NEPHROLOGY" "M ST NEPHROLOGY") ~ "Nephrology"
-    department %in% c("FB NEUROLOGY") ~ "Neurology"
-    department %in% c("FB OPHTHALMOLOGY") ~ "Opthamology"
-    department %in% c("FB PAIN") ~ "Pain Management"
-    department %in% c("FB PMR") ~ "Physical Medicine an Rehabilitation"
-    department %in% c("M ST PRIMARY CARE", "FB PRIMARY CARE" ,"FB PREVENTORIUM CLINIC") ~ "Primary Care"
-    department %in% c("FB PULMONOLOGY") ~ "Pulmonology"
-    department %>% c("FB UROLOGY") ~ "Urology"
-    department %>% c("INGLESIDE GERIATRICS" ) ~ "Geriatrics"
-    department %>% c("M ST ENT") ~ "ENT"
-    department %>% c("M ST RHEUMATOLOGY") ~ "Rheumatology"
-    department %>% c("M ST ENDOCRINOLOGY") ~ "Endocrinology"
-
-    TRUE ~ "Other"  # default catch-all
+    department %in% c("FB Cardiology") ~ "Cardiology",
+    
+    department %in% c("FB CARDIOTHORACIC SURGERY", "FB GENERAL SURGERY", "FB NEUROSURGERY",
+                      "FB THORACIC SURGERY", "FB VASCULAR SURGERY", "M ST BREAST SURGERY",
+                      "M ST CARDIAC SURGERY", "M ST COS/PLAST SUR", "M ST ORTHOPAEDIC SURG",
+                      "FB ORTHOPAEDIC SURG") ~ "Surgery",
+    
+    department %in% c("FB DERMATOLOGY", "M ST DERMATOLOGY") ~ "Dermatology",
+    
+    department %in% c("FB GER PALLIATIVE CARE") ~ "Palliative Care",
+    
+    department %in% c("FB GI & LIVER DISEASES") ~ "Gastroenterology",
+    
+    department %in% c("FB HEM ONC", "FB INFUSION CENTER") ~ "Hematology/Oncology",
+    
+    department %in% c("FB RADIATION ONCOLOGY") ~ "Radiation Oncology",
+    
+    department %in% c("FB ID") ~ "Infectious Disease",
+    
+    department %in% c("FB IR") ~ "Interventional Radiology",
+    
+    department %in% c("FB MIDWIFERY", "M ST OB/GYN", "FB OB/GYN", "FB UROGYN", "FB MFM") ~ "Obstetrics/Gynecology",
+    
+    department %in% c("FB NEPHROLOGY", "M ST NEPHROLOGY") ~ "Nephrology",
+    
+    department %in% c("FB NEUROLOGY") ~ "Neurology",
+    
+    department %in% c("FB OPHTHALMOLOGY") ~ "Ophthalmology",
+    
+    department %in% c("FB PAIN") ~ "Pain Management",
+    
+    department %in% c("FB PMR") ~ "Physical Medicine and Rehabilitation",
+    
+    department %in% c("M ST PRIMARY CARE", "FB PRIMARY CARE", "FB PREVENTORIUM CLINIC") ~ "Primary Care",
+    
+    department %in% c("FB PULMONOLOGY") ~ "Pulmonology",
+    
+    department %in% c("FB UROLOGY") ~ "Urology",
+    
+    department %in% c("INGLESIDE GERIATRICS") ~ "Geriatrics",
+    
+    department %in% c("M ST ENT") ~ "ENT",
+    
+    department %in% c("M ST RHEUMATOLOGY") ~ "Rheumatology",
+    
+    department %in% c("M ST ENDOCRINOLOGY") ~ "Endocrinology",
+    
+    TRUE ~ "Other"
   ))
-
-
-
 
 write.csv(tobacco_clean_AJ_FINAL, "/Users/ashlanjackson/Library/Mobile Documents/com~apple~CloudDocs/GWU/visualizing with R/tobacco_clean_AJ_FINAL.csv", row.names = FALSE)
 write.csv(tobacco_clean_AJ_FINAL, "tobacco_clean_AJ_FINAL.csv", row.names = FALSE)
