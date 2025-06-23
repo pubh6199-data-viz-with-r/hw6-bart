@@ -54,14 +54,19 @@ table(tobacco_data_pilot$pilot_dept)
 #Modifying Dates
 
 tobacco_data_clean_date <- tobacco_data_pilot %>%
-  mutate(month_label = month(date, label = TRUE, abbr = FALSE),
-         week_number=week(date),
-         week_label=paste(month_label, "Week", week_number))
-         
-table(tobacco_data_clean_date$week_label)
+  mutate(week_date = floor_date(date, unit = "week", week_start = 1)) %>%
+  mutate(month_date = floor_date(date, unit = "month"))
+
+# create week/month_num with the number of each week/month
+tobacco_data_clean_date <- tobacco_data_clean_date %>% 
+  mutate(week_num = week(week_date),
+         month_num = month(month_date))
+
+# create a new column with month # as month name (e.g. 3 = "Mar")
+tobacco_data_clean_date <- tobacco_data_clean_date %>% 
+  mutate(month_name = month(month_date, label = TRUE, abbr = TRUE))
          
 glimpse(tobacco_data_clean_date)
-
 
 #Create specialties
 
