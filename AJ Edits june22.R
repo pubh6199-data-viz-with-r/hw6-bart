@@ -166,6 +166,21 @@ view(tobacco_clean_weeklymodified)
 write_csv(tobacco_clean_weeklymodified , "data/tobacco_data_weeklymodified.csv")
 
 #New datasets made for monthly data
+view(tobacco_data_clean_specialties)
 
+tobacco_data_monthly1 <-tobacco_data_clean_specialties %>%
+  group_by(month_num, spec) %>%
+  summarize (percent_complete =mean(hx_complete == "Complete")) %>%
+  rename(group=spec)
+
+tobacco_data_monthly2 <-tobacco_data_clean_specialties %>%
+  group_by(month_num, pilot_dept) %>%
+  summarize(perecnt_complete = mean(hx_complete == "Complete")) %>%
+  rename (group = pilot_dept)
+
+  tobacco_clean_monthlymodified <-bind_rows(tobacco_data_monthly2, tobacco_data_monthly1) %>%
+    ungroup()
+  
+  write_csv(tobacco_clean_monthlymodified, "data/tobacco_data_monthlymodified.csv")
 
  
