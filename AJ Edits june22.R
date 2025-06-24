@@ -43,8 +43,8 @@ tobacco_data_pilot <- tobacco_data_pilot |>
 
 tobacco_data_pilot <- tobacco_data_pilot %>%
   mutate(pilot_dept = ifelse(department %in% pilot_depts, 
-                        "Yes", 
-                        "No"))
+                        "Pilot", 
+                        "Non-Pilot"))
 
 tobacco_data_pilot <- tobacco_data_pilot %>%
   relocate(pilot_dept, .after = department)
@@ -72,12 +72,12 @@ glimpse(tobacco_data_clean_date)
 
 tobacco_data_clean_specialties <- tobacco_data_clean_date %>%
   mutate(spec = case_when(
-    department %in% c("FB Cardiology") ~ "Cardiology",
+    department %in% c("FB CARDIOLOGY") ~ "Cardiology",
     
     department %in% c("FB CARDIOTHORACIC SURGERY", "FB GENERAL SURGERY", "FB NEUROSURGERY",
                       "FB THORACIC SURGERY", "FB VASCULAR SURGERY", "M ST BREAST SURGERY",
                       "M ST CARDIAC SURGERY", "M ST COS/PLAST SUR", "M ST ORTHOPAEDIC SURG",
-                      "FB ORTHOPAEDIC SURG") ~ "Surgery",
+                      "FB ORTHOPAEDIC SURG", "FB COLON RECTAL SURG", "FB TRAUMA SURGERY") ~ "Surgery",
     
     department %in% c("FB DERMATOLOGY", "M ST DERMATOLOGY") ~ "Dermatology",
     
@@ -93,7 +93,7 @@ tobacco_data_clean_specialties <- tobacco_data_clean_date %>%
     
     department %in% c("FB IR") ~ "Interventional Radiology",
     
-    department %in% c("FB MIDWIFERY", "M ST OB/GYN", "FB OB/GYN", "FB UROGYN", "FB MFM") ~ "Obstetrics/Gynecology",
+    department %in% c("FB MIDWIFERY", "M ST OB/GYN", "FB OB/GYN", "FB UROGYN", "FB MFM", "FB GYN ONC") ~ "Obstetrics/Gynecology",
     
     department %in% c("FB NEPHROLOGY") ~ "Nephrology (FB)",
     
@@ -120,6 +120,8 @@ tobacco_data_clean_specialties <- tobacco_data_clean_date %>%
     department %in% c("M ST RHEUMATOLOGY") ~ "Rheumatology",
     
     department %in% c("M ST ENDOCRINOLOGY") ~ "Endocrinology",
+    
+    department %in% c("FB PODIATRY") ~ "Podiatry",
     
     TRUE ~ "Other"
   ))
