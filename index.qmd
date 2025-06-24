@@ -50,7 +50,7 @@ _Describe your data source(s), including where it came from, the key variables, 
 
 ```{r}
 #| label: load packages and data
-#| eval: false
+#| eval: true
 
 library(tidyverse)
 library(readr)
@@ -58,8 +58,8 @@ library(ggplot2)
 library(shiny)
 library(dplyr)
 
-data <- read_csv("data/my_data.csv")
-glimpse(data)
+tobacco_data_weekly_modified <- read_csv("data/tobacco_data_weeklymodified.csv")
+
 ```   
 
 ## Visualization 1: [Title Here]
