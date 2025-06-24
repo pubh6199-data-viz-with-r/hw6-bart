@@ -146,38 +146,26 @@ write_csv(tobacco_data_clean_specialties, "data/tobacco_clean_AJ_FINAL.csv")
 
 #Created weekly dataset
 #NOTE TO ASHLAN FOllow this structure for months
-tobacco_data_weekly1 <-tobacco_data_clean_subspecialities %>%
-  group_by(week_label, subspecialty) %>%
+tobacco_data_weekly1 <-tobacco_data_clean_specialties %>%
+  group_by(week_num, spec) %>%
   summarize(percent_complete = mean(hx_complete == "Complete")) %>%
-  rename(group=subspecialty)
+  rename(group=spec)
 
-tobacco_data_weekly2<-tobacco_data_clean_subspecialities %>%
-  group_by(week_label, pilot) %>%
+tobacco_data_weekly2<-tobacco_data_clean_specialties %>%
+  group_by(week_num, pilot_dept) %>%
   summarize(percent_complete = mean(hx_complete == "Complete")) %>%
-rename(group=pilot)
+rename(group=pilot_dept)
 
 tobacco_clean_weeklymodified <-bind_rows(tobacco_data_weekly2,tobacco_data_weekly1) %>%
-  ungroup() %>%
-  mutate(week_label = fct_relevel(
-    week_label,
-    "March Week 9",
-    "March Week 10",
-    "March Week 11",
-    "March Week 12",
-    "March Week 13",
-    "April Week 13",
-    "April Week 14",
-    "April Week 15",
-    "April Week 16",
-    "April Week 17",
-    "April Week 18",
-    "May Week 18",
-    "May Week 19",
-    "May Week 20",
-    "May Week 21",
-    "May Week 22"
-  ))
+  ungroup() 
 
-glimpse(tobacco_clean_weeklymodified)
+#created new dataset called tobacco_clean_weekly_modified to encompass all teh weekly data. 
+#has been added to qmd
+view(tobacco_clean_weeklymodified)
+
+write_csv(tobacco_clean_weeklymodified , "data/tobacco_data_weeklymodified.csv")
+
+#New datasets made for monthly data
 
 
+ 

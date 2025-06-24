@@ -1,0 +1,280 @@
+week_num,group,percent_complete
+9,Non-Pilot,0.8390022675736961
+9,Pilot,0.7735849056603774
+10,Non-Pilot,0.8194070080862533
+10,Pilot,0.8571428571428571
+11,Non-Pilot,0.8293838862559242
+11,Pilot,0.7450980392156863
+12,Non-Pilot,0.8175519630484989
+12,Pilot,0.8928571428571429
+13,Non-Pilot,0.8191721132897604
+13,Pilot,0.74
+14,Non-Pilot,0.8484848484848485
+14,Pilot,0.8478260869565217
+15,Non-Pilot,0.7922077922077922
+15,Pilot,0.8809523809523809
+16,Non-Pilot,0.8362445414847162
+16,Pilot,0.8450704225352113
+17,Non-Pilot,0.7984189723320159
+17,Pilot,0.8591549295774648
+18,Non-Pilot,0.8128342245989305
+18,Pilot,0.8533333333333334
+19,Non-Pilot,0.8077753779697624
+19,Pilot,0.7948717948717948
+20,Non-Pilot,0.7988505747126436
+20,Pilot,0.8823529411764706
+21,Non-Pilot,0.8132387706855791
+21,Pilot,0.7368421052631579
+9,Cardiology,0.8125
+9,Dermatology,0.7435897435897436
+9,ENT,0.8363636363636363
+9,Endocrinology,1
+9,Gastroenterology,1
+9,Geri/Palliative Care,0.8571428571428571
+9,Hematology/Oncology,0.6666666666666666
+9,Infectious Disease,0.7777777777777778
+9,Nephrology (FB),1
+9,Neurology,0.9375
+9,Obstetrics/Gynecology,0.9272727272727272
+9,Ophthalmology,0.5
+9,Pain Management,0.6
+9,Podiatry,0.7647058823529411
+9,Primary Care,0.9333333333333333
+9,Pulmonology,0.6363636363636364
+9,Rheumatology,1
+9,Surgery,0.8118811881188119
+9,Urology,0.7142857142857143
+10,Cardiology,0.9411764705882353
+10,Dermatology,0.8333333333333334
+10,ENT,0.8888888888888888
+10,Gastroenterology,0.5
+10,Geri/Palliative Care,0.5
+10,Hematology/Oncology,1
+10,Infectious Disease,0.9166666666666666
+10,Interventional Radiology,1
+10,Nephrology (FB),0.8571428571428571
+10,Neurology,0.8928571428571429
+10,Obstetrics/Gynecology,0.7346938775510204
+10,Ophthalmology,0.375
+10,Pain Management,0.6666666666666666
+10,Podiatry,0.9090909090909091
+10,Primary Care,0.9042553191489362
+10,Pulmonology,0.8571428571428571
+10,Surgery,0.801980198019802
+10,Urology,0.5555555555555556
+11,Cardiology,0.9375
+11,Dermatology,0.7407407407407407
+11,ENT,0.9615384615384616
+11,Endocrinology,0.5
+11,Gastroenterology,0.8
+11,Geri/Palliative Care,0.5
+11,Geriatrics (Ingleside),0
+11,Hematology/Oncology,1
+11,Infectious Disease,0.7222222222222222
+11,Nephrology (FB),0.5
+11,Nephrology (M St),1
+11,Neurology,0.9285714285714286
+11,Obstetrics/Gynecology,0.8833333333333333
+11,Ophthalmology,1
+11,Pain Management,0.46153846153846156
+11,Podiatry,0.8666666666666667
+11,Primary Care,0.8607594936708861
+11,Pulmonology,0.7142857142857143
+11,Radiation Oncology,0
+11,Surgery,0.782258064516129
+11,Urology,0.8333333333333334
+12,Cardiology,0.85
+12,Dermatology,0.8
+12,ENT,0.8545454545454545
+12,Gastroenterology,0.9411764705882353
+12,Geri/Palliative Care,1
+12,Hematology/Oncology,0.6666666666666666
+12,Infectious Disease,0.8666666666666667
+12,Nephrology (FB),0.8333333333333334
+12,Neurology,0.9
+12,Obstetrics/Gynecology,0.7547169811320755
+12,Ophthalmology,0.8
+12,Pain Management,0.75
+12,Physical Medicine and Rehabilitation,1
+12,Podiatry,0.7241379310344828
+12,Primary Care,0.8777777777777778
+12,Pulmonology,1
+12,Rheumatology,1
+12,Surgery,0.76
+12,Urology,0.9090909090909091
+13,Cardiology,0.6923076923076923
+13,Dermatology,0.825
+13,ENT,0.9137931034482759
+13,Gastroenterology,1
+13,Geri/Palliative Care,0.8
+13,Geriatrics (Ingleside),0
+13,Hematology/Oncology,1
+13,Infectious Disease,0.7368421052631579
+13,Nephrology (FB),1
+13,Neurology,0.9375
+13,Obstetrics/Gynecology,0.803030303030303
+13,Ophthalmology,0.75
+13,Pain Management,0.6428571428571429
+13,Podiatry,0.8095238095238095
+13,Primary Care,0.8928571428571429
+13,Pulmonology,0.6
+13,Rheumatology,0
+13,Surgery,0.765625
+13,Urology,0.6470588235294118
+14,Cardiology,0.6875
+14,Dermatology,0.8571428571428571
+14,ENT,0.8148148148148148
+14,Gastroenterology,0.6666666666666666
+14,Geri/Palliative Care,0.75
+14,Geriatrics (Ingleside),0
+14,Hematology/Oncology,0.6666666666666666
+14,Infectious Disease,0.9375
+14,Nephrology (FB),1
+14,Neurology,0.9166666666666666
+14,Obstetrics/Gynecology,0.875
+14,Ophthalmology,0.4444444444444444
+14,Pain Management,0.8
+14,Podiatry,0.8095238095238095
+14,Primary Care,0.9156626506024096
+14,Pulmonology,1
+14,Surgery,0.8416666666666667
+14,Urology,1
+15,Cardiology,0.9
+15,Dermatology,0.7878787878787878
+15,ENT,0.8888888888888888
+15,Gastroenterology,0.8
+15,Geri/Palliative Care,0.75
+15,Hematology/Oncology,1
+15,Infectious Disease,1
+15,Nephrology (FB),1
+15,Neurology,0.9090909090909091
+15,Obstetrics/Gynecology,0.7948717948717948
+15,Ophthalmology,0.5555555555555556
+15,Pain Management,0.6666666666666666
+15,Podiatry,0.8148148148148148
+15,Primary Care,0.8589743589743589
+15,Pulmonology,0.7857142857142857
+15,Radiation Oncology,0.2
+15,Rheumatology,1
+15,Surgery,0.7478991596638656
+15,Urology,0.6666666666666666
+16,Cardiology,0.8636363636363636
+16,Dermatology,0.7037037037037037
+16,ENT,0.9454545454545454
+16,Endocrinology,1
+16,Gastroenterology,1
+16,Geri/Palliative Care,0.8
+16,Hematology/Oncology,0.875
+16,Infectious Disease,0.8125
+16,Nephrology (FB),1
+16,Neurology,0.8571428571428571
+16,Obstetrics/Gynecology,0.8181818181818182
+16,Ophthalmology,0.4117647058823529
+16,Pain Management,0.8181818181818182
+16,Physical Medicine and Rehabilitation,0.5
+16,Podiatry,0.84
+16,Primary Care,0.8913043478260869
+16,Pulmonology,0.8666666666666667
+16,Rheumatology,1
+16,Surgery,0.8155339805825242
+16,Urology,0.9
+17,Cardiology,1
+17,Dermatology,0.7441860465116279
+17,ENT,0.8307692307692308
+17,Gastroenterology,0.5
+17,Geri/Palliative Care,0.7692307692307693
+17,Geriatrics (Ingleside),0
+17,Hematology/Oncology,1
+17,Infectious Disease,0.9090909090909091
+17,Nephrology (FB),0.6666666666666666
+17,Neurology,0.8064516129032258
+17,Obstetrics/Gynecology,0.8805970149253731
+17,Ophthalmology,0.5882352941176471
+17,Pain Management,0.7894736842105263
+17,Physical Medicine and Rehabilitation,1
+17,Podiatry,0.7857142857142857
+17,Primary Care,0.8695652173913043
+17,Pulmonology,0.7333333333333333
+17,Radiation Oncology,0
+17,Rheumatology,0.5
+17,Surgery,0.7832167832167832
+17,Urology,0.7692307692307693
+18,Cardiology,0.8095238095238095
+18,Dermatology,0.7758620689655172
+18,ENT,0.7719298245614035
+18,Gastroenterology,0.9333333333333333
+18,Geri/Palliative Care,0.9
+18,Hematology/Oncology,1
+18,Infectious Disease,0.8620689655172413
+18,Interventional Radiology,0.6666666666666666
+18,Nephrology (FB),1
+18,Neurology,0.8947368421052632
+18,Obstetrics/Gynecology,0.75
+18,Ophthalmology,0.7
+18,Pain Management,1
+18,Podiatry,0.7931034482758621
+18,Primary Care,0.8478260869565217
+18,Pulmonology,0.8333333333333334
+18,Radiation Oncology,1
+18,Rheumatology,1
+18,Surgery,0.7960526315789473
+18,Urology,0.9473684210526315
+19,Cardiology,0.8260869565217391
+19,Dermatology,0.6923076923076923
+19,ENT,0.967741935483871
+19,Gastroenterology,0.7777777777777778
+19,Geri/Palliative Care,0.8888888888888888
+19,Geriatrics (Ingleside),0
+19,Hematology/Oncology,1
+19,Infectious Disease,0.76
+19,Interventional Radiology,1
+19,Nephrology (FB),0.8571428571428571
+19,Neurology,0.8636363636363636
+19,Obstetrics/Gynecology,0.7540983606557377
+19,Ophthalmology,0.9
+19,Pain Management,0.875
+19,Physical Medicine and Rehabilitation,1
+19,Podiatry,0.631578947368421
+19,Primary Care,0.9375
+19,Pulmonology,0.7142857142857143
+19,Surgery,0.78125
+19,Urology,0.7857142857142857
+20,Cardiology,0.9333333333333333
+20,Dermatology,0.6818181818181818
+20,ENT,0.8333333333333334
+20,Gastroenterology,0.9090909090909091
+20,Geri/Palliative Care,0.6666666666666666
+20,Geriatrics (Ingleside),0
+20,Hematology/Oncology,1
+20,Infectious Disease,1
+20,Nephrology (FB),1
+20,Neurology,0.8518518518518519
+20,Obstetrics/Gynecology,0.7532467532467533
+20,Ophthalmology,0.5714285714285714
+20,Pain Management,0.6666666666666666
+20,Physical Medicine and Rehabilitation,1
+20,Podiatry,0.8571428571428571
+20,Primary Care,0.88
+20,Pulmonology,0.875
+20,Radiation Oncology,0.5
+20,Rheumatology,0
+20,Surgery,0.8313953488372093
+20,Urology,0.7058823529411765
+21,Cardiology,0.7333333333333333
+21,Dermatology,0.75
+21,ENT,0.8285714285714286
+21,Gastroenterology,1
+21,Geri/Palliative Care,0.7272727272727273
+21,Hematology/Oncology,0.75
+21,Infectious Disease,0.6842105263157895
+21,Nephrology (FB),1
+21,Neurology,0.875
+21,Obstetrics/Gynecology,0.8059701492537313
+21,Ophthalmology,0.8571428571428571
+21,Pain Management,0.7727272727272727
+21,Podiatry,0.8
+21,Primary Care,0.8625
+21,Pulmonology,0.8181818181818182
+21,Radiation Oncology,0.5
+21,Surgery,0.7787610619469026
+21,Urology,0.8571428571428571
