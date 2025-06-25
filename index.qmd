@@ -79,6 +79,7 @@ library(dplyr)
 library(ggrepel)
 library(viridis)
 
+
 summary_groups <- tobacco_data_weekly_modified %>%
   filter(!group %in% c("Pilot", "Non-Pilot")) %>%
   filter(week_num == max(week_num)) %>%
@@ -91,7 +92,8 @@ bottom_groups <- summary_groups %>% slice_tail(n = 2) %>% pull(group)
 highlight_groups <- c(top_groups, bottom_groups)
 
 highlight_colors <- c(
-  setNames(viridis::viridis(4), highlight_groups),
+  setNames(rep("steelblue", 2), top_groups),
+  setNames(rep("firebrick", 2), bottom_groups),
   "Other" = "gray80"
 )
 
@@ -108,7 +110,7 @@ ggplot(
       filter(group %in% highlight_groups) %>%
       group_by(group) %>%
       filter(week_num == max(week_num)),
-    aes(label = group, color = group),  # Color label by group
+    aes(label = group, color = group),  
     nudge_x = 0.3,
     hjust = 0,
     segment.color = NA,
@@ -127,7 +129,7 @@ ggplot(
     labels = scales::percent_format(accuracy = 1)
   ) +
   labs(
-    title = "Highest and Lowest Departments",
+    title = "Highest and Lowest Departments (Weekly)",
     x = "Week Number",
     y = "Percent Complete"
   ) +
@@ -149,8 +151,10 @@ library(dplyr)
 library(ggrepel)
 library(viridis)
 
-summary_groups <- tobacco_data_monthly_moified %>%
-  filter(!group %in% c("Pilot", "Non-Pilot")) %>%
+clean_data <- tobacco_data_monthly_moified %>%
+  filter(!group %in% c("Pilot", "Non-Pilot", "Geriatrics (Ingleside)"))
+
+summary_groups <- clean_data %>%
   filter(month_num == max(month_num)) %>%
   group_by(group) %>%
   summarize(final_value = max(percent_complete, na.rm = TRUE)) %>%
@@ -161,20 +165,19 @@ bottom_groups <- summary_groups %>% slice_tail(n = 2) %>% pull(group)
 highlight_groups <- c(top_groups, bottom_groups)
 
 highlight_colors <- c(
-  setNames(viridis::viridis(4), highlight_groups),
+  setNames(rep("steelblue", 2), top_groups),
+  setNames(rep("firebrick", 2), bottom_groups),
   "Other" = "gray80"
 )
 
-ggplot(
-  tobacco_data_monthly_moified %>%
-    filter(!group %in% c("Pilot", "Non-Pilot")) %>%
-    mutate(line_group = ifelse(group %in% highlight_groups, group, "Other")),
-  aes(x = month_num, y = percent_complete, group = group)
-) +
+plot_data <- clean_data %>%
+  mutate(line_group = ifelse(group %in% highlight_groups, group, "Other"))
+
+ggplot(plot_data, aes(x = month_num, y = percent_complete, group = group)) +
   geom_line(aes(color = line_group, size = line_group, alpha = line_group)) +
   geom_point(aes(color = line_group, alpha = line_group), size = 2) +
   geom_text_repel(
-    data = tobacco_data_monthly_moified %>%
+    data = plot_data %>%
       filter(group %in% highlight_groups) %>%
       group_by(group) %>%
       filter(month_num == max(month_num)),
@@ -189,8 +192,8 @@ ggplot(
   scale_size_manual(values = c(setNames(rep(1.4, 4), highlight_groups), "Other" = 0.6)) +
   scale_alpha_manual(values = c(setNames(rep(1, 4), highlight_groups), "Other" = 0.3)) +
   scale_x_continuous(
-    limits = c(min(tobacco_data_monthly_moified$month_num, na.rm = TRUE),
-               max(tobacco_data_monthly_moified$month_num, na.rm = TRUE) + 1),
+    breaks = 1:12,
+    labels = month.abb[1:12],  # Jan, Feb, ..., Dec
     expand = expansion(mult = c(0.05, 0.2))
   ) +
   scale_y_continuous(
@@ -199,7 +202,7 @@ ggplot(
   ) +
   labs(
     title = "Highest and Lowest Departments (Monthly)",
-    x = "Month Number",
+    x = "Month",
     y = "Percent Complete"
   ) +
   theme_minimal() +
@@ -207,6 +210,7 @@ ggplot(
 
 #This plot shows the highest and lowest departments in reference to smoking status per month.
 #ADD Comments about importance
+
 
 
 ```
