@@ -1,5 +1,5 @@
 ---
-title: "Final Project: [YOUR TITLE HERE] | PUBH 6199: Visualizing Data with R"
+title: "Final Project: Tobacco History Status | PUBH 6199: Visualizing Data with R"
 author:
   - name: Sora Ely; Ashlan Jackson
     affiliation: George Washington University
@@ -42,11 +42,11 @@ knitr::opts_chunk$set(
 
 ## Introduction
 
-_Briefly introduce your topic and research question._
+_In this project, our team was investigating the clinical departments that acquired a complete tobacco history and our team was interested in which departments needed to improve their data collection._
 
 ## Data
 
-_Describe your data source(s), including where it came from, the key variables, and any pre-processing steps._
+_This data came from Sora's clinical research and investigation._
 
 ```{r}
 #| label: load packages and data
@@ -69,16 +69,15 @@ tobacco_data_monthly_moified <- read_csv("data/tobacco_data_monthlymodified.csv"
 
 ```   
 
-## Visualization 1: [Title Here]
+## Visualization 1: "Highest and Lowest Departments with Complete Tobacco History (Weekly)"
 
-_Describe what this plot shows, and why it's important._
-
+_This plot shows the departments with the highest and lowest percentages of a complete tobacco history and plot will help providers diagnoses lung issues sooner._
 ```{r}
+
 library(ggplot2)
 library(dplyr)
 library(ggrepel)
 library(viridis)
-
 
 summary_groups <- tobacco_data_weekly_modified %>%
   filter(!group %in% c("Pilot", "Non-Pilot")) %>%
@@ -110,7 +109,7 @@ ggplot(
       filter(group %in% highlight_groups) %>%
       group_by(group) %>%
       filter(week_num == max(week_num)),
-    aes(label = group, color = group),  
+    aes(label = group, color = group),
     nudge_x = 0.3,
     hjust = 0,
     segment.color = NA,
@@ -121,29 +120,31 @@ ggplot(
   scale_size_manual(values = c(setNames(rep(1.4, 4), highlight_groups), "Other" = 0.6)) +
   scale_alpha_manual(values = c(setNames(rep(1, 4), highlight_groups), "Other" = 0.3)) +
   scale_x_continuous(
-    limits = c(5, 25),
+    breaks = unique(tobacco_data_weekly_modified$week_num),
+    labels = paste("Week", unique(tobacco_data_weekly_modified$week_num)),
     expand = expansion(mult = c(0.05, 0.2))
   ) +
-  scale_y_continuous(
-    limits = c(0, 1),
-    labels = scales::percent_format(accuracy = 1)
-  ) +
   labs(
-    title = "Highest and Lowest Departments (Weekly)",
-    x = "Week Number",
+    title = "Highest and Lowest Departments with Complete Tobacco History (Weekly)",
+    x = "Week of",
     y = "Percent Complete"
   ) +
-  theme_minimal() +
-  theme(legend.position = "none")
+  theme_minimal() +  
+  theme(
+    legend.position = "none",
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1)  # Rotate x labels
+  )
 
-#This plot shows the highest and lowest departments in reference to smoking status per week.
-#ADD IMPORTANCE COMMENTS
+
+
+
+
 
 ```
 
-## Visualization 2: [Title Here]
+## Visualization 2: Highest and Lowest Departments Complete Tobacco History (Monthly)",
 
-_Describe what this plot shows, and why it's important._
+_This plot shows the departments with the highest and lowest percentages of a complete tobacco history by month and this plot will help providers diagnoses lung issues sooner.._
 
 ```{r}
 library(ggplot2)
@@ -193,7 +194,7 @@ ggplot(plot_data, aes(x = month_num, y = percent_complete, group = group)) +
   scale_alpha_manual(values = c(setNames(rep(1, 4), highlight_groups), "Other" = 0.3)) +
   scale_x_continuous(
     breaks = 1:12,
-    labels = month.abb[1:12],  # Jan, Feb, ..., Dec
+    labels = month.abb[1:12], 
     expand = expansion(mult = c(0.05, 0.2))
   ) +
   scale_y_continuous(
@@ -201,15 +202,13 @@ ggplot(plot_data, aes(x = month_num, y = percent_complete, group = group)) +
     labels = scales::percent_format(accuracy = 1)
   ) +
   labs(
-    title = "Highest and Lowest Departments (Monthly)",
+    title = "Highest and Lowest Departments Complete Tobacco History (Monthly)",
     x = "Month",
     y = "Percent Complete"
   ) +
   theme_minimal() +
   theme(legend.position = "none")
 
-#This plot shows the highest and lowest departments in reference to smoking status per month.
-#ADD Comments about importance
 
 
 
@@ -231,21 +230,21 @@ _If you choose to create a Shiny app, describe the app's purpose and functionali
 
 ## Interpretation
 
-_Summarize your key findings. What do your visualizations reveal?_
+_Our findings summarize which department are achieving completed tobacco histories and which are not. By knowing this data, researchers will be able to work with certain departments to obtain better complete results, which in turn will improve lung screening rates_
 
 ## Limitations
 
-_Discuss any data quality or design limitations._
+_There were a few design limitations. These included issues with grouping subspecialties as well as a misalignment between week data and monthly data. Additionally, the pilot and nonpilot lines had to be removed from the static graphs and the top and lowest had to be highlighted due to the overstauration of lines with all the subspecialties included. All the subspecialties made the graph too busy._
 
 ## Conclusion
 
-_Wrap up your project with a takeaway message or next steps._
+_The hope of these graph is to help diagnose lunch cancer and improve sceenings. _
 
 ## References
 
 _Include any references to data sources, packages, or literature you used. If your visualization design is inspired by someone else's work, cite those too._
 
-1. Reference 1: Sora's Clinic Dataset. 
+1. Reference 1: Sora's Clinical Dataset. 
 2. Reference 2
 3. Reference 3
 

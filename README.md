@@ -2,21 +2,21 @@
 ## Bart team project
 
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/2V1dzZDL)
-# Final Project: [Insert Project Title]
+# Final Project: Smoking Status and Clinic Visit
 
-Authors: [Your Full Name]  
+Authors: Ashlan Jackson & Sora Elly  
 Course: PUBH 6199 – Visualizing Data with R  
-Date: [Insert Date]
+Date: June 26, 2025
 
 ## 🔍 Project Overview
 
-[Write 2–3 sentences about your topic and what your project aims to explore or visualize.]
-
+This project aimed to display tobacco use and clinic visits. Therefore, our graphs are broken down based on weekly and monthly 
+to certain doctors offices. This is data that will be used to review lung cancer screening and to hopefully incresae screening rates. 
 ## 📊 Final Write-up
 
 The final write-up, including code and interpretation of the visualizations, is available here:
 
-👉 [**View the write-up website**](https://pubh6199-data-viz-with-r.github.io/hw6-YOUR-TEAM-NAME/)
+👉 [**View the write-up website**]https://github.com/pubh6199-data-viz-with-r/hw6-bart
 
 ## 📂 Repository Structure
 
@@ -60,11 +60,20 @@ If your project includes a Shiny app, you can access it here:
 
 ## 📦 Packages Used
 
-- `tidyverse`
-- `ggplot2`
-- `quarto`
-- `shiny` (if applicable)
+-'tidyverse
+-'ggplot'
+-'quarto'
+-'shiny' 
+-'lubridate'
+-'dplyr'
+-'forcats'
+-'ggrepel'
+- 'dplyr'
+-'viridisLite'
+ -'viridis'
+
+
 
 ## ✅ To-Do or Known Issues
 
-[Optional section for you to note improvements or bugs.]
+We hope to add a working app to the weekly and monthly static graphs.
