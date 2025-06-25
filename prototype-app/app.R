@@ -1,13 +1,15 @@
+## prototype app
+
 library(tidyverse)
 library(shiny)
-library(rsconnect)
 library(bslib)
 library(ggplot2)
-library(dplyr)
 library(lubridate)
 
+# setwd("prototype-app")
 
 tobacco_dept <- read_csv("tobacco_dept.csv")
+tobacco_staff <- read_csv("tobacco_staff.csv")
 
 ui <- page_fillable(
   title = "GW Tobacco History Dashboard",
@@ -25,7 +27,7 @@ ui <- page_fillable(
         column(6,
                selectInput("time_interval", 
                            "Please select a time interval for the visualizations, by:",
-                           choices = c("week" = "week", "month" = "month"),
+                           choices = c("Week" = "week", "Month" = "month"),
                            selected = "week")
         ),
         column(6,
@@ -42,28 +44,28 @@ ui <- page_fillable(
     
     # Large bar graph
     card(
-      card_header("Tobacco History Completion by Department Type"),
+      card_header("Tobacco History Completion by Department Pilot Status"),
       card_body(
         plotOutput("main_plot", height = "400px")
       )
     ),
     
-    # 2 static visualizations
+    # Two smaller visualizations
     layout_columns(
       col_widths = c(12, 12),
       
       card(
-        card_header("static visualization #1"),
+        card_header("Placeholder Visualization 1"),
         card_body(
-          div("% Complete Tobacco History by Week, All Staff", 
+          div("Static visualization placeholder", 
               style = "text-align: center; padding: 50px; background-color: #f8f9fa; border: 2px dashed #dee2e6;")
         )
       ),
       
       card(
-        card_header("static visualization #2"),
+        card_header("Placeholder Visualization 2"),
         card_body(
-          div("% Complete Tobacco History by Month, All Staff", 
+          div("Static visualization placeholder", 
               style = "text-align: center; padding: 50px; background-color: #f8f9fa; border: 2px dashed #dee2e6;")
         )
       )
@@ -115,18 +117,20 @@ server <- function(input, output, session) {
     if(input$time_interval == "week") {
       plot_data <- filtered_data() %>%
         group_by(week_date, pilot_dept) %>%
-        summarise(completion_rate = mean(pilot_dept_wk_compl, na.rm = TRUE), .groups = 'drop') %>%
-        mutate(date_label = format(week_date, "%a-%d"))
+        select(week_date, pilot_dept, pilot_dept_wk_compl) %>%
+        mutate(date_label = format(week_date, "%a-%d")) %>% 
+        rename(completion_rate = pilot_dept_wk_compl)
       
       x_var <- "date_label"
       x_label <- "Week (Mon-DD)"
       title_interval <- "Week"
     } else {
       plot_data <- filtered_data() %>%
-        group_by(month_name, month_num, pilot_dept) %>%
-        summarise(completion_rate = mean(pilot_dept_mo_compl, na.rm = TRUE), .groups = 'drop') %>%
+        group_by(month_num, pilot_dept) %>%
+        select(month_num, month_name, pilot_dept, pilot_dept_mo_compl) %>%
         arrange(month_num) %>%
-        mutate(date_label = month_name)
+        mutate(date_label = month_name) %>% 
+        rename(completion_rate = pilot_dept_mo_compl)
       
       x_var <- "date_label" 
       x_label <- "Month"
@@ -136,7 +140,7 @@ server <- function(input, output, session) {
     # Create the bar plot
     ggplot(plot_data, aes(x = .data[[x_var]], y = completion_rate, fill = pilot_dept)) +
       geom_col(position = "dodge", alpha = 0.8) +
-      scale_fill_manual(values = c("Pilot" = "#2E8B57", "Non-Pilot" = "#4682B4"),
+      scale_fill_manual(values = c("Pilot" = "#3c5a97", "Non-Pilot" = "#efca74"),
                         name = "Department Type") +
       labs(
         title = paste("Tobacco History Completion Rate by", title_interval),

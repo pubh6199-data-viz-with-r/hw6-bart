@@ -1,9 +1,10 @@
 ---
-title: "scratch"
+title: "TO-DO"
 author:
   - name: Sora Ely, Ashlan Jackson
     affiliation: George Washington University
 date: "2025-06-15"
+updated: "2025-06-24"
 editor: source
 format: 
   html:
@@ -23,23 +24,17 @@ execute:
 
 ## Prototype V1
 
-[requirements]{.underline}{.smallcaps}
+[requirements]{.underline}
 
 - [x] Data scraping and cleaning complete (using real world datasets, do not use R built-in data)
 
-- [ ] At least one visualization already implemented, and draft for 2-3 more visualizations\
+- [x] At least one visualization already implemented, and draft for 2-3 more visualizations\
       -- Sora & Ashlan by Tues 06:00\
-      - Sora = bar graph\
-      - Ashlan = 1st line graph\
+      [x] @SORA = bar graph\
+      [x] @ASHLAN = 1st line graph\
 
-- [ ] If choosing R shiny app, rough webpage design and structure has to be done and implemented (placeholders for visualizations)\
-      -- Sora to do Tues day before 16:00 1:1 meeting
-
-~~- [ ] If choosing the other two options, clear outline and storytelling flow of the visualizations~~
-
-- [ ] A README.md file in your GitHub repo that describes your project, how to view it, and any dependencies\
-      -- Ashlan to make a draft by Tues 16:00 1:1 meeting\
-      -- Sora to finalize Wed\
+- [x] If choosing R shiny app, rough webpage design and structure has to be done and implemented (placeholders for visualizations)\
+      -- @SORA to do Tues day before 16:00 1:1 meeting
 
 ## Final data visualization product
 
@@ -51,40 +46,46 @@ Choose one from the following three options:
 
 **3. Interactive Dashboard (1 app with 3 components): Build an interactive dashboard (e.g., with shiny, plotly, or similar tools) that includes at least three visual components for exploring your data dynamically.**
 
-- [ ] 2nd line graph
-      -- Ashlan by Tues night / Wed 06:00
+[requirements]{.underline}
 
-- [ ] final webpage design & merging the graphs/Shiny apps
-      -- Sora on Wed
+- **index.qmd**\
+  "Accompanying your visualizations, you should also include a write-up around 500-1000 words that consists of an introduction, research questions, data sources, data wrangling, data visualizations, findings, and conclusion."\
+    [ ] @ASHLAN: "write-up": introduction, data wrangling, data visualizations (Visualization 1, Visualization 2), references
+    [ ] @SORA = "write-up": research questions, data sources, data visualizations (Shiny dashboard), interpretation, limitations, conclusion
+      
+- [ ] A README.md file in your GitHub repo that describes your project, how to view it, and any dependencies\
+      -- @ASHLAN\
 
-- [ ] publish the Shiny app to Shiny.io
-      -- Sora on Wed
+- [ ] 2nd line graph\
+      -- @ASHLAN\
+
+- [ ] final dashboard/Shiny app\
+      -- @SORA on Wed\
+
+- [ ] publish the Shiny app to Shiny.io\
+      -- @SORA on Wed\
     
-- [ ] final push of the git project
-      -- Sora by Thurs AM
+- [ ] final push of the git project\
+      -- @TBD
 
 ## Final project presentation
 
 - 10 minutes presentation
   - no slides :)
 
-[Sora]{.underline}\
+[@SORA]{.underline}\
 - [ ] What questions do you set out to answer with your visualizations? Why are they important?\
 - [ ] Your data source and why they are chosen to answer your questions\
 - [ ] Your intended audience\
-[Ashlan]{.underline}\
+[@ASHLAN]{.underline}\
 - [ ] Two to three visualization design choices and how they help tell your story\
 - [ ] Two to three takeaways from your visualizations that your audience should remember\
 - [ ] Live demo of your visualizations (if applicable)\
-[both]{.underline}\
+[@SORA & @ASHLAN]{.underline}\
 - -- 30min before class Thurs and/or text\
 - [ ] One to two challenges you encountered during this project and how you overcame them\
 - [ ] One to two achievements you are proud of in this project\
 
 - The presentation format is flexible, bring your laptop to present, and submit the presentation and final data visualization product as HW6
 
-
-```{r}
-
-```
-
+*Also see* **index.qmd** *for the final project requirements and deliverables.*

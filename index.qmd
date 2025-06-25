@@ -1,5 +1,5 @@
 ---
-title: "Final Project: [YOUR TITLE HERE] | PUBH 6199: Visualizing Data with R"
+title: "Final Project: GW Tobacco History Completeness Pilot Dashboard | PUBH 6199: Visualizing Data with R"
 author:
   - name: Sora Ely; Ashlan Jackson
     affiliation: George Washington University
@@ -24,7 +24,6 @@ params:
   purpose: "Final project for PUBH 6199: Visualizing Data with R"
 ---
 
-
 ```{r}
 #| label: setup
 #| include: false
@@ -40,17 +39,25 @@ knitr::opts_chunk$set(
 )
 ```
 
-## Introduction
+"Accompanying your visualizations, you should also include a write-up around 500-1000 words that consists of an introduction, research questions, data sources, data wrangling, data visualizations, findings, and conclusion."
 
+## Introduction
+@ASHLAN
 _Briefly introduce your topic and research question._
 
-## Data
+## Research Question
+@SORA
 
+## Data Sources
+@SORA
 _Describe your data source(s), including where it came from, the key variables, and any pre-processing steps._
+
+## Data Wrangling
+@ASHLAN
 
 ```{r}
 #| label: load packages and data
-#| eval: true
+#| output: FALSE
 
 library(tidyverse)
 library(readr)
@@ -58,54 +65,49 @@ library(ggplot2)
 library(shiny)
 library(dplyr)
 
-tobacco_data_weekly_modified <- read_csv("data/tobacco_data_weeklymodified.csv")
-
+tobacco_hxcompl <- read_csv("data/tobacco_hxcompl.csv")
+tobacco_dept <- read_csv("data/tobacco_dept.csv")
+tobacco_staff <- read_csv("data/tobacco_staff.csv")
 ```   
 
-## Visualization 1: [Title Here]
+## Data Visualizations
 
+### Visualization 1: [Title Here]
+@ASHLAN
 _Describe what this plot shows, and why it's important._
 
 ```{r}
 # your code here
 ```
 
-## Visualization 2: [Title Here]
-
+### Visualization 2: [Title Here]
+@ASHLAN
 _Describe what this plot shows, and why it's important._
 
 ```{r}
 # your code here
 ```
 
-## Visualization 3: [Title Here]
-
-_Describe what this plot shows, and why it's important._
-
-```{r}
-# your code here
-```
-
-## OR Shiny app: [Title Here]
-
+## Shiny app: [Title Here]
+@SORA
 _If you choose to create a Shiny app, describe the app's purpose and functionality. Save your code inside the shiny-app/ folder, replace the URL below with your app's URL_
 
 [Click here to open the interactive Shiny app](https://cindyhu.shinyapps.io/two-files-app/)
 
 ## Interpretation
-
+@SORA
 _Summarize your key findings. What do your visualizations reveal?_
 
 ## Limitations
-
+@SORA
 _Discuss any data quality or design limitations._
 
 ## Conclusion
-
+@SORA
 _Wrap up your project with a takeaway message or next steps._
 
 ## References
-
+@ASHLAN
 _Include any references to data sources, packages, or literature you used. If your visualization design is inspired by someone else's work, cite those too._
 
 1. Reference 1
