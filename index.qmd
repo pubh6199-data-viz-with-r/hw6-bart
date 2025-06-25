@@ -51,14 +51,21 @@ _Describe your data source(s), including where it came from, the key variables, 
 ```{r}
 #| label: load packages and data
 #| eval: true
-
+install.packages("shiny")
+install.packages("ggrepel")
+install.packages("viridis")
 library(tidyverse)
 library(readr)
 library(ggplot2)
 library(shiny)
+library(ggrepel)
 library(dplyr)
-
+library(viridisLite)
+library(viridis)
 tobacco_data_weekly_modified <- read_csv("data/tobacco_data_weeklymodified.csv")
+
+tobacco_data_monthly_moified <- read_csv("data/tobacco_data_monthlymodified.csv")
+
 
 ```   
 
@@ -67,7 +74,69 @@ tobacco_data_weekly_modified <- read_csv("data/tobacco_data_weeklymodified.csv")
 _Describe what this plot shows, and why it's important._
 
 ```{r}
-# your code here
+library(ggplot2)
+library(dplyr)
+library(ggrepel)
+library(viridis)
+
+summary_groups <- tobacco_data_weekly_modified %>%
+  filter(!group %in% c("Pilot", "Non-Pilot")) %>%
+  filter(week_num == max(week_num)) %>%
+  group_by(group) %>%
+  summarize(final_value = max(percent_complete, na.rm = TRUE)) %>%
+  arrange(desc(final_value))
+
+top_groups <- summary_groups %>% slice_head(n = 2) %>% pull(group)
+bottom_groups <- summary_groups %>% slice_tail(n = 2) %>% pull(group)
+highlight_groups <- c(top_groups, bottom_groups)
+
+highlight_colors <- c(
+  setNames(viridis::viridis(4), highlight_groups),
+  "Other" = "gray80"
+)
+
+ggplot(
+  tobacco_data_weekly_modified %>%
+    filter(!group %in% c("Pilot", "Non-Pilot")) %>%
+    mutate(line_group = ifelse(group %in% highlight_groups, group, "Other")),
+  aes(x = week_num, y = percent_complete, group = group)
+) +
+  geom_line(aes(color = line_group, size = line_group, alpha = line_group)) +
+  geom_point(aes(color = line_group, alpha = line_group), size = 2) +
+  geom_text_repel(
+    data = tobacco_data_weekly_modified %>%
+      filter(group %in% highlight_groups) %>%
+      group_by(group) %>%
+      filter(week_num == max(week_num)),
+    aes(label = group, color = group),  # Color label by group
+    nudge_x = 0.3,
+    hjust = 0,
+    segment.color = NA,
+    size = 4,
+    show.legend = FALSE
+  ) +
+  scale_color_manual(values = highlight_colors) +
+  scale_size_manual(values = c(setNames(rep(1.4, 4), highlight_groups), "Other" = 0.6)) +
+  scale_alpha_manual(values = c(setNames(rep(1, 4), highlight_groups), "Other" = 0.3)) +
+  scale_x_continuous(
+    limits = c(5, 25),
+    expand = expansion(mult = c(0.05, 0.2))
+  ) +
+  scale_y_continuous(
+    limits = c(0, 1),
+    labels = scales::percent_format(accuracy = 1)
+  ) +
+  labs(
+    title = "Highest and Lowest Departments",
+    x = "Week Number",
+    y = "Percent Complete"
+  ) +
+  theme_minimal() +
+  theme(legend.position = "none")
+
+#This plot shows the highest and lowest departments in reference to smoking status per week.
+#ADD IMPORTANCE COMMENTS
+
 ```
 
 ## Visualization 2: [Title Here]
@@ -75,7 +144,71 @@ _Describe what this plot shows, and why it's important._
 _Describe what this plot shows, and why it's important._
 
 ```{r}
-# your code here
+library(ggplot2)
+library(dplyr)
+library(ggrepel)
+library(viridis)
+
+summary_groups <- tobacco_data_monthly_moified %>%
+  filter(!group %in% c("Pilot", "Non-Pilot")) %>%
+  filter(month_num == max(month_num)) %>%
+  group_by(group) %>%
+  summarize(final_value = max(percent_complete, na.rm = TRUE)) %>%
+  arrange(desc(final_value))
+
+top_groups <- summary_groups %>% slice_head(n = 2) %>% pull(group)
+bottom_groups <- summary_groups %>% slice_tail(n = 2) %>% pull(group)
+highlight_groups <- c(top_groups, bottom_groups)
+
+highlight_colors <- c(
+  setNames(viridis::viridis(4), highlight_groups),
+  "Other" = "gray80"
+)
+
+ggplot(
+  tobacco_data_monthly_moified %>%
+    filter(!group %in% c("Pilot", "Non-Pilot")) %>%
+    mutate(line_group = ifelse(group %in% highlight_groups, group, "Other")),
+  aes(x = month_num, y = percent_complete, group = group)
+) +
+  geom_line(aes(color = line_group, size = line_group, alpha = line_group)) +
+  geom_point(aes(color = line_group, alpha = line_group), size = 2) +
+  geom_text_repel(
+    data = tobacco_data_monthly_moified %>%
+      filter(group %in% highlight_groups) %>%
+      group_by(group) %>%
+      filter(month_num == max(month_num)),
+    aes(label = group, color = group),
+    nudge_x = 0.3,
+    hjust = 0,
+    segment.color = NA,
+    size = 4,
+    show.legend = FALSE
+  ) +
+  scale_color_manual(values = highlight_colors) +
+  scale_size_manual(values = c(setNames(rep(1.4, 4), highlight_groups), "Other" = 0.6)) +
+  scale_alpha_manual(values = c(setNames(rep(1, 4), highlight_groups), "Other" = 0.3)) +
+  scale_x_continuous(
+    limits = c(min(tobacco_data_monthly_moified$month_num, na.rm = TRUE),
+               max(tobacco_data_monthly_moified$month_num, na.rm = TRUE) + 1),
+    expand = expansion(mult = c(0.05, 0.2))
+  ) +
+  scale_y_continuous(
+    limits = c(0, 1),
+    labels = scales::percent_format(accuracy = 1)
+  ) +
+  labs(
+    title = "Highest and Lowest Departments (Monthly)",
+    x = "Month Number",
+    y = "Percent Complete"
+  ) +
+  theme_minimal() +
+  theme(legend.position = "none")
+
+#This plot shows the highest and lowest departments in reference to smoking status per month.
+#ADD Comments about importance
+
+
 ```
 
 ## Visualization 3: [Title Here]
@@ -108,7 +241,7 @@ _Wrap up your project with a takeaway message or next steps._
 
 _Include any references to data sources, packages, or literature you used. If your visualization design is inspired by someone else's work, cite those too._
 
-1. Reference 1
+1. Reference 1: Sora's Clinic Dataset. 
 2. Reference 2
 3. Reference 3
 

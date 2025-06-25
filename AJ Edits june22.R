@@ -159,7 +159,7 @@ rename(group=pilot_dept)
 tobacco_clean_weeklymodified <-bind_rows(tobacco_data_weekly2,tobacco_data_weekly1) %>%
   ungroup() 
 
-#created new dataset called tobacco_clean_weekly_modified to encompass all teh weekly data. 
+#created new dataset called tobacco_clean_weekly_modified to encompass all the weekly data. 
 #has been added to qmd
 view(tobacco_clean_weeklymodified)
 
@@ -181,6 +181,11 @@ tobacco_data_monthly2 <-tobacco_data_clean_specialties %>%
   tobacco_clean_monthlymodified <-bind_rows(tobacco_data_monthly2, tobacco_data_monthly1) %>%
     ungroup()
   
-  write_csv(tobacco_clean_monthlymodified, "data/tobacco_data_monthlymodified.csv")
+  #saved new file
+  write_csv(tobacco_clean_monthly_modified, "data/tobacco_data_monthly_modified.csv")
 
+ view(tobacco_clean_weeklymodified)
+ view(tobacco_data_weekly_modified)
+ 
+ view(tobacco_clean_monthlymodified)
  
