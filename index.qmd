@@ -1,5 +1,7 @@
+
 ---
-title: "Final Project: Tobacco History Status | PUBH 6199: Visualizing Data with R"
+title: "Final Project: GW Tobacco History Completeness Pilot Dashboard | PUBH 6199: Visualizing Data with R"
+
 author:
   - name: Sora Ely; Ashlan Jackson
     affiliation: George Washington University
@@ -23,8 +25,6 @@ params:
   number: 6
   purpose: "Final project for PUBH 6199: Visualizing Data with R"
 ---
-
-
 ```{r}
 #| label: setup
 #| include: false
@@ -40,26 +40,33 @@ knitr::opts_chunk$set(
 )
 ```
 
-## Introduction
+"Accompanying your visualizations, you should also include a write-up around 500-1000 words that consists of an introduction, research questions, data sources, data wrangling, data visualizations, findings, and conclusion."
 
+
+## Introduction
 _In this project, our team was investigating the clinical departments that acquired a complete tobacco history and our team was interested in which departments needed to improve their data collection._
 
-## Data
 
-_This data came from Sora's clinical research and investigation._
+## Research Question
+@SORA
+
+## Data Sources
+@SORA
+_Describe your data source(s), including where it came from, the key variables, and any pre-processing steps._
+
+
+## Data Wrangling
 
 ```{r}
 #| label: load packages and data
+
 #| eval: true
 install.packages("shiny")
 install.packages("ggrepel")
 install.packages("viridis")
-library(tidyverse)
-library(readr)
-library(ggplot2)
-library(shiny)
-library(ggrepel)
-library(dplyr)
+
+#| output: FALSE
+
 library(viridisLite)
 library(viridis)
 tobacco_data_weekly_modified <- read_csv("data/tobacco_data_weeklymodified.csv")
@@ -68,10 +75,15 @@ tobacco_data_monthly_moified <- read_csv("data/tobacco_data_monthlymodified.csv"
 
 
 ```   
+## Data Visualizations
 
 ## Visualization 1: "Highest and Lowest Departments with Complete Tobacco History (Weekly)"
-
 _This plot shows the departments with the highest and lowest percentages of a complete tobacco history and plot will help providers diagnoses lung issues sooner._
+
+===========
+
+
+
 ```{r}
 
 library(ggplot2)
@@ -132,19 +144,16 @@ ggplot(
   theme_minimal() +  
   theme(
     legend.position = "none",
-    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1)  # Rotate x labels
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1)  
   )
 
-
-
-
-
-
 ```
+
 
 ## Visualization 2: Highest and Lowest Departments Complete Tobacco History (Monthly)",
 
 _This plot shows the departments with the highest and lowest percentages of a complete tobacco history by month and this plot will help providers diagnoses lung issues sooner.._
+
 
 ```{r}
 library(ggplot2)
@@ -214,35 +223,27 @@ ggplot(plot_data, aes(x = month_num, y = percent_complete, group = group)) +
 
 ```
 
-## Visualization 3: [Title Here]
-
-_Describe what this plot shows, and why it's important._
-
-```{r}
-# your code here
-```
-
-## OR Shiny app: [Title Here]
-
+## Shiny app: [Title Here]
+@SORA
 _If you choose to create a Shiny app, describe the app's purpose and functionality. Save your code inside the shiny-app/ folder, replace the URL below with your app's URL_
 
 [Click here to open the interactive Shiny app](https://cindyhu.shinyapps.io/two-files-app/)
 
-## Interpretation
 
-_Our findings summarize which department are achieving completed tobacco histories and which are not. By knowing this data, researchers will be able to work with certain departments to obtain better complete results, which in turn will improve lung screening rates_
+@SORA
+_Summarize your key findings. What do your visualizations reveal?_
 
 ## Limitations
-
-_There were a few design limitations. These included issues with grouping subspecialties as well as a misalignment between week data and monthly data. Additionally, the pilot and nonpilot lines had to be removed from the static graphs and the top and lowest had to be highlighted due to the overstauration of lines with all the subspecialties included. All the subspecialties made the graph too busy._
+@SORA
+_Discuss any data quality or design limitations._
 
 ## Conclusion
+@SORA
+_Wrap up your project with a takeaway message or next steps._
 
-_The hope of these graph is to help diagnose lunch cancer and improve sceenings. _
 
 ## References
 
-_Include any references to data sources, packages, or literature you used. If your visualization design is inspired by someone else's work, cite those too._
 
 1. Reference 1: Sora's Clinical Dataset. 
 2. Reference 2
