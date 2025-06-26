@@ -11,14 +11,11 @@ Date: June 26, 2025
 ## 🔍 Project Overview
 
 This project aimed to display tobacco use and clinic visits. Therefore, our graphs are broken down based on weekly and monthly 
-to certain doctors offices. This is data that will be used to review lung cancer screening and to hopefully incresae screening rates. 
+to certain doctors offices. This is data that will be used to review lung cancer screening and to hopefully increasae screening rates. 
 ## 📊 Final Write-up
 
-The final write-up, including code and interpretation of the visualizations, is available here:
-This project investigated the 
 
-
-👉 [**https://github.com/pubh6199-data-viz-with-r/hw6-bart/_quarto.yml**]
+👉 [**https://github.com/pubh6199-data-viz-with-r/hw6-bart/blob/main/_quarto.yml**]
 
 ## 📂 Repository Structure
 
