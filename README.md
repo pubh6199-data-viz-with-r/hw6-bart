@@ -16,7 +16,7 @@ to certain doctors offices. This is data that will be used to review lung cancer
 
 The final write-up, including code and interpretation of the visualizations, is available here:
 
-👉 [**View the write-up website**]https://github.com/pubh6199-data-viz-with-r/hw6-bart
+👉 [**https://github.com/pubh6199-data-viz-with-r/hw6-bart**]
 
 ## 📂 Repository Structure
 
