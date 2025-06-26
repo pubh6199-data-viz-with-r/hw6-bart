@@ -25,13 +25,8 @@ params:
 ---
 
 ```{r}
-
-library(readr)
-library(tidyverse)
-
-
 #| label: setup
-#| include: false
+#| output: false
 
 knitr::opts_chunk$set(
     warning = FALSE,
@@ -54,45 +49,53 @@ Because the eligibility criteria for LCS require detailed tobacco history inform
 ## Research Question
 We were interested in examining (and tracking) the completeness rates of tobacco history among adult patient visits at GW Medicine as part of an ongoing pilot program to increase completeness rates. 
 
-[Primary Research Q]{.underline}\
-**How does the percentage of visits with complete tobacco history compare between specialties/staff participating ("Pilot") versus not participating ("Non-Pilot") in the pilot program?\**
-**Has that changed over time (especially since the start of the pilot program)?**\
-[Secondary Research Q]{.underline}\
-Who are the top and bottom performers among all specialties and staff?\
+[Primary Research Q]{.underline}
+
+- **How does the percentage of visits with complete tobacco history compare between specialties/staff participating ("Pilot") versus not participating ("Non-Pilot") in the pilot program?**\
+
+- **Has that changed over time (especially since the start of the pilot program)?**\
+
+[Secondary Research Q]{.underline}
+
+- Who are the top and bottom performers among all specialties and staff?\
+
 
 ## Data Sources
 Data routinely collected for performance tracking as part of this approved QI project was fully de-identified and modified for use in this project. \
 
 [Data De-identification]{.underline}
+
 - The primary data was fully de-identified of any patient-related data.\
+
 - Furthermore, the staff were also fully de-identified and assigned a unique ID number (and for the purposes of this project, no master list/link was retained; re-identification is not possible from the anonymized datasets).\
 
-[Key Variables]{.underline}
+[Data Structure]{.underline} \
+
 Data was structured such that each data point (row) reflects a visit (as each visit is an opportunity to collect a complete tobacco history), not a patient.
 
 
 ## Data Wrangling
-_Several R packages to clean and explore the data. Tidyverse handled data manipulation, lubridate helped parse dates and group data 
-by week and month, ggplot2 was for creating bar charts, shiny made an interactive dashboard,
-and quarto was for putting the report together. 
+Several R packages to clean and explore the data. Tidyverse handled data manipulation, lubridate helped parse dates and group data by week and month, ggplot2 was for creating bar charts, shiny made an interactive dashboard,and quarto was for putting the report together. 
+
 We filtered out “Pilot” and “Non-Pilot” groups to keep things focused on real specialties. 
-Then we calculated how often each specialty completed tobacco history documentation, 
-making sure to compare fairly since visit numbers vary._
+
+Then we calculated how often each specialty completed tobacco history documentation, making sure to compare fairly since visit numbers vary.
 
 ```{r}
 #| label: load packages and data
-
 #| eval: true
+#| output: FALSE
+
 install.packages("shiny")
 install.packages("ggrepel")
 install.packages("viridis")
 
-#| output: FALSE
-
+library(readr)
+library(tidyverse)
 library(viridisLite)
 library(viridis)
-tobacco_data_weekly_modified <- read_csv("data/tobacco_data_weeklymodified.csv")
 
+tobacco_data_weekly_modified <- read_csv("data/tobacco_data_weeklymodified.csv")
 tobacco_data_monthly_moified <- read_csv("data/tobacco_data_monthlymodified.csv")
 ```   
 
@@ -100,7 +103,8 @@ tobacco_data_monthly_moified <- read_csv("data/tobacco_data_monthlymodified.csv"
 ## Data Visualizations
 
 ### Visualization 1: "Highest and Lowest Departments with Complete Tobacco History (Weekly)"
-_A weekly bar chart showing documentation rates by specialty — Nephrology and Gastroenterology came out on top, while Infectious Disease and Radiation Oncology were at the bottom. This plot will help providers diagnoses lung issues sooner._
+
+A weekly bar chart showing documentation rates by specialty — Nephrology and Gastroenterology came out on top, while Infectious Disease and Radiation Oncology were at the bottom. This plot will help providers diagnoses lung issues sooner.
 
 ```{r}
 
@@ -168,9 +172,9 @@ ggplot(
 ```
 
 
-### Visualization 2: Highest and Lowest Departments Complete Tobacco History (Monthly)",
+### Visualization 2: "Highest and Lowest Departments Complete Tobacco History (Monthly)"
 
-_This plot shows the departments with the highest and lowest percentages of a complete tobacco history by month and this plot will help providers diagnoses lung issues sooner.This shows a slightly different picture — Physical Medicine and Rehabilitation did best, and Rheumatology and Radiation Oncology were lowest. _
+This plot shows the departments with the highest and lowest percentages of a complete tobacco history by month and this plot will help providers diagnoses lung issues sooner.This shows a slightly different picture — Physical Medicine and Rehabilitation did best, and Rheumatology and Radiation Oncology were lowest.
 
 ```{r}
 library(ggplot2)
@@ -241,23 +245,30 @@ ggplot(plot_data, aes(x = month_num, y = percent_complete, group = group)) +
 ```
 
 ### Shiny app: GW Tobacco History Initiative Dashboard
+
 The Shiny app is a dashboard that allows users to interactively explore the completeness of tobacco history documentation across different specialties & staff at GW Medicine. Users can select time intervals and ranges to view trends, compare performance between pilot and non-pilot groups, and identify top performers.
 
 [Click here to open the interactive Shiny app](https://srce-code.shinyapps.io/tobacco-hx-dashboard-PUBH6199/)
 
 #### Features
-- **Interactive Filters**: Users can view data by:\
-  - time intervals (weekly or monthly)\ 
+
+- **Interactive Filters**:\
+  Users can view data by:\
+  - time intervals (weekly or monthly)\
   - by pilot/non-pilot groups\
-  - for specialties or staff\
+  - for specialties or staff
 
-- **Visualizations**: The app includes bar charts that show the completeness rates of tobacco history documentation by specialty and staff, highlighting the top and bottom performers.
+- **Visualizations**:\
+  The app includes bar charts that show the completeness rates of tobacco history documentation by specialty and staff, highlighting the top and bottom performers.
+
   - **Bar Chart of Pilot v Non-Pilot Groups**:\
-    This chart compares the completeness rates of tobacco history documentation between pilot and non-pilot groups over time, allowing us to explore how the pilot program has impacted complete documentation rates.\
+    This chart compares the completeness rates of tobacco history documentation between pilot and non-pilot groups over time, allowing us to explore how the pilot program has impacted complete documentation rates.
+    
   - **Top 10 Leader Board**:\
-    This chart displays the top 10 specialties or staff with the highest average completeness rates for the selected time period, allowing us to identify the best performers for positive feedback & to motivate peers.\
+    This chart displays the top 10 specialties or staff with the highest average completeness rates for the selected time period, allowing us to identify the best performers for positive feedback & to motivate peers.
+    
 
-::: {.callout-note title="Shiny Assistant's response" icon="info"}
+::: {.callout-note title="Conclusions" icon="info"}
 - It was a pleasant surprise that actually completion rates are higher than expected overall, with most being between 70-80%.\
 - There was more variability among % complete among staff than among specialties.\
 - There has disappointingly NOT been a clear trend toward improvement over other specialties/staff as currently visualized among the pilot group, but this is still a work in progress!\
