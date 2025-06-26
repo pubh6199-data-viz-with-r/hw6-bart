@@ -42,7 +42,10 @@ knitr::opts_chunk$set(
 
 
 ## Introduction
-_In this project, our team was investigating the clinical departments that acquired a complete tobacco history and our team was interested in which departments needed to improve their data collection._
+_Tobacco use is a big health issue in the U.S., and documenting patients’ tobacco history is super important for assessing risks and helping them quit. 
+But in practice, different medical specialties don’t always do this consistently. For this project, we
+looked at how well different subspecialties at George Washington University (GW) clinics document tobacco history over time. 
+The goal was to spot trends and figure out where improvements might be needed_
 
 
 ## Research Question
@@ -76,7 +79,7 @@ tobacco_data_monthly_moified <- read_csv("data/tobacco_data_monthlymodified.csv"
 ## Data Visualizations
 
 ## Visualization 1: "Highest and Lowest Departments with Complete Tobacco History (Weekly)"
-_This plot shows the departments with the highest and lowest percentages of a complete tobacco history and plot will help providers diagnoses lung issues sooner._
+_A weekly bar chart showing documentation rates by specialty — Nephrology and Gastroenterology came out on top, while Infectious Disease and Radiation Oncology were at the bottom. This plot will help providers diagnoses lung issues sooner._
 
 ===========
 
@@ -150,7 +153,8 @@ ggplot(
 
 ## Visualization 2: Highest and Lowest Departments Complete Tobacco History (Monthly)",
 
-_This plot shows the departments with the highest and lowest percentages of a complete tobacco history by month and this plot will help providers diagnoses lung issues sooner.._
+_This plot shows the departments with the highest and lowest percentages of a complete tobacco history by month and this plot will help providers diagnoses lung issues sooner.This shows a slightly different picture — Physical Medicine and Rehabilitation did best, and Rheumatology and Radiation Oncology were lowest. _
+._
 
 
 ```{r}
