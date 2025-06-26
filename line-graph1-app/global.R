@@ -1,1 +1,0 @@
-# placeholder for global.R for line graph 1
