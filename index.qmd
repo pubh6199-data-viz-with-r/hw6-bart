@@ -41,12 +41,14 @@ knitr::opts_chunk$set(
 
 
 ## Introduction
+
 Cancer is the leading cause of death among American adults >45yo; lung cancer is the leading cause of cancer death and 3rd leading cause of death in adults in the U.S. (and worldwide) [1]. Lung cancer is responsible for more deaths annually than the next 3 leading causes of cancer death (colon, breast, prostate) combined [2]. This is also true in the District.
 There is a screening test for lung cancer that reduces lung cancer mortality by at least 20% [3], but lung cancer screening (LCS) is severely under-utilized more than a decade after the USPSTF first recommended it [4]. Because lung cancer is by far the #1 cancer killer, LCS could potentially save more lives than breast or colon cancer screening. Yet, while screening participation for breast cancer reached 81% in Washington, DC in 2020 and 76% nationwide in 2021 [5], the LCS rate was only 1.5% in DC and 4.5% nationally in 2023 [6].
 
 Because the eligibility criteria for LCS require detailed tobacco history information, the tobacco history documented in discrete data fields in the patient electronic chart are often inadequate to determine eligibility and prompt screening. Ensuring a high level of **complete** tobacco history documentation is therefore a critical first step to increasing LCS and decreasing lung cancer mortality. 
 
 ## Research Question
+
 We were interested in examining (and tracking) the completeness rates of tobacco history among adult patient visits at GW Medicine as part of an ongoing pilot program to increase completeness rates. 
 
 [Primary Research Q]{.underline}
@@ -82,21 +84,313 @@ We filtered out “Pilot” and “Non-Pilot” groups to keep things focused on
 Then we calculated how often each specialty completed tobacco history documentation, making sure to compare fairly since visit numbers vary.
 
 ```{r}
-#| label: load packages and data
-#| eval: true
+#| label: install packages
+#| eval: FALSE
 #| output: FALSE
 
-install.packages("shiny")
-install.packages("ggrepel")
-install.packages("viridis")
+install.packages(c('tidyverse',
+                   'shiny',
+                   'rsconnect',
+                   'janitor',
+                   'bslib',
+                   'scales',
+                   'DT',
+                   'ggplot2',
+                   'ggrepel',
+                   'viridis',
+                   'viridisLite'))
+```
 
-library(readr)
-library(tidyverse)
-library(viridisLite)
+```{r}
+#| label: load packages and data
+#| eval: TRUE
+#| output: FALSE
+
+library(tidyverse) # includes: ggplot2, dplyr, tidyr, readr, purr, tibble, stringr, forcats, lubridate
+library(shiny)
+library(rsconnect)
+library(janitor)
+library(scales)
 library(viridis)
+library(viridisLite)
+
+tobacco_data_init <- read_csv("data/tobacco_data_init.csv")
+```
+
+```{r}
+#| label: wrangle initialized data
+#| eval: FALSE
+
+# The following 4 data wrangling steps are below
+
+#Filtering by location 
+
+tobacco_data_by_location <- tobacco_data_init %>%
+  filter(location %in% c("Foggy Bottom", "West End", "M Street"))
+
+#create pilot_staff column
+
+pilot_depts <- c("FB PULMONOLOGY", "FB CARDIOLOGY", "FB ID", "FB NEPHROLOGY", "FB GER PALLIATIVE CARE")
+
+# calculate the percentage of visits in pilot departments per staff 
+tobacco_staff <- tobacco_data_by_location %>%
+  select(roomed_by_ID, roomed_by_prov_type, department) %>%
+  distinct()
+tobacco_staff_perc <- tobacco_staff %>%
+  group_by(roomed_by_ID) %>%
+  count(department)
+tobacco_staff_perc <- tobacco_staff_perc %>%
+  group_by(roomed_by_ID) %>%
+  mutate(pilot_staff_perc = (sum(department %in% pilot_depts) / n() * 100))
+
+# create a variable pilot_staff_perc that will be "Pilot" if staff has > 50% visits in pilot depts
+tobacco_staff_perc <- tobacco_staff_perc %>%
+  mutate(pilot_staff = ifelse(pilot_staff_perc > 50, "Pilot", "Non-Pilot"))
+pilot_staff <- tobacco_staff_perc |> 
+  distinct(roomed_by_ID, pilot_staff)
+
+# add pilot_staff to main data (& create new dataset name after the location step)
+tobacco_data_pilot <- tobacco_data_by_location %>%
+  left_join(pilot_staff, by = "roomed_by_ID") |> 
+  mutate(pilot_staff = ifelse(is.na(pilot_staff), "Non-Pilot", pilot_staff)) 
+
+tobacco_data_pilot <- tobacco_data_pilot |>
+  relocate(pilot_staff, .after = roomed_by_ID)
+
+#Create pilot_dept column
+
+tobacco_data_pilot <- tobacco_data_pilot %>%
+  mutate(pilot_dept = ifelse(department %in% pilot_depts, 
+                        "Pilot", 
+                        "Non-Pilot"))
+
+tobacco_data_pilot <- tobacco_data_pilot %>%
+  relocate(pilot_dept, .after = department)
+
+table(tobacco_data_pilot$pilot_dept)
+
+#Modifying Dates
+
+tobacco_data_clean_date <- tobacco_data_pilot %>%
+  mutate(week_date = floor_date(date, unit = "week", week_start = 1)) %>%
+  mutate(month_date = floor_date(date, unit = "month"))
+
+# create week/month_num with the number of each week/month
+tobacco_data_clean_date <- tobacco_data_clean_date %>% 
+  mutate(week_num = week(week_date),
+         month_num = month(month_date))
+
+# create a new column with month # as month name (e.g. 3 = "Mar")
+tobacco_data_clean_date <- tobacco_data_clean_date %>% 
+  mutate(month_name = month(month_date, label = TRUE, abbr = TRUE))
+         
+glimpse(tobacco_data_clean_date)
+
+#Create specialties
+
+tobacco_data_clean_specialties <- tobacco_data_clean_date %>%
+  mutate(spec = case_when(
+    department %in% c("FB CARDIOLOGY") ~ "Cardiology",
+    
+    department %in% c("FB CARDIOTHORACIC SURGERY", "FB GENERAL SURGERY", "FB NEUROSURGERY",
+                      "FB THORACIC SURGERY", "FB VASCULAR SURGERY", "M ST BREAST SURGERY",
+                      "M ST CARDIAC SURGERY", "M ST COS/PLAST SUR", "M ST ORTHOPAEDIC SURG",
+                      "FB ORTHOPAEDIC SURG", "FB COLON RECTAL SURG", "FB TRAUMA SURGERY") ~ "Surgery",
+    
+    department %in% c("FB DERMATOLOGY", "M ST DERMATOLOGY") ~ "Dermatology",
+    
+    department %in% c("FB GER PALLIATIVE CARE") ~ "Geri/Palliative Care",
+    
+    department %in% c("FB GI & LIVER DISEASES") ~ "Gastroenterology",
+    
+    department %in% c("FB HEM ONC", "FB INFUSION CENTER") ~ "Hematology/Oncology",
+    
+    department %in% c("FB RADIATION ONCOLOGY") ~ "Radiation Oncology",
+    
+    department %in% c("FB ID") ~ "Infectious Disease",
+    
+    department %in% c("FB IR") ~ "Interventional Radiology",
+    
+    department %in% c("FB MIDWIFERY", "M ST OB/GYN", "FB OB/GYN", "FB UROGYN", "FB MFM", "FB GYN ONC") ~ "Obstetrics/Gynecology",
+    
+    department %in% c("FB NEPHROLOGY") ~ "Nephrology (FB)",
+    
+    department %in% c("M ST NEPHROLOGY") ~ "Nephrology (M St)",
+    
+    department %in% c("FB NEUROLOGY") ~ "Neurology",
+    
+    department %in% c("FB OPHTHALMOLOGY") ~ "Ophthalmology",
+    
+    department %in% c("FB PAIN") ~ "Pain Management",
+    
+    department %in% c("FB PMR") ~ "Physical Medicine and Rehabilitation",
+    
+    department %in% c("M ST PRIMARY CARE", "FB PRIMARY CARE", "FB PREVENTORIUM CLINIC") ~ "Primary Care",
+    
+    department %in% c("FB PULMONOLOGY") ~ "Pulmonology",
+    
+    department %in% c("FB UROLOGY") ~ "Urology",
+    
+    department %in% c("INGLESIDE GERIATRICS") ~ "Geriatrics (Ingleside)",
+    
+    department %in% c("M ST ENT") ~ "ENT",
+    
+    department %in% c("M ST RHEUMATOLOGY") ~ "Rheumatology",
+    
+    department %in% c("M ST ENDOCRINOLOGY") ~ "Endocrinology",
+    
+    department %in% c("FB PODIATRY") ~ "Podiatry",
+    
+    TRUE ~ "Other"
+  ))
+
+#shorten column names
+tobacco_data_clean_specialties <- tobacco_data_clean_specialties %>%
+  rename(
+    loc = location,
+    dept = department,
+    roomed_by_type = roomed_by_prov_type
+  )
+
+#Write clean data set out
+write_csv(tobacco_data_clean_specialties, "data/tobacco_clean_AJ_FINAL.csv")
+
+```
+
+```{r}
+#| label: import final cleaned/wrangled dataset
+#| eval: FALSE
+#| output: FALSE
+
+tobacco_clean <- read_csv("data/tobacco_clean_AJ_FINAL.csv")
+glimpse(tobacco_clean)
+```
+
+```{r}
+#| label: create 2nd dataset of %complete by week/month & by pilot/non-pilot + each staff/dept(spec)
+#| eval: FALSE
+
+pilot_depts <- c("FB PULMONOLOGY", "FB CARDIOLOGY", "FB ID", "FB NEPHROLOGY", "FB GER PALLIATIVE CARE")
+
+tobacco_clean <- tobacco_clean |> 
+  rename(staff_ID = roomed_by_ID,
+         staff_type = roomed_by_type) |> 
+  relocate(spec, .after = dept)
+
+tobacco_perc <- tobacco_clean
+
+## % complete by week/month & by pilot/non-pilot dept
+tobacco_perc <- tobacco_perc %>%
+  group_by(week_num, pilot_dept) %>%
+  mutate(pilot_dept_wk_compl = sum(hx_complete == "Complete") / n() * 100) %>% 
+  ungroup()
+tobacco_perc <- tobacco_perc %>%
+  group_by(month_num, pilot_dept) %>%
+  mutate(pilot_dept_mo_compl = sum(hx_complete == "Complete") / n() * 100) %>% 
+  ungroup()
+
+## % complete by week/month & by pilot/non-pilot staff
+tobacco_perc <- tobacco_perc %>%
+  group_by(week_num, pilot_staff) %>%
+  mutate(pilot_staff_wk_compl = sum(hx_complete == "Complete") / n() * 100) %>% 
+  ungroup()
+tobacco_perc <- tobacco_perc %>%
+  group_by(month_num, pilot_staff) %>%
+  mutate(pilot_staff_mo_compl = sum(hx_complete == "Complete") / n() * 100) %>% 
+  ungroup()
+
+## % complete by week/month & by individual spec
+tobacco_perc <- tobacco_perc %>%
+  group_by(week_num, spec) %>%
+  mutate(spec_wk_compl = sum(hx_complete == "Complete") / n() * 100) %>% 
+  ungroup()
+tobacco_perc <- tobacco_perc %>%
+  group_by(month_num, spec) %>%
+  mutate(spec_mo_compl = sum(hx_complete == "Complete") / n() * 100) %>% 
+  ungroup()
+
+## % complete by week/month & by individual staff
+tobacco_perc <- tobacco_perc %>%
+  group_by(week_num, staff_ID) %>%
+  mutate(staff_wk_compl = sum(hx_complete == "Complete") / n() * 100) %>% 
+  ungroup()
+tobacco_perc <- tobacco_perc %>%
+  group_by(month_num, staff_ID) %>%
+  mutate(staff_mo_compl = sum(hx_complete == "Complete") / n() * 100) %>% 
+  ungroup()
+
+## simplify dataset to only include the columns we need for the visualizations
+colnames(tobacco_perc)
+tobacco_hxcompl <- tobacco_perc |> 
+  select(dept, spec, pilot_dept, 
+         staff_ID, pilot_staff, 
+         week_date, month_date, week_num, month_num, month_name,
+         pilot_dept_wk_compl, pilot_dept_mo_compl,
+         pilot_staff_wk_compl, pilot_staff_mo_compl,
+         spec_wk_compl, spec_mo_compl,
+         staff_wk_compl, staff_mo_compl) |> 
+  distinct() |> 
+  arrange(week_date, month_date, dept, staff_ID)
+
+## make one for dept
+tobacco_dept <- tobacco_perc |> 
+  select(dept, spec, pilot_dept, 
+         week_date, month_date, week_num, month_num, month_name,
+         pilot_dept_wk_compl, pilot_dept_mo_compl,
+         spec_wk_compl, spec_mo_compl) |> 
+  distinct() |> 
+  arrange(week_date, month_date, dept)
+
+## make one for staff
+tobacco_staff <- tobacco_perc |> 
+  select(staff_ID, pilot_staff, 
+         week_date, month_date, week_num, month_num, month_name,
+         pilot_staff_wk_compl, pilot_staff_mo_compl,
+         staff_wk_compl, staff_mo_compl) |> 
+  distinct() |> 
+  arrange(staff_ID, week_date, month_date)
+
+```
+
+```{r}
+#| label: add pilot indicator to spec/staff_ID
+#| eval: FALSE
+
+# for each dept/spec, if pilot_dept = "Pilot", code new variable dept_p as "<dept>*"; if pilot_dept = "Non-Pilot", dept_p = dept; same for spec
+tobacco_dept <- tobacco_dept |> 
+  mutate(dept_p = ifelse(pilot_dept == "Pilot", paste0(dept, "*"), dept),
+         spec_p = ifelse(pilot_dept == "Pilot", paste0(spec, "*"), spec)) #|> 
+  #relocate(dept_p, .after = dept,
+           #spec_p, .after = spec)
+
+# for each staff_ID, if pilot_staff = "Pilot", code new variable staff_ID_p as "<staff_ID>*"; if pilot_staff = "Non-Pilot", staff_ID_p = staff_ID
+tobacco_staff <- tobacco_staff |> 
+  mutate(staff_ID_p = ifelse(pilot_staff == "Pilot", paste0(staff_ID, "*"), staff_ID)) #|> 
+  #relocate(staff_p, .after = staff_ID)
+
+tobacco_hxcompl <- tobacco_hxcompl |> 
+  mutate(dept_p = ifelse(pilot_dept == "Pilot", paste0(dept, "*"), dept),
+         spec_p = ifelse(pilot_dept == "Pilot", paste0(spec, "*"), spec),
+         staff_ID_p = ifelse(pilot_staff == "Pilot", paste0(staff_ID, "*"), staff_ID)) #|> 
+  #relocate(dept_p, .after = dept,
+           #spec_p, .after = spec,
+           #staff_p, .after = staff_ID)
+```
+
+```{r}
+#| label: output data
+#| eval: FALSE
+
+write_csv(tobacco_hxcompl, "data/tobacco_hxcompl.csv")
+write_csv(tobacco_dept, "data/tobacco_dept.csv")
+write_csv(tobacco_staff, "data/tobacco_staff.csv")
+```
+
+```{r}
+#| label: load modified data (Ashlan's)
 
 tobacco_data_weekly_modified <- read_csv("data/tobacco_data_weeklymodified.csv")
-tobacco_data_monthly_moified <- read_csv("data/tobacco_data_monthlymodified.csv")
+tobacco_data_monthly_modified <- read_csv("data/tobacco_data_monthlymodified.csv")
 ```   
 
 
@@ -182,7 +476,7 @@ library(dplyr)
 library(ggrepel)
 library(viridis)
 
-clean_data <- tobacco_data_monthly_moified %>%
+clean_data <- tobacco_data_monthly_modified %>%
   filter(!group %in% c("Pilot", "Non-Pilot", "Geriatrics (Ingleside)"))
 
 summary_groups <- clean_data %>%
@@ -238,9 +532,6 @@ ggplot(plot_data, aes(x = month_num, y = percent_complete, group = group)) +
   ) +
   theme_minimal() +
   theme(legend.position = "none")
-
-
-
 
 ```
 
