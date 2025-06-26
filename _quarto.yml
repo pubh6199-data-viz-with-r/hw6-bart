@@ -8,4 +8,18 @@ website:
     left:
       - href: index.qmd
         text: Final project write-up
-      
+      ChatGPT said:
+This project explores tobacco history 
+documentation across medical subspecialties at 
+George Washington, using clinic-level data provided by Sora. 
+Tobacco history is essential for assessing patient risk and guiding preventive care to prevent lung cancer, 
+yet documentation rates vary across the departments. Using tidyverse, ggplot2, 
+lubridate, quarto, and shiny,the data was cleaned, analyzed and timestamped to identify 
+which subspecialties recorded tobacco histories most consecutively. We removed “Pilot” and “Non-Pilot” 
+labels from the bar graph to reduce overcrowding on the static graphs. The two static graphs
+show this data from weekly and monthly completion rates. The shiny app shows this data as an interactive bar chart. 
+Weekly, Nephrology and Gastroenterology had the highest documentation rates, while 
+Infectious Disease and Radiation Oncology had the lowest. Monthly, Physical Medicine and 
+Rehabilitation performed best, while Rheumatology and Radiation Oncology remained the lowest. 
+These visualizations provide a foundation for 
+improvements to departments.

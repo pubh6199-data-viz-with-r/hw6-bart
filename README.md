@@ -15,8 +15,10 @@ to certain doctors offices. This is data that will be used to review lung cancer
 ## 📊 Final Write-up
 
 The final write-up, including code and interpretation of the visualizations, is available here:
+This project investigated the 
 
-👉 [**https://github.com/pubh6199-data-viz-with-r/hw6-bart**]
+
+👉 [**https://github.com/pubh6199-data-viz-with-r/hw6-bart/_quarto.yml**]
 
 ## 📂 Repository Structure
 
@@ -40,11 +42,15 @@ The final write-up, including code and interpretation of the visualizations, is 
 
 ### To render the write-up:
 
+@SORA
+
 1. Open the `.Rproj` file in RStudio.
 2. Open `index.qmd`.
 3. Click **Render**. The updated html will be saved in the `docs/` folder.
 
 ### To run the Shiny app (if applicable):
+
+@SORA
 
 ```r
 shiny::runApp("shiny-app")
@@ -53,12 +59,15 @@ shiny::runApp("shiny-app")
 > ⚠️ Make sure any necessary data files are in `shiny-app/app-data/`.
 
 ## 🔗 Shiny App Link
+@SORA
 
 If your project includes a Shiny app, you can access it here:
 
 👉 [https://yourusername.shinyapps.io/your-app-name](https://yourusername.shinyapps.io/your-app-name)
 
 ## 📦 Packages Used
+@SORA
+#I added mine, just need yours
 
 -'tidyverse
 -'ggplot'
@@ -75,5 +84,6 @@ If your project includes a Shiny app, you can access it here:
 
 
 ## ✅ To-Do or Known Issues
-
+@SORA
+#added my challenges, just need yours
 We hope to add a working app to the weekly and monthly static graphs.

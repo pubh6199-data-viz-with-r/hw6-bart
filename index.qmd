@@ -39,7 +39,6 @@ knitr::opts_chunk$set(
 )
 ```
 
-"Accompanying your visualizations, you should also include a write-up around 500-1000 words that consists of an introduction, research questions, data sources, data wrangling, data visualizations, findings, and conclusion."
 
 
 ## Introduction
@@ -244,7 +243,19 @@ _Wrap up your project with a takeaway message or next steps._
 ## References
 
 
-1. Reference 1: Sora's Clinical Dataset. 
+1. Reference 1: the following R packages: 
+-'tidyverse
+-'ggplot'
+-'quarto'
+-'shiny' 
+-'lubridate'
+-'dplyr'
+-'forcats'
+-'ggrepel'
+- 'dplyr'
+-'viridisLite'
+ -'viridis'
+
 2. Reference 2
 3. Reference 3
 
