@@ -57,6 +57,12 @@ _Describe your data source(s), including where it came from, the key variables, 
 
 
 ## Data Wrangling
+_Several R packages to clean and explore the data. Tidyverse handled data manipulation, lubridate helped parse dates and group data 
+by week and month, ggplot2 was for creating bar charts, shiny made an interactive dashboard,
+and quarto was for putting the report together. 
+We filtered out “Pilot” and “Non-Pilot” groups to keep things focused on real specialties. 
+Then we calculated how often each specialty completed tobacco history documentation, 
+making sure to compare fairly since visit numbers vary._
 
 ```{r}
 #| label: load packages and data
