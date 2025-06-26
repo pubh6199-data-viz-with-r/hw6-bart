@@ -94,3 +94,14 @@ We hope to add a working app to the weekly and monthly static graphs.
 
 We also plan to later add additional interactive visualizations for individual specialties & departments to the dashboard.
 Minor additional visual refinements also planned.
+
+
+## 🤖 AI Disclaimer
+
+This project utilized AI tools for code generation and debugging. All AI-generated code was reviewed and modified by the authors to ensure accuracy and appropriateness for the project.
+
+Specifically: 
+- Shiny Assistant was used to generate the initial Shiny app code, which was then customized to fit the project's needs, and to assist with modifications/improvements. \
+- GitHub Copilot was used to assist with code generation and debugging throughout the project.
+
+The authors take full responsibility for the final code and visualizations presented in this project.
