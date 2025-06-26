@@ -6,7 +6,6 @@ author:
   - name: Sora Ely; Ashlan Jackson
     affiliation: George Washington University
 date: "2025-06-26"
-editor: source
 format: 
   html:
     toc: true
