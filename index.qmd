@@ -25,6 +25,11 @@ params:
 ---
 
 ```{r}
+
+library(readr)
+library(tidyverse)
+
+
 #| label: setup
 #| include: false
 
