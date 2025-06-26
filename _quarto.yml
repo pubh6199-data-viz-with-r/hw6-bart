@@ -8,17 +8,56 @@ website:
     left:
       - href: index.qmd
         text: Final project write-up
-This project explores tobacco history 
-documentation across medical subspecialties at 
-George Washington, using clinic-level data provided by Sora. 
-Tobacco history is essential for assessing patient risk and guiding preventive care to prevent lung cancer, 
-yet documentation rates vary across the departments. Using tidyverse, ggplot2, 
-lubridate, quarto, and shiny,the data was cleaned, analyzed and timestamped to identify 
-which subspecialties recorded tobacco histories most consecutively. We removed “Pilot” and “Non-Pilot” 
-labels from the bar graph to reduce overcrowding on the static graphs. The two static graphs
-show this data from weekly and monthly completion rates. The shiny app shows this data as an interactive bar chart. 
-Weekly, Nephrology and Gastroenterology had the highest documentation rates, while 
-Infectious Disease and Radiation Oncology had the lowest. Monthly, Physical Medicine and 
-Rehabilitation performed best, while Rheumatology and Radiation Oncology remained the lowest. 
-These visualizations provide a foundation for 
-improvements to departments.
+
+Tobacco History Documentation Across Clinical Subspecialties at GW: A Data Visualization Analysis
+
+Introduction
+Tobacco use is a big health issue in the U.S., and documenting patients’ tobacco history is super important for assessing risks and helping them quit. 
+But in practice, different medical specialties don’t always do this consistently. For this project, we
+looked at how well different subspecialties at George Washington University (GW) clinics document tobacco history over time. 
+The goal was to spot trends and figure out where improvements might be needed.
+
+Research Questions
+Which specialties have the best and worst tobacco history documentation rates? 
+How do these rates change when looking at weekly versus monthly data? Are there any clear patterns over time?
+
+Data Sources
+The data came from, Sora, who shared a clinic dataset with info about whether tobacco history was completed during visits. 
+It includes timestamps and specialty info, so documentation rates by specialty across different time frames could be analyzed.
+
+Data Wrangling
+Several R packages to clean and explore the data. Tidyverse handled data manipulation, lubridate helped parse dates and group data 
+by week and month, ggplot2 was for creating bar charts, shiny made an interactive dashboard,
+and quarto was for putting the report together. 
+We filtered out “Pilot” and “Non-Pilot” groups to keep things focused on real specialties. 
+Then we calculated how often each specialty completed tobacco history documentation, 
+making sure to compare fairly since visit numbers vary.
+
+Data Visualizations
+There are three main visuals:
+
+A weekly bar chart showing documentation rates by specialty — Nephrology and Gastroenterology came out on top, while Infectious Disease and Radiation Oncology were at the bottom.
+
+A monthly bar chart showing a slightly different picture — Physical Medicine and Rehabilitation did best, and Rheumatology and Radiation Oncology were lowest.
+
+An interactive Shiny app where you can pick specialties and time frames to dig deeper. It’s a useful tool for anyone wanting to track progress or identify where extra support might be needed.
+
+Taking out the “Pilot” and “Non-Pilot” categories made the visuals easier to read and more relevant.
+
+Findings
+There’s definitely variation between specialties. 
+Nephrology and Gastroenterology are consistently doing a good job with tobacco history weekly, 
+which might mean they have better workflows or more emphasis on documentation.
+On the flip side, Infectious Disease and Radiation Oncology lag behind and might need some focused help. 
+Monthly data shows PM&R consistently doing well, but Rheumatology and Radiation Oncology keep 
+falling behind no matter how you look at it.
+
+Conclusion
+This project showed that tobacco history documentation isn’t consistent across GW specialties, 
+and some definitely have room to improve. 
+Since tobacco use is such an important health factor, making sure this info is captured properly matters. 
+The charts and especially the interactive dashboard provide a straightforward way for clinical teams to 
+see where they stand and where to focus efforts. 
+Next steps could include looking into why some specialties do better and maybe 
+linking documentation to patient or provider factors to get a fuller picture.
+
