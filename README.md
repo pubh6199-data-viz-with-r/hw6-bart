@@ -11,7 +11,7 @@ Date: June 26, 2025
 ## 🔍 Project Overview
 
 This project aimed to display tobacco use and clinic visits. Therefore, our graphs are broken down based on weekly and monthly 
-to certain doctors offices. This is data that will be used to review lung cancer screening and to hopefully increasae screening rates. 
+to certain doctors offices. This is data that will be used to review lung cancer screening and to hopefully increase screening rates. 
 ## 📊 Final Write-up
 
 
