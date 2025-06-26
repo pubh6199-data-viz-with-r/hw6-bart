@@ -37,7 +37,9 @@ The final write-up, including code and interpretation of the visualizations, is 
 ├── _quarto.yml          # Quarto configuration file
 ├── .gitignore           # Files to ignore in git
 ├── data/                # Cleaned data files used in project
+├── AJ Edits june22      # Data wrangling code
 ├── docs/                # Rendered site (auto-generated)
+├── renv/                # renv files
 ├── scratch/             # Scratch files for exploratory analysis         
 └── README.md            # This file
 ```
