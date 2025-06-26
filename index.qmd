@@ -1,4 +1,3 @@
-
 ---
 title: "Final Project: GW Tobacco History Completeness Pilot Dashboard | PUBH 6199: Visualizing Data with R"
 
@@ -24,6 +23,7 @@ params:
   number: 6
   purpose: "Final project for PUBH 6199: Visualizing Data with R"
 ---
+
 ```{r}
 #| label: setup
 #| include: false
@@ -40,20 +40,30 @@ knitr::opts_chunk$set(
 ```
 
 
-
 ## Introduction
-_Tobacco use is a big health issue in the U.S., and documenting patients’ tobacco history is super important for assessing risks and helping them quit. 
-But in practice, different medical specialties don’t always do this consistently. For this project, we
-looked at how well different subspecialties at George Washington University (GW) clinics document tobacco history over time. 
-The goal was to spot trends and figure out where improvements might be needed_
+Cancer is the leading cause of death among American adults >45yo; lung cancer is the leading cause of cancer death and 3rd leading cause of death in adults in the U.S. (and worldwide) [1]. Lung cancer is responsible for more deaths annually than the next 3 leading causes of cancer death (colon, breast, prostate) combined [2]. This is also true in the District.
+There is a screening test for lung cancer that reduces lung cancer mortality by at least 20% [3], but lung cancer screening (LCS) is severely under-utilized more than a decade after the USPSTF first recommended it [4]. Because lung cancer is by far the #1 cancer killer, LCS could potentially save more lives than breast or colon cancer screening. Yet, while screening participation for breast cancer reached 81% in Washington, DC in 2020 and 76% nationwide in 2021 [5], the LCS rate was only 1.5% in DC and 4.5% nationally in 2023 [6].
 
+Because the eligibility criteria for LCS require detailed tobacco history information, the tobacco history documented in discrete data fields in the patient electronic chart are often inadequate to determine eligibility and prompt screening. Ensuring a high level of **complete** tobacco history documentation is therefore a critical first step to increasing LCS and decreasing lung cancer mortality. 
 
 ## Research Question
-@SORA
+We were interested in examining (and tracking) the completeness rates of tobacco history among adult patient visits at GW Medicine as part of an ongoing pilot program to increase completeness rates. 
+
+[Primary Research Q]{.underline}\
+**How does the percentage of visits with complete tobacco history compare between specialties/staff participating ("Pilot") versus not participating ("Non-Pilot") in the pilot program?\**
+**Has that changed over time (especially since the start of the pilot program)?**\
+[Secondary Research Q]{.underline}\
+Who are the top and bottom performers among all specialties and staff?\
 
 ## Data Sources
-@SORA
-_Describe your data source(s), including where it came from, the key variables, and any pre-processing steps._
+Data routinely collected for performance tracking as part of this approved QI project was fully de-identified and modified for use in this project. \
+
+[Data De-identification]{.underline}
+- The primary data was fully de-identified of any patient-related data.\
+- Furthermore, the staff were also fully de-identified and assigned a unique ID number (and for the purposes of this project, no master list/link was retained; re-identification is not possible from the anonymized datasets).\
+
+[Key Variables]{.underline}
+Data was structured such that each data point (row) reflects a visit (as each visit is an opportunity to collect a complete tobacco history), not a patient.
 
 
 ## Data Wrangling
@@ -79,17 +89,13 @@ library(viridis)
 tobacco_data_weekly_modified <- read_csv("data/tobacco_data_weeklymodified.csv")
 
 tobacco_data_monthly_moified <- read_csv("data/tobacco_data_monthlymodified.csv")
-
-
 ```   
+
+
 ## Data Visualizations
 
-## Visualization 1: "Highest and Lowest Departments with Complete Tobacco History (Weekly)"
+### Visualization 1: "Highest and Lowest Departments with Complete Tobacco History (Weekly)"
 _A weekly bar chart showing documentation rates by specialty — Nephrology and Gastroenterology came out on top, while Infectious Disease and Radiation Oncology were at the bottom. This plot will help providers diagnoses lung issues sooner._
-
-===========
-
-
 
 ```{r}
 
@@ -157,11 +163,9 @@ ggplot(
 ```
 
 
-## Visualization 2: Highest and Lowest Departments Complete Tobacco History (Monthly)",
+### Visualization 2: Highest and Lowest Departments Complete Tobacco History (Monthly)",
 
 _This plot shows the departments with the highest and lowest percentages of a complete tobacco history by month and this plot will help providers diagnoses lung issues sooner.This shows a slightly different picture — Physical Medicine and Rehabilitation did best, and Rheumatology and Radiation Oncology were lowest. _
-._
-
 
 ```{r}
 library(ggplot2)
@@ -231,29 +235,58 @@ ggplot(plot_data, aes(x = month_num, y = percent_complete, group = group)) +
 
 ```
 
-## Shiny app: [Title Here]
-@SORA
-_If you choose to create a Shiny app, describe the app's purpose and functionality. Save your code inside the shiny-app/ folder, replace the URL below with your app's URL_
+### Shiny app: GW Tobacco History Initiative Dashboard
+The Shiny app is a dashboard that allows users to interactively explore the completeness of tobacco history documentation across different specialties & staff at GW Medicine. Users can select time intervals and ranges to view trends, compare performance between pilot and non-pilot groups, and identify top performers.
 
-[Click here to open the interactive Shiny app](https://cindyhu.shinyapps.io/two-files-app/)
+[Click here to open the interactive Shiny app](https://srce-code.shinyapps.io/tobacco-hx-dashboard-PUBH6199/)
 
+#### Features
+- **Interactive Filters**: Users can view data by:\
+  - time intervals (weekly or monthly)\ 
+  - by pilot/non-pilot groups\
+  - for specialties or staff\
 
-@SORA
-_Summarize your key findings. What do your visualizations reveal?_
+- **Visualizations**: The app includes bar charts that show the completeness rates of tobacco history documentation by specialty and staff, highlighting the top and bottom performers.
+  - **Bar Chart of Pilot v Non-Pilot Groups**:\
+    This chart compares the completeness rates of tobacco history documentation between pilot and non-pilot groups over time, allowing us to explore how the pilot program has impacted complete documentation rates.\
+  - **Top 10 Leader Board**:\
+    This chart displays the top 10 specialties or staff with the highest average completeness rates for the selected time period, allowing us to identify the best performers for positive feedback & to motivate peers.\
+
+::: {.callout-note title="Shiny Assistant's response" icon="info"}
+- It was a pleasant surprise that actually completion rates are higher than expected overall, with most being between 70-80%.\
+- There was more variability among % complete among staff than among specialties.\
+- There has disappointingly NOT been a clear trend toward improvement over other specialties/staff as currently visualized among the pilot group, but this is still a work in progress!\
+:::
+
 
 ## Limitations
-@SORA
-_Discuss any data quality or design limitations._
+The design of the visualizations & dashboard was somewhat limited by the large number of specialties and especially staff, which made it challenging to visualize all data clearly in a single plot.
+
+Additionally, it was important to maintain full anonymity for this public project, so we could not include staff names or data linkages, so they cannot use this dashboard in its current form to see their own performance.
+
+The authentication (login-required) mode of shinyapps.io requires a \$50/mo or \$550/y subscription, and so more detailed information could not be used.
+
+Importantly, the data used in this project was incomplete -- only a subset of visits were included and development continues on creating a final dataset pulled from the EMR. Results may differ with the complete data.
+
 
 ## Conclusion
-@SORA
-_Wrap up your project with a takeaway message or next steps._
+This was actually the first time we were able to visualize data from this pilot project, although it was an incomplete dataset. Even though the trends are not as promising as we had hoped, it's still exciting to see the data displayed. It will also serve as a great tool for reporting on the pilot program's progress and outcomes with the funding agency and GW Medicine leadership.
+
+A version of this dashboard will go into actual use at GW Medicine to help track the completeness of tobacco history documentation over time, and to identify top performers. The pilot participants will be able to track and compare their own performance. Hopefully, this will increase engagement and motivation. 
 
 
 ## References
 
+1.	Centers for Disease Control and Prevention, National Center for Health Statistics. National Vital Statistics System, Mortality 2018-2023 on CDC WONDER Online Database, released in 2024. Data are from the Multiple Cause of Death Files, 2018-2023, as compiled from data provided by the 57 vital statistics jurisdictions through the Vital Statistics Cooperative Program. Accessed at http://wonder.cdc.gov/ucd-icd10-expanded.html on Jun 22, 2025 5:09:41 PM
 
-1. Reference 1: "All analyses were conducted in R (R version 4.0.1)
-2. Reference 2
-3. Reference 3
+2.	American Cancer Society. Facts & Figures 2025. American Cancer Society. Atlanta, Ga. 2025.
 
+3.	Reduced lung-cancer mortality with low-dose computed tomographic screening. (2011). New England Journal of Medicine, 365(5), 395–409. https://doi.org/10.1056/nejmoa1102873 
+
+4.	Moyer, V. A. (2014). Screening for lung cancer: U.S. Preventive Services Task Force Recommendation Statement. Annals of Internal Medicine, 160(5), 330–338. https://doi.org/10.7326/m13-2771
+
+5.	American Cancer Society. Cancer Prevention & Early Detection Facts & Figures 2023-2024.
+
+6.	American Lung Association. (2023). (rep.). State of Lung Cancer: 2023 Report. Chicago, IL. 
+
+7. "All analyses were conducted in R (R version 4.0.1)"
