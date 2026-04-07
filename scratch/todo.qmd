@@ -1,0 +1,91 @@
+---
+title: "TO-DO"
+author:
+  - name: Sora Ely, Ashlan Jackson
+    affiliation: George Washington University
+date: "2025-06-15"
+updated: "2025-06-24"
+editor: source
+format: 
+  html:
+    toc: true
+    toc-location: right
+    self-contained: true
+theme: flatly
+mainfont: "Arial"
+fontsize: 11pt
+execute:
+  echo: true
+  warning: false
+  message: false
+---
+
+# to-do & requirements
+
+## Prototype V1
+
+[requirements]{.underline}
+
+- [x] Data scraping and cleaning complete (using real world datasets, do not use R built-in data)
+
+- [x] At least one visualization already implemented, and draft for 2-3 more visualizations\
+      -- Sora & Ashlan by Tues 06:00\
+      [x] @SORA = bar graph\
+      [x] @ASHLAN = 1st line graph\
+
+- [x] If choosing R shiny app, rough webpage design and structure has to be done and implemented (placeholders for visualizations)\
+      -- @SORA to do Tues day before 16:00 1:1 meeting
+
+## Final data visualization product
+
+Choose one from the following three options:
+
+~~1. Same Question, Different Audiences (3 static charts): Create three visualizations that answer the same question, each designed for a different audience (e.g., general public, policy makers, technical experts).~~
+
+~~2. Same Data, Different Questions (3 static charts): Use the same dataset to answer three different but related questions, each with its own focused visualization.~~
+
+**3. Interactive Dashboard (1 app with 3 components): Build an interactive dashboard (e.g., with shiny, plotly, or similar tools) that includes at least three visual components for exploring your data dynamically.**
+
+[requirements]{.underline}
+
+- **index.qmd**\
+  "Accompanying your visualizations, you should also include a write-up around 500-1000 words that consists of an introduction, research questions, data sources, data wrangling, data visualizations, findings, and conclusion."\
+    [ ] @ASHLAN: "write-up": introduction, data wrangling, data visualizations (Visualization 1, Visualization 2), references
+    [ ] @SORA = "write-up": research questions, data sources, data visualizations (Shiny dashboard), interpretation, limitations, conclusion
+      
+- [ ] A README.md file in your GitHub repo that describes your project, how to view it, and any dependencies\
+      -- @ASHLAN\
+
+- [ ] 2nd line graph\
+      -- @ASHLAN\
+
+- [ ] final dashboard/Shiny app\
+      -- @SORA on Wed\
+
+- [ ] publish the Shiny app to Shiny.io\
+      -- @SORA on Wed\
+    
+- [ ] final push of the git project\
+      -- @TBD
+
+## Final project presentation
+
+- 10 minutes presentation
+  - no slides :)
+
+[@SORA]{.underline}\
+- [ ] What questions do you set out to answer with your visualizations? Why are they important?\
+- [ ] Your data source and why they are chosen to answer your questions\
+- [ ] Your intended audience\
+[@ASHLAN]{.underline}\
+- [ ] Two to three visualization design choices and how they help tell your story\
+- [ ] Two to three takeaways from your visualizations that your audience should remember\
+- [ ] Live demo of your visualizations (if applicable)\
+[@SORA & @ASHLAN]{.underline}\
+- -- 30min before class Thurs and/or text\
+- [ ] One to two challenges you encountered during this project and how you overcame them\
+- [ ] One to two achievements you are proud of in this project\
+
+- The presentation format is flexible, bring your laptop to present, and submit the presentation and final data visualization product as HW6
+
+*Also see* **index.qmd** *for the final project requirements and deliverables.*
