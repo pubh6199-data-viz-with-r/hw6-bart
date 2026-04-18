@@ -1,0 +1,12 @@
+name: hw6-team-bart
+title: hw6-team-bart
+username: cindyhu
+account: cindyhu
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 17167123
+bundleId: 11869638
+url: https://cindyhu.shinyapps.io/hw6-team-bart/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE

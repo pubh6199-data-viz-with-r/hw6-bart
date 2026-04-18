@@ -243,7 +243,7 @@ ggplot(plot_data, aes(x = month_num, y = percent_complete, group = group)) +
 ### Shiny app: GW Tobacco History Initiative Dashboard
 The Shiny app is a dashboard that allows users to interactively explore the completeness of tobacco history documentation across different specialties & staff at GW Medicine. Users can select time intervals and ranges to view trends, compare performance between pilot and non-pilot groups, and identify top performers.
 
-[Click here to open the interactive Shiny app](https://srce-code.shinyapps.io/tobacco-hx-dashboard-PUBH6199/)
+[Click here to open the interactive Shiny app](https://cindyhu.shinyapps.io/hw6-team-bart/)
 
 #### Features
 - **Interactive Filters**: Users can view data by:\
